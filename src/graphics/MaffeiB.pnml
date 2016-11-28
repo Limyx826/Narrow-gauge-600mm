@@ -1,0 +1,8 @@
+
+
+spriteset(spriteset_MaffeiB_purchase, "src/graphics/industrial_tram_locomotives.png")         
+{ tmpl_sprite_purchase18(240) }
+
+spriteset(spriteset_MaffeiB_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block18(240) }
+
+

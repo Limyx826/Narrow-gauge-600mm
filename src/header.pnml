@@ -43,6 +43,36 @@ grf {
         }
     }
     param {
+        param_build_cost {
+            type:   int;
+            min_value: 0;
+            max_value: 2;
+            def_value: 1;
+            name:   string(STR_PARAM_NAME_BUILD_COST);
+            desc:   string(STR_PARAM_DESC_BUILD_COST);
+            names: {
+                        0: string(STR_PARAM_COST_H);
+                        1: string(STR_PARAM_COST_N);
+                        2: string(STR_PARAM_COST_D);
+            };
+        }
+    }
+    param {
+        param_infra_cost {
+            type:   int;
+            min_value: 0;
+            max_value: 2;
+            def_value: 1;
+            name:   string(STR_PARAM_NAME_INFRA_COST);
+            desc:   string(STR_PARAM_DESC_INFRA_COST);
+            names: {
+                        0: string(STR_PARAM_COST_H);
+                        1: string(STR_PARAM_COST_N);
+                        2: string(STR_PARAM_COST_D);
+            };
+        }
+    }
+    param {
         param_keep_old_vehs {
             type: bool;
             name: string(STR_PARAM_NAME_KEEP_OLD_VEHS);

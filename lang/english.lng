@@ -1,0 +1,36 @@
+##grflangid 0x01
+##plural 0
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Narrow Gauge 600mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Set of generic 600 mm narrow gauge trains, produced in Germany and used in many countries.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
+
+STR_PARAM_NAME_RESERVED 	: Reserved for future use.
+STR_PARAM_DESC_RESERVED		: Place-holder...
+STR_PARAM_NAME_PURCHASE_COST    :Purchase cost modifier
+STR_PARAM_DESC_PURCHASE_COST    :Use this option to change the purchase costs of trains from this set.
+STR_PARAM_NAME_RUNNING_COST     :Running cost modifier
+STR_PARAM_DESC_RUNNING_COST     :Use this option to change the running costs of trains from this set.
+STR_PARAM_NAME_BUILD_COST     :Construction cost modifier
+STR_PARAM_DESC_BUILD_COST     :Use this option to change railroad construction costs.
+STR_PARAM_NAME_INFRA_COST     :Infrastructure payment modifier
+STR_PARAM_DESC_INFRA_COST     :Use this option to change infrastrucure maintenance costs.
+
+STR_PARAM_COST_H               	: Half
+STR_PARAM_COST_N               	: Normal
+STR_PARAM_COST_D               	: Double
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Keep old trains in purchase menu
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" in game settings.
+
+STR_STEAM_LOCO_SUFFIX          : - steam locomotive 
+STR_DIESEL_LOCO_SUFFIX          : - diesel locomotive 
+STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+STR_PASSENGER_CAR_SUFFIX        : - passenger wagon 
+
+STR_MM_B			: Maffei Munchen Bn2
+STR_OAK_BT			: Orenstein & Koppel Bn2t
+STR_SM_CT			: Sachsische Maschinenfabrik Cn2t
+STR_HK_DT			: Henschel Kassel Dn2t
+
+

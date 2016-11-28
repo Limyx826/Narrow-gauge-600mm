@@ -1,0 +1,47 @@
+//Diesel locomotives
+
+#define DIESEL_LOCO(Loco_Name, STR_L_NAME, idate, odate, retire, v_life, v_reliab, v_cost, v_vmax, v_power, v_te, v_airdrag, v_mass, v_length) \
+item(FEAT_TRAINS, Loco_Name) { \
+	property { \
+	name:			   	string(STR_L_NAME, string(STR_DIESEL_LOCO_SUFFIX)); \
+	climates_available:	 	PKP_CLIMATES; \
+	introduction_date:		date(idate, 1, 1);	    \
+	model_life:     param_keep_old_vehs == 0 ? (odate == 0 ? VEHICLE_NEVER_EXPIRES : odate-idate+retire+4) :  VEHICLE_NEVER_EXPIRES; \
+	vehicle_life:		   	v_life; \
+	retire_early:			retire; \
+	reliability_decay:	    	v_reliab; \
+	loading_speed:		  	5; \
+	cost_factor:		    	v_cost;      \
+	running_cost_factor:		DIESEL_RUNNING_COST(1, v_power, v_mass, v_vmax) \
+	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
+	speed:			  	v_vmax km/h; \
+	misc_flags:		   	bitmask(); \
+	cargo_age_period:	 	STANDARD_COMFORT; \
+	power:			  	v_power kW; \
+	running_cost_base:	   	RUNNING_COST_DIESEL; \
+        track_type:                     NAAN; \
+        ai_engine_rank:                 0; \
+        engine_class:                   ENGINE_CLASS_DIESEL; \
+	cargo_capacity:		 	0; \
+	weight:			 	v_mass; \
+	tractive_effort_coefficient:    v_te; \
+	air_drag_coefficient:	   	v_airdrag; \
+	length:      	    		v_length; \
+        air_drag_coefficient:           0.07; \
+        extra_weight_per_wagon:         0; \
+        visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DEFAULT, 0, DISABLE_WAGON_POWER); \
+        bitmask_vehicle_info:           0; \
+    } \
+\
+    graphics { \
+	default:	    	spriteset_##Loco_Name##_graphic;  \
+	purchase:	   	spriteset_##Loco_Name##_purchase;  \
+    }  \
+}
+
+//DIESEL_LOCO(Loco_Name, STR_L_NAME, STR_L_DESC, idate, odate, retire, v_life, \
+v_reliab, v_cost,  v_vmax, v_power, v_te, v_airdrag, v_mass, v_length)
+
+#include "graphics/test.pnml"
+//DIESEL_LOCO(test, STR_MM_B, 1904,    2001,   10,      30,     12,      19,       236,     371,    0.25,    0.4,      32,      7)
+

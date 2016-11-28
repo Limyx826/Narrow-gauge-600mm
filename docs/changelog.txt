@@ -1,0 +1,8 @@
+Version 0.2
+- sprite templates corrected
+
+Version 0.2
+- steam locomotives added
+
+Version 0.1
+- compilation test

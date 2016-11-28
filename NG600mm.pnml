@@ -1,0 +1,28 @@
+/*
+ * This file is part of the NG600mm NewGRF.
+ * NG600mm is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free
+ * Software Foundation, version 2 or - upon your discretion - any later version.
+ * NG600mm is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ * See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with NG600mm. If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* Newgrf parameters */
+
+#include "src/header.pnml" 
+
+
+/* Common definitions */
+
+#include "src/defcommon.pnml"
+#include "src/spritetemplates.pnml"
+
+#include "src/def_diesel.pnml"
+#include "src/def_steam.pnml"
+
+// #include "src/horses.pnml"
+
+/* locomotives */
+
+//#include "src/steam2.pnml"
+
+

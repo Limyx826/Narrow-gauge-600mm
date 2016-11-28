@@ -1,0 +1,8 @@
+
+
+spriteset(spriteset_ChemnitzCt_purchase, "src/graphics/industrial_tram_locomotives.png")         
+{ tmpl_sprite_purchase18(160) }
+
+spriteset(spriteset_ChemnitzCt_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block18(160) }
+
+
