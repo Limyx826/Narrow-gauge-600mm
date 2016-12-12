@@ -1,5 +1,8 @@
-Version 0.2
-- sprite templates corrected
+Version 0.4
+- universal motorised car added
+
+Version 0.3
+- sprite templates corrected, passenger cars added
 
 Version 0.2
 - steam locomotives added

@@ -43,5 +43,5 @@ STR_PASS2			: Passenger car, 2 axle
 STR_PASS4			: Passenger car, 4 axle
 STR_PMMC_NAME			: Mail/Passenger car, 4 axle
 STR_PMMC_DESC			: Can be rebuilded to motorized car
-
+STR_MOTORCAR			: Motor car, {STRING}
 
