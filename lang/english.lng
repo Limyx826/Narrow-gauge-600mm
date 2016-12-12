@@ -23,6 +23,12 @@ STR_PARAM_COST_D               	: Double
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Keep old trains in purchase menu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" in game settings.
 
+STR_LIVERY_Q2CC     	:-quasi 2CC livery (default)
+STR_LIVERY_BROWN	:-brown-olive livery
+STR_LIVERY_GREEN	:-green-gray livery
+STR_LIVERY_OLIVE	:-olive-red livery (default)
+STR_LIVERY_BLACK	:-black-red livery 
+
 STR_STEAM_LOCO_SUFFIX          : - steam locomotive 
 STR_DIESEL_LOCO_SUFFIX          : - diesel locomotive 
 STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
@@ -32,5 +38,10 @@ STR_MM_B			: Maffei Munchen Bn2
 STR_OAK_BT			: Orenstein & Koppel Bn2t
 STR_SM_CT			: Sachsische Maschinenfabrik Cn2t
 STR_HK_DT			: Henschel Kassel Dn2t
+
+STR_PASS2			: Passenger car, 2 axle
+STR_PASS4			: Passenger car, 4 axle
+STR_PMMC_NAME			: Mail/Passenger car, 4 axle
+STR_PMMC_DESC			: Can be rebuilded to motorized car
 
 

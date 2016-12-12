@@ -1,8 +1,8 @@
 
 
 spriteset(spriteset_DorstfeldBt_purchase, "src/graphics/industrial_tram_locomotives.png")         
-{ tmpl_sprite_purchase18(120) }
+{ tmpl_sprite_purchase3(120) }
 
-spriteset(spriteset_DorstfeldBt_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block18(120) }
+spriteset(spriteset_DorstfeldBt_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block3(140) }
 
 

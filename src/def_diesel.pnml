@@ -42,6 +42,6 @@ item(FEAT_TRAINS, Loco_Name) { \
 //DIESEL_LOCO(Loco_Name, STR_L_NAME, STR_L_DESC, idate, odate, retire, v_life, \
 v_reliab, v_cost,  v_vmax, v_power, v_te, v_airdrag, v_mass, v_length)
 
-#include "graphics/test.pnml"
+//#include "graphics/test.pnml"
 //DIESEL_LOCO(test, STR_MM_B, 1904,    2001,   10,      30,     12,      19,       236,     371,    0.25,    0.4,      32,      7)
 

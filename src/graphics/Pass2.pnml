@@ -1,0 +1,8 @@
+
+
+spriteset(spriteset_Pass2_purchase, "src/graphics/passenger_wagons_2.png")         
+{ tmpl_sprite_purchase3(0) }
+
+spriteset(spriteset_Pass2_graphic, "src/graphics/passenger_wagons_2.png")                  { tmpl_sprite_train_block3(0) }
+
+

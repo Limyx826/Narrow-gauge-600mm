@@ -12,7 +12,7 @@ item(FEAT_TRAINS, Loco_Name) { \
 	reliability_decay:	    	v_reliab; \
 	loading_speed:		  	5; \
 	cost_factor:		    	v_cost;      \
-	running_cost_factor:		STEAM_RUNNING_COST(1, v_power, v_mass, v_vmax) \
+	running_cost_factor:		STEAM_RUNNING_COST(2, v_power, v_mass, v_vmax) \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(); \
@@ -22,7 +22,9 @@ item(FEAT_TRAINS, Loco_Name) { \
         track_type:                     NAAN; \
         ai_engine_rank:                 0; \
         engine_class:                   ENGINE_CLASS_STEAM; \
-	cargo_capacity:		 	0; \
+	cargo_capacity:		 	1; \
+	cargo_allow_refit:		[PASS]; \
+	default_cargo_type:		PASS; \
 	weight:			 	v_mass; \
 	tractive_effort_coefficient:    v_te; \
 	air_drag_coefficient:	   	v_airdrag; \
@@ -35,6 +37,10 @@ item(FEAT_TRAINS, Loco_Name) { \
     graphics { \
 	default:	    	spriteset_##Loco_Name##_graphic;  \
 	purchase:	   	spriteset_##Loco_Name##_purchase;  \
+	cargo_subtype_text: 	switch_loco_livery_subtype_text;  \
+	colour_mapping:         switch_livery_subtype_loco; \
+        purchase_cargo_capacity:    return 0; \
+        cargo_capacity:             return 0; \
     }  \
 }
 
@@ -43,17 +49,17 @@ v_vmax, v_power, v_te, v_airdrag, v_mass, v_length)
 
 #include "graphics/MaffeiB.pnml"
 STEAM_LOCO(MaffeiB,      STR_MM_B,  1860,  1925,   10,      30,     20,      10,       
- 15,     35,     0.5,    0.8,      9,      4)
+ 15,     35,     0.5,    0.8,      9,      5)
 
 #include "graphics/DorstfeldBt.pnml"
 STEAM_LOCO(DorstfeldBt, STR_OAK_BT, 1882,  1935,   20,      40,     25,      9,       
- 20,     20,     0.5,    0.8,      7,      2)
+ 20,     20,     0.5,    0.8,      7,      3)
 
 #include "graphics/ChemnitzCt.pnml"
 STEAM_LOCO(ChemnitzCt, STR_SM_CT,   1904,  1945,   20,      40,     20,      15,       
- 20,     70,     0.9,    0.8,      12,      3)
+ 20,     70,     0.9,    0.8,      12,      4)
 
 #include "graphics/KasselDt.pnml"
 STEAM_LOCO(KasselDt, STR_HK_DT,     1926,  1955,   20,      40,     15,      19,       
- 30,     110,     0.9,    0.7,      20,      4)
+ 30,     110,     0.9,    0.7,      20,      5)
 

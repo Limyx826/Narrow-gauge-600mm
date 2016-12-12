@@ -1,0 +1,51 @@
+//passenger wagons
+
+#define CAR_PASSENGER(Wagon_Name, STR_W_NAME, p_comfort, p_capacity, idate, odate, v_life, v_cost, v_vmax, v_mass, v_length) \
+item(FEAT_TRAINS, Wagon_Name) { \
+	property { \
+	name:			   	string(STR_W_NAME); \
+	climates_available:	 	PKP_CLIMATES; \
+	introduction_date:		date(idate, 1, 1);	    \
+	model_life:     param_keep_old_vehs == 0 ? (odate == 0 ? VEHICLE_NEVER_EXPIRES : odate-idate+4) :  VEHICLE_NEVER_EXPIRES; \
+	vehicle_life:		   	v_life; \
+	retire_early:			0; \
+	reliability_decay:	    	20; \
+	loading_speed:		  	5; \
+	cost_factor:		    	v_cost;      \
+	running_cost_factor:		STEAM_RUNNING_COST(1, 0, v_mass, v_vmax) \
+	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
+	speed:			  	v_vmax km/h; \
+	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
+	cargo_age_period:	 	p_comfort; \
+	cargo_capacity:		 	p_capacity; \
+	refittable_cargo_classes:      	bitmask(CC_PASSENGERS); \
+	power:			  	0; \
+	running_cost_base:	   	RUNNING_COST_STEAM; \
+        track_type:                     NAAN; \
+        ai_engine_rank:                 0; \
+        engine_class:                   ENGINE_CLASS_STEAM; \
+	weight:			 	v_mass; \
+	length:      	    		v_length; \
+        extra_weight_per_wagon:         0; \
+        visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); \
+        bitmask_vehicle_info:           0; \
+    } \
+\
+    graphics { \
+	default:	    	spriteset_##Wagon_Name##_graphic;  \
+	purchase:	   	spriteset_##Wagon_Name##_purchase;  \
+	cargo_subtype_text: 	switch_car_livery_subtype_text;  \
+	colour_mapping:         switch_livery_subtype_car; \
+    }  \
+}
+
+//CAR_PASSENGER(Wagon_Name, STR_W_NAME, p_comfort, p_capacity, idate, odate, v_life, v_cost, v_vmax, v_mass, v_length)
+
+#include "graphics/Pass2.pnml"
+CAR_PASSENGER(Pass2,      STR_PASS2,  MEDIUM_COMFORT, 20,      1825,  1926,    20,      3,     20, 
+     6, 3)
+
+#include "graphics/Pass4.pnml"
+CAR_PASSENGER(Pass4,      STR_PASS4,  STANDARD_COMFORT, 40,      1920,  1976,    20,      5,     40, 
+     10, 5)
+

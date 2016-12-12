@@ -15,9 +15,12 @@
 
 #include "src/defcommon.pnml"
 #include "src/spritetemplates.pnml"
+#include "src/palettes.pnml"
 
-#include "src/def_diesel.pnml"
 #include "src/def_steam.pnml"
+#include "src/def_diesel.pnml"
+#include "src/def_passenger.pnml"
+#include "src/passmailmotor.pnml"
 
 // #include "src/horses.pnml"
 

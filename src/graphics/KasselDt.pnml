@@ -1,8 +1,8 @@
 
 
 spriteset(spriteset_KasselDt_purchase, "src/graphics/industrial_tram_locomotives.png")         
-{ tmpl_sprite_purchase18(200) }
+{ tmpl_sprite_purchase5(220) }
 
-spriteset(spriteset_KasselDt_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block18(200) }
+spriteset(spriteset_KasselDt_graphic, "src/graphics/industrial_tram_locomotives.png")                  { tmpl_sprite_train_block5(220) }
 
 
