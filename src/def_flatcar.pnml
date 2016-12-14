@@ -1,4 +1,4 @@
-//stockcars
+//flatcars
 
 #define CAR_FLAT(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
 item(FEAT_TRAINS, Wagon_Name) { \
@@ -18,11 +18,11 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
 	cargo_age_period:	 	STANDARD_COMFORT; \
 	cargo_capacity:		 	c_capacity; \
-	refittable_cargo_classes:       bitmask(CC_PIECE_GOODS); \
+	refittable_cargo_classes:       bitmask(CC_PIECE_GOODS,CC_EXPRESS); \
 	non_refittable_cargo_classes:   bitmask(CC_REFRIGERATED,CC_PASSENGERS,CC_LIQUID,CC_COVERED,CC_POWDERIZED,CC_BULK); \
 	cargo_allow_refit:		[WDPR]; \
 	cargo_disallow_refit:		[FRUT,LVST]; \
-	default_cargo_type:		LVST; \
+	default_cargo_type:		WOOD; \
 	power:			  	0; \
 	running_cost_base:	   	RUNNING_COST_STEAM; \
         track_type:                     NAAN; \
@@ -43,7 +43,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	default:	    	sgroup_##Wagon_Name##_graphic;  \
 	purchase:	   	spriteset_##Wagon_Name##_purchase;  \
 	cargo_subtype_text: 	switch_car_livery_subtype_text;  \
-	colour_mapping:         switch_livery_subtype_car; \
+	colour_mapping:         switch_livery_subtype_mapping_cargo; \
     }  \
 }
 
@@ -51,8 +51,8 @@ item(FEAT_TRAINS, Wagon_Name) { \
 
 #include "graphics/Flatcar1.pnml"
 CAR_FLAT(Flatcar1,      STR_FLATCAR1, 8,    1790,  1926,      4,     15,      3,      3)
-//#include "graphics/Flatcar2.pnml"
-//CAR_FLAT(Flatcar2,      STR_FLATCAR2, 12,    1881,  1946,      8,     20,      5,      4)
-//#include "graphics/Flatcar3.pnml"
-//CAR_FLAT(Flatcar3,      STR_FLATCAR3, 16,    1931,  1976,      12,     30,      7,      5)
+#include "graphics/Flatcar2.pnml"
+CAR_FLAT(Flatcar2,      STR_FLATCAR2, 12,    1891,  1946,      8,     20,      5,      4)
+#include "graphics/Flatcar3.pnml"
+CAR_FLAT(Flatcar3,      STR_FLATCAR3, 16,    1931,  1976,      12,     30,      7,      5)
 

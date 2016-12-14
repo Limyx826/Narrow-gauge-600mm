@@ -1,0 +1,51 @@
+
+
+spriteset(spriteset_Flatcar3_purchase, "src/graphics/industrial_tram_wagons_3.png")         
+{ tmpl_sprite_purchase5mirror(80) }
+
+spriteset(ss_Flatcar3_empty, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(80) }
+
+
+spriteset(ss_Flatcar3_crate, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(340) }
+
+
+spriteset(ss_Flatcar3_wood2, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(100) }
+
+spriteset(ss_Flatcar3_wood, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(120) }
+
+
+spriteset(ss_Flatcar3_stel, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(260) }
+
+
+spriteset(ss_Flatcar3_papr, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(280) }
+
+
+spriteset(ss_Flatcar3_wdpr2, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(300) }
+
+spriteset(ss_Flatcar3_wdpr, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(320) }
+
+
+spritegroup sgroup_Flatcar3_graphic {
+    loaded:     [ss_Flatcar3_empty, ss_Flatcar3_crate];
+    loading:    [ss_Flatcar3_empty, ss_Flatcar3_crate];
+}
+
+spritegroup sgroup_Flatcar3_wood {
+    loaded:     [ss_Flatcar3_empty, ss_Flatcar3_wood2, ss_Flatcar3_wood];
+    loading:    [ss_Flatcar3_empty, ss_Flatcar3_wood2, ss_Flatcar3_wood];
+}
+
+spritegroup sgroup_Flatcar3_wdpr {
+    loaded:     [ss_Flatcar3_empty, ss_Flatcar3_wdpr2, ss_Flatcar3_wdpr];
+    loading:    [ss_Flatcar3_empty, ss_Flatcar3_wdpr2, ss_Flatcar3_wdpr];
+}
+
+spritegroup sgroup_Flatcar3_stel {
+    loaded:     [ss_Flatcar3_empty, ss_Flatcar3_stel];
+    loading:    [ss_Flatcar3_empty, ss_Flatcar3_stel];
+}
+
+spritegroup sgroup_Flatcar3_papr {
+    loaded:     [ss_Flatcar3_empty, ss_Flatcar3_papr];
+    loading:    [ss_Flatcar3_empty, ss_Flatcar3_papr];
+}

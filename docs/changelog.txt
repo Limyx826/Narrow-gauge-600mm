@@ -1,3 +1,6 @@
+Version 0.6s
+- gondola added
+
 Version 0.5
 - boxcar, stockcar, tankcar, flatcar1 added
 

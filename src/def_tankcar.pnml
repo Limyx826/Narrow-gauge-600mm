@@ -44,9 +44,9 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/Tankcar1.pnml"
-CAR_TANK(Tankcar1,      STR_TANKCAR1, 10,    1841,  1926,        7,     15,      5,      3)
+CAR_TANK(Tankcar1,      STR_TANKCAR1, 10,    1851,  1926,        7,     15,      5,      3)
 #include "graphics/Tankcar2.pnml"
-CAR_TANK(Tankcar2,      STR_TANKCAR2, 15,    1881,  1946,      14,     20,      7,      4)
+CAR_TANK(Tankcar2,      STR_TANKCAR2, 15,    1901,  1946,      14,     20,      7,      4)
 #include "graphics/Tankcar3.pnml"
 CAR_TANK(Tankcar3,      STR_TANKCAR3, 20,    1931,  1976,      18,     30,      9,      5)
 

@@ -65,4 +65,7 @@ STR_FLATCAR1			: Flat car, 2 axle
 STR_FLATCAR2			: Flat car, 4 axle
 STR_FLATCAR3			: Flat car, 4 axle, steel
 
+STR_OPENCAR1			: Gondola, 2 axle
+STR_OPENCAR2			: Gondola, 4 axle
+STR_OPENCAR3			: Gondola, 4 axle, steel
 

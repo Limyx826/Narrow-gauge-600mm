@@ -1,6 +1,6 @@
-//tankcars
+//gondolacars
 
-#define CAR_TANKSPEC(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
+#define CAR_OPEN(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
 item(FEAT_TRAINS, Wagon_Name) { \
 	property { \
 	name:			   	string(STR_W_NAME); \
@@ -18,8 +18,9 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
 	cargo_age_period:	 	STANDARD_COMFORT; \
 	cargo_capacity:		 	c_capacity; \
-	cargo_allow_refit:		[WATR,MILK,BEER]; \
-	default_cargo_type:		WATR; \
+	refittable_cargo_classes:       bitmask(CC_BULK); \
+	non_refittable_cargo_classes:   bitmask(CC_REFRIGERATED,CC_PASSENGERS,CC_LIQUID,CC_COVERED); \
+	default_cargo_type:		COAL; \
 	power:			  	0; \
 	running_cost_base:	   	RUNNING_COST_STEAM; \
         track_type:                     NAAN; \
@@ -33,19 +34,19 @@ item(FEAT_TRAINS, Wagon_Name) { \
     } \
 \
     graphics { \
-	default:	    	spriteset_##Wagon_Name##_graphic;  \
+	default:	    	sgroup_##Wagon_Name##_bulk;  \
 	purchase:	   	spriteset_##Wagon_Name##_purchase;  \
 	cargo_subtype_text: 	switch_car_livery_subtype_text;  \
-	colour_mapping:         switch_livery_subtype_car; \
+	colour_mapping:         switch_livery_subtype_mapping_cargo; \
     }  \
 }
 
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
-#include "graphics/TankcarSpec1.pnml"
-CAR_TANKSPEC(TankcarSpec1,      STR_TANKCARSPEC1, 10,    1841,  1926,        8,     15,      5,      3)
-#include "graphics/TankcarSpec2.pnml"
-CAR_TANKSPEC(TankcarSpec2,      STR_TANKCARSPEC2, 15,    1901,  1946,      16,     20,      7,      4)
-#include "graphics/TankcarSpec3.pnml"
-CAR_TANKSPEC(TankcarSpec3,      STR_TANKCARSPEC3, 20,    1931,  1976,      22,     30,      9,      5)
+#include "graphics/Opencar1.pnml"
+CAR_OPEN(Opencar1,      STR_OPENCAR1, 10,       1780,  1926,      4,     15,      4,      3)
+#include "graphics/Opencar2.pnml"
+CAR_OPEN(Opencar2,      STR_OPENCAR2, 15,       1886,  1946,      8,     20,      5,      4)
+#include "graphics/Opencar3.pnml"
+CAR_OPEN(Opencar3,      STR_OPENCAR3, 20,       1931,  1976,      12,    30,      7,      5)
 
