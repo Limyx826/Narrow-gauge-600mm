@@ -1,3 +1,6 @@
+Version 0.5
+- boxcar, stockcar, tankcar, flatcar1 added
+
 Version 0.4
 - universal motorised car added
 

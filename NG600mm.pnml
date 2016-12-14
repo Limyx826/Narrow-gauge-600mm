@@ -21,6 +21,11 @@
 #include "src/def_diesel.pnml"
 #include "src/def_passenger.pnml"
 #include "src/passmailmotor.pnml"
+#include "src/def_boxcar.pnml"
+#include "src/def_stockcar.pnml"
+#include "src/def_tankcar.pnml"
+#include "src/def_tankcarspec.pnml"
+#include "src/def_flatcar.pnml"
 
 // #include "src/horses.pnml"
 

@@ -1,24 +1,25 @@
-//passenger wagons
+//tankcars
 
-#define CAR_PASSENGER(Wagon_Name, STR_W_NAME, p_comfort, p_capacity, idate, odate, v_life, v_cost, v_vmax, v_mass, v_length) \
+#define CAR_TANKSPEC(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
 item(FEAT_TRAINS, Wagon_Name) { \
 	property { \
 	name:			   	string(STR_W_NAME); \
 	climates_available:	 	PKP_CLIMATES; \
 	introduction_date:		date(idate, 1, 1);	    \
 	model_life:     param_keep_old_vehs == 0 ? (odate == 0 ? VEHICLE_NEVER_EXPIRES : odate-idate+4) :  VEHICLE_NEVER_EXPIRES; \
-	vehicle_life:		   	v_life; \
+	vehicle_life:		   	20; \
 	retire_early:			0; \
 	reliability_decay:	    	20; \
 	loading_speed:		  	5; \
 	cost_factor:		    	v_cost;      \
-	running_cost_factor:		STEAM_RUNNING_COST(1, 0, v_mass, v_vmax) \
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, (v_mass+c_capacity), v_vmax) \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
-	cargo_age_period:	 	p_comfort; \
-	cargo_capacity:		 	p_capacity; \
-	refittable_cargo_classes:      	bitmask(CC_PASSENGERS); \
+	cargo_age_period:	 	STANDARD_COMFORT; \
+	cargo_capacity:		 	c_capacity; \
+	cargo_allow_refit:		[WATR,MILK,BEER]; \
+	default_cargo_type:		WATR; \
 	power:			  	0; \
 	running_cost_base:	   	RUNNING_COST_STEAM; \
         track_type:                     NAAN; \
@@ -39,13 +40,12 @@ item(FEAT_TRAINS, Wagon_Name) { \
     }  \
 }
 
-//CAR_PASSENGER(Wagon_Name, STR_W_NAME, p_comfort, p_capacity, idate, odate, v_life, v_cost, v_vmax, v_mass, v_length)
+//CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
-#include "graphics/Pass2.pnml"
-CAR_PASSENGER(Pass2,      STR_PASS2,  MEDIUM_COMFORT, 20,      1825,  1926,    20,      12,     20, 
-     6, 3)
-
-#include "graphics/Pass4.pnml"
-CAR_PASSENGER(Pass4,      STR_PASS4,  STANDARD_COMFORT, 40,      1920,  1976,    20,      18,     40, 
-     10, 5)
+#include "graphics/TankcarSpec1.pnml"
+CAR_TANKSPEC(TankcarSpec1,      STR_TANKCARSPEC1, 10,    1841,  1926,        8,     15,      5,      3)
+#include "graphics/TankcarSpec2.pnml"
+CAR_TANKSPEC(TankcarSpec2,      STR_TANKCARSPEC2, 15,    1881,  1946,      16,     20,      7,      4)
+#include "graphics/TankcarSpec3.pnml"
+CAR_TANKSPEC(TankcarSpec3,      STR_TANKCARSPEC3, 20,    1931,  1976,      22,     30,      9,      5)
 

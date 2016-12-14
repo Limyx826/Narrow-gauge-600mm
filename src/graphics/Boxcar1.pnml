@@ -1,0 +1,8 @@
+
+
+spriteset(spriteset_Boxcar1_purchase, "src/graphics/industrial_tram_wagons_1.png")         
+{ tmpl_sprite_purchase3mirror(0) }
+
+spriteset(spriteset_Boxcar1_graphic, "src/graphics/industrial_tram_wagons_1.png")                  { tmpl_sprite_train_block3mirror(0) }
+
+

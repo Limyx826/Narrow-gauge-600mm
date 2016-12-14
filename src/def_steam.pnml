@@ -48,18 +48,18 @@ item(FEAT_TRAINS, Loco_Name) { \
 v_vmax, v_power, v_te, v_airdrag, v_mass, v_length)
 
 #include "graphics/MaffeiB.pnml"
-STEAM_LOCO(MaffeiB,      STR_MM_B,  1860,  1925,   10,      30,     20,      10,       
+STEAM_LOCO(MaffeiB,      STR_MM_B,  1860,  1925,   10,      30,     20,      30,       
  15,     35,     0.5,    0.8,      9,      5)
 
 #include "graphics/DorstfeldBt.pnml"
-STEAM_LOCO(DorstfeldBt, STR_OAK_BT, 1882,  1935,   20,      40,     25,      9,       
+STEAM_LOCO(DorstfeldBt, STR_OAK_BT, 1882,  1935,   20,      40,     25,      26,       
  20,     20,     0.5,    0.8,      7,      3)
 
 #include "graphics/ChemnitzCt.pnml"
-STEAM_LOCO(ChemnitzCt, STR_SM_CT,   1904,  1945,   20,      40,     20,      15,       
+STEAM_LOCO(ChemnitzCt, STR_SM_CT,   1904,  1945,   20,      40,     20,      40,       
  20,     70,     0.9,    0.8,      12,      4)
 
 #include "graphics/KasselDt.pnml"
-STEAM_LOCO(KasselDt, STR_HK_DT,     1926,  1955,   20,      40,     15,      19,       
+STEAM_LOCO(KasselDt, STR_HK_DT,     1926,  1955,   20,      40,     15,      56,       
  30,     110,     0.9,    0.7,      20,      5)
 

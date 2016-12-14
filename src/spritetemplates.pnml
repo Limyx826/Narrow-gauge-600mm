@@ -55,40 +55,55 @@ template tmpl_sprite_purchase3(y) {
     [176,        y,       28,        12,        -23,         -7]
 }
 
-
-template tmpl_sprite_train_block1(x, y, z) {
+template tmpl_sprite_train_block5mirror(y) {
 // [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
-    [x,          y,       12*z,      28*z,       -5*z,       -16*z]
-    [x+ 16*z,    y,       26*z,      28*z,      -17*z,       -18*z]
-    [x+ 46*z,    y,       36*z,      20*z,      -17*z,       -14*z]
-    [x+ 86*z,    y,       26*z,      28*z,       -7*z,       -18*z]
+    [0,          y,       8,         18,        -2,          -13]
+    [16,         y,       20,        16,        -13,         -8]
+    [48,         y,       28,        12,        -7,         -7]
+    [96,         y,       20,        16,        -1,         -7]
+    [0,        y,       8,         18,        -2,          -8]
+    [16,        y,       20,        16,        -19,         -5]
+    [48,        y,       28,        12,        -17,         -7] 
+    [96,        y,       20,        16,        -7,         -10] 
 }
-template tmpl_sprite_train_block2(x, y, z) {
+
+template tmpl_sprite_purchase5mirror(y) {
 // [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
-    [x+120*z,    y,       12*z,      28*z,       -5*z,       -16*z]
-    [x+136*z,    y,       26*z,      28*z,      -17*z,       -18*z]
-    [x+166*z,    y,       36*z,      20*z,      -17*z,       -14*z]
-    [x+206*z,    y,       26*z,      28*z,       -7*z,       -18*z]
-}
-template tmpl_sprite_train(x, y) {
-    tmpl_sprite_train_block1(x, y, 1)
-    tmpl_sprite_train_block2(x, y, 1)
+    [48,        y,       28,        12,        -17,         -7]
 }
 
-
-template tmpl_sprite_train10_block(x, y, z, d) {
-// [left_x,   upper_y,    width,    height,    offset_x,      offset_y]
-    [x,          y,       12*z,      32*z,       -5*z,        (-16-2*d)*z]
-    [x+ 16*z,    y,       30*z,      30*z,     (-21+2*d)*z,   (-18-d)*z  ]
-    [x+ 50*z,    y,       44*z,      20*z,     (-25+4*d)*z,    -14*z     ]
-    [x+ 98*z,    y,       30*z,      30*z,     (-11+2*d)*z,   (-20+d)*z  ]
-    [x+134*z,    y,       12*z,      32*z,       -5*z,        (-20+2*d)*z]
-    [x+150*z,    y,       30*z,      30*z,     (-17-2*d)*z,   (-20+d)*z  ]
-    [x+184*z,    y,       44*z,      20*z,     (-17-4*d)*z,    -14*z     ]
-    [x+232*z,    y,       30*z,      30*z,      (-7-2*d)*z,   (-18-d)*z  ]
+template tmpl_sprite_train_block4mirror(y) {
+// [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
+    [0,          y,       8,         18,        -3,          -15]
+    [16,         y,       20,        16,        -12,         -10]
+    [48,         y,       28,        12,        -7,         -7]
+    [96,         y,       20,        16,        -0,         -7]
+    [0,        y,       8,         18,        -3,          -6]
+    [16,        y,       20,        16,        -20,         -5]
+    [48,        y,       28,        12,        -19,         -7] 
+    [96,        y,       20,        16,        -11,         -12] 
 }
-template tmpl_sprite_train10(x, y) {
-    tmpl_sprite_train10_block(x, y, 1, 0)
+
+template tmpl_sprite_purchase4mirror(y) {
+// [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
+    [48,        y,       28,        12,        -19,         -7]
+}
+
+template tmpl_sprite_train_block3mirror(y) {
+// [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
+    [0,          y,       8,         18,        -3,          -15]
+    [16,         y,       20,        16,        -12,         -9]
+    [48,         y,       28,        12,        -6,         -7]
+    [96,         y,       20,        16,         3,         -5]
+    [0,        y,       8,         18,        -3,          -7]
+    [16,        y,       20,        16,        -23,         -4]
+    [48,        y,       28,        12,        -21,         -7]
+    [96,        y,       20,        16,        -10,         -11]
+}
+
+template tmpl_sprite_purchase3mirror(y) {
+// [left_x,   upper_y,    width,    height,    offset_x,    offset_y]
+    [48,        y,       28,        12,        -21,         -7]
 }
 
 //horse:

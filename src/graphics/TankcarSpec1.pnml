@@ -1,0 +1,8 @@
+
+
+spriteset(spriteset_TankcarSpec1_purchase, "src/graphics/industrial_tram_wagons_1.png")         
+{ tmpl_sprite_purchase3mirror(60) }
+
+spriteset(spriteset_TankcarSpec1_graphic, "src/graphics/industrial_tram_wagons_1.png")                  { tmpl_sprite_train_block3mirror(60) }
+
+

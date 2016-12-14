@@ -45,3 +45,24 @@ STR_PMMC_NAME			: Mail/Passenger car, 4 axle
 STR_PMMC_DESC			: Can be rebuilded to motorized car
 STR_MOTORCAR			: Motor car, {STRING}
 
+STR_BOXCAR1			: Box car, 2 axle
+STR_BOXCAR2			: Box car, 4 axle
+STR_BOXCAR3			: Box car, 4 axle, steel
+
+STR_STOCKCAR1			: Stock car, 2 axle
+STR_STOCKCAR2			: Stock car, 4 axle
+STR_STOCKCAR3			: Stock car, 4 axle, steel
+
+STR_TANKCAR1			: Tank car, 2 axle
+STR_TANKCAR2			: Tank car, 4 axle
+STR_TANKCAR3			: Tank car, 4 axle, steel
+
+STR_TANKCARSPEC1			: Potable Tank car, 2 axle
+STR_TANKCARSPEC2			: Potable Tank car, 4 axle
+STR_TANKCARSPEC3			: Potable Tank car, 4 axle, steel
+
+STR_FLATCAR1			: Flat car, 2 axle
+STR_FLATCAR2			: Flat car, 4 axle
+STR_FLATCAR3			: Flat car, 4 axle, steel
+
+
