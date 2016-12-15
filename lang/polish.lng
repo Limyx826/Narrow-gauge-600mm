@@ -1,0 +1,69 @@
+##grflangid 0x30
+##plural 7
+##gender n m f
+##case c b d m n w
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Wąskotorówki 600mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Przemysłowe, leśne i lokalne kolejki wąskotorowe o rozstawie szyn 600mm, tabor inspirowany lokomotywami produkcji niemieckiej z zestawu HEQS.{}{COPYRIGHT}2016 andythenorth (HEQS graphics), McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
+
+STR_PARAM_NAME_PURCHASE_COST    :Cena taboru
+STR_PARAM_DESC_PURCHASE_COST    :Opcja zmiany kosztów zakupu taboru
+STR_PARAM_NAME_RUNNING_COST     :Koszty eksploatacji
+STR_PARAM_DESC_RUNNING_COST     :Opcja zmiany kosztów eksploatacji taboru
+STR_PARAM_NAME_BUILD_COST     :Koszt budowy
+STR_PARAM_DESC_BUILD_COST     :Opcja zmiany kosztów budowy torów
+STR_PARAM_NAME_INFRA_COST     :Koszty eksploatacji torów
+
+STR_PARAM_COST_H                :x1/2
+STR_PARAM_COST_N                :x1
+STR_PARAM_COST_D                :x2
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Zachowuj stare pociągi w menu zakupu
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Zaznacz tę opcję aby wyłączyć wycofywanie starych lokomotyw i wagonów.  Opcja ta dotyczy wyłącznie pojazdów z tego setu. Aby wyłączyć wycofywanie innych pojazdów, użyj parametru "Pojazdy nigdy nie są wycofywane" w ustawieniach gry.
+
+STR_LIVERY_Q2CC         :-malowanie firmowe (default)
+STR_LIVERY_BROWN        :-malowanie brązowo-oliwkowe
+STR_LIVERY_GREEN        :-malowanie zielono-szare
+STR_LIVERY_OLIVE        :-malowanie oliwkowo-czerwone
+STR_LIVERY_BLACK        :-malowanie czarno-czerwone
+
+STR_STEAM_LOCO_SUFFIX          :- parowóz
+STR_DIESEL_LOCO_SUFFIX          :Spalinowóz
+STR_DIESEL_RAILBUS_SUFFIX       :- szynobus
+STR_PASSENGER_CAR_SUFFIX        :-wagon osobowy
+
+STR_MM_B                        : Maffei Munchen Bn2
+STR_OAK_BT                      : Orenstein & Koppel Bn2t
+STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t
+STR_HK_DT                       : Henschel Kassel Dn2t
+
+STR_PASS2                       :Wagon osobowy, 2-osiowy
+STR_PASS4                       :Wagon osobowy, 4-osiowy
+STR_PMMC_NAME                   :Wagon pocztowo/osobowy, 4-osiowy
+STR_PMMC_DESC                   :Możliwość przebudowy na wagon motorowy
+STR_MOTORCAR                    :Wagon motorowy, {STRING}
+
+STR_BOXCAR1                     :Kryty 2-osiowy
+STR_BOXCAR2                     :Kryty 4-osiowy o konstrukcji drewnianej
+STR_BOXCAR3                     :Kryty 4-osiowy o konstrukcji stalowej
+
+STR_STOCKCAR1                   :Brankard 2-osiowy
+STR_STOCKCAR2                   :Brankard 4-osiowy o konstrukcji drewnianej
+STR_STOCKCAR3                   :Brankard 4-osiowy o konstrukcji stalowej
+
+STR_TANKCAR1                    :Cysterna 2-osiowa
+STR_TANKCAR2                    :Cysterna 4-osiowa o konstrukcji nitowanej
+STR_TANKCAR3                    :Cysterna 4-osiowa o konstrukcji stalowej
+
+STR_TANKCARSPEC1                        :Specjalistyczna cysterna 2-osiowa
+STR_TANKCARSPEC2                        :Specjalistyczna cysterna 4-osiowa o konstrukcji nitowanej
+STR_TANKCARSPEC3                        :Specjalistyczna cysterna 4-osiowa o konstrukcji stalowej
+
+STR_FLATCAR1                    :Platforma 2-osiowa
+STR_FLATCAR2                    :Platforma 4-osiowa o konstrukcji drewnianej
+STR_FLATCAR3                    :Platforma 4-osiowa o konstrukcji stalowej
+
+STR_OPENCAR1                    :Węglarka 2-osiowa
+STR_OPENCAR2                    :Węglarka 4-osiowa o konstrukcji drewnianej
+STR_OPENCAR3                    :Węglarka 4-osiowa o konstrukcji stalowej
