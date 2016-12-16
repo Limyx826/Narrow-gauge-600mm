@@ -15,7 +15,7 @@ STR_PARAM_DESC_RUNNING_COST     :Use this option to change the running costs of 
 STR_PARAM_NAME_BUILD_COST     :Construction cost modifier
 STR_PARAM_DESC_BUILD_COST     :Use this option to change railroad construction costs.
 STR_PARAM_NAME_INFRA_COST     :Infrastructure payment modifier
-STR_PARAM_DESC_INFRA_COST     :Use this option to change infrastrucure maintenance costs.
+STR_PARAM_DESC_INFRA_COST     :Use this option to change infrastructure maintenance costs.
 
 STR_PARAM_COST_H               	: Half
 STR_PARAM_COST_N               	: Normal
