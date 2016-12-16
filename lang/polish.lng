@@ -15,6 +15,7 @@ STR_PARAM_DESC_RUNNING_COST     :Opcja zmiany kosztów eksploatacji taboru
 STR_PARAM_NAME_BUILD_COST     :Koszt budowy
 STR_PARAM_DESC_BUILD_COST     :Opcja zmiany kosztów budowy torów
 STR_PARAM_NAME_INFRA_COST     :Koszty eksploatacji torów
+STR_PARAM_DESC_INFRA_COST     :Opcja zmiany kosztów utrzymania torów
 
 STR_PARAM_COST_H                :x1/2
 STR_PARAM_COST_N                :x1
