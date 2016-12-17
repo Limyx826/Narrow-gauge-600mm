@@ -89,7 +89,7 @@ basecost {
     PR_RUNNING_TRAIN_STEAM: param_running_cost - 3;
     PR_RUNNING_TRAIN_DIESEL: param_running_cost - 3;
     PR_RUNNING_TRAIN_ELECTRIC: param_running_cost - 3;
-    PR_BUILD_RAIL: param_build_cost - 4;
+    PR_BUILD_RAIL: param_build_cost - 5;
     PR_MAINTENANCE_RAIL: param_infra_cost - 2;
 }
 /*
