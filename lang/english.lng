@@ -41,6 +41,7 @@ STR_STEAM_LOCO_SUFFIX          : - steam locomotive
 STR_DIESEL_LOCO_SUFFIX          : - diesel locomotive 
 # STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
 # STR_PASSENGER_CAR_SUFFIX        : - passenger wagon 
+STR_MOTORCAR                    :Motor car, {STRING}
 
 STR_MM_B			: Maffei Munchen Bn2 {STRING}
 STR_OAK_BT			: Orenstein & Koppel Bn2t {STRING}
