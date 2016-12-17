@@ -1,0 +1,52 @@
+ // railtracks
+
+switch (FEAT_RAILTYPES, SELF, get_ng600_depots,
+  terrain_type )
+{
+  TILETYPE_SNOW: ng600_depot_snow;
+  ng600_depot;
+}
+
+
+if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
+  item (FEAT_RAILTYPES, NG600)
+  {
+    property
+    {
+      label: "NG60";
+      introduction_date: date(1783, 1, 1);
+      name: string(STR_NG60_NAME);
+      toolbar_caption: string(STR_NG60_TOOLBAR);
+      menu_text: string(STR_NG60_MENU);
+      build_window_caption: string(STR_NG60_BUILD_CAPTION);
+      autoreplace_text: string(STR_NG60_AUTOREPLACE);
+      new_engine_text: string(STR_NG60_NEW_ENGINE);
+      compatible_railtype_list: [];
+      powered_railtype_list: ["NG60"];
+      curve_speed_multiplier: 100;
+      station_graphics: RAILTYPE_STATION_NORMAL;
+      construction_cost: 5;
+      maintenance_cost: 1;
+      speed_limit: 0;      
+      acceleration_model: ACC_MODEL_RAIL;
+      map_colour: 52;
+      sort_order: 252;
+      alternative_railtype_list: ["NAAN"];
+      railtype_flags: bitmask();
+    }
+    graphics
+    {
+      gui: ng600_gui;
+      track_overlay: ng600_track_overlay;
+      underlay:ng600_underlay;
+      tunnels: ng600_tunnels;
+//      tunnel_overlay: ng600_tunnels;
+      fences: no_fence; 
+      bridge_surfaces: ng600_bridge_surfaces;
+      level_crossings: ng600_level_crossings_open;
+      depots: get_ng600_depots;
+//      signals: switch_signals_type;
+    }
+  }
+}
+

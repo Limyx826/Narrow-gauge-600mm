@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	default_cargo_type:		COAL; \
 	power:			  	0; \
 	running_cost_base:	   	RUNNING_COST_STEAM; \
-        track_type:                     NAAN; \
+        track_type:                     NG60; \
         ai_engine_rank:                 0; \
         engine_class:                   ENGINE_CLASS_STEAM; \
 	weight:			 	v_mass; \

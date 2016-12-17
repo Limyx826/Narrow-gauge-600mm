@@ -1,0 +1,232 @@
+ // railsprite templates
+
+
+// icons templates
+
+template rail_gui_template(x, y)
+{
+  // icons
+  [    x, y, 20, 20, 0, 0]
+  [ x+32, y, 20, 20, 0, 0]
+  [ x+64, y, 20, 20, 0, 0]
+  [ x+96, y, 20, 20, 0, 0]
+  [x+128, y, 20, 20, 0, 0]
+  [x+334, y, 20, 20, 0, 0]
+  [x+382, y, 20, 20, 0, 0]
+  [x+430, y, 20, 20, 0, 0]
+
+  // cursors
+  [    x, y+42, 38, 30,  -4, -14]
+  [ x+48, y+42, 72, 44, -16,  -8]
+  [x+128, y+42, 44, 34, -21,  -2]
+  [x+180, y+42, 72, 44, -16, -35]
+  [x+260, y+42, 56, 36, 0, 0]
+  [x+324, y+42, 32, 32, 0, 0]
+  [x+372, y+42, 32, 32, 0, 0]
+  [x+420, y+42, 32, 32, 0, 0]
+}
+
+template rail_track_overlay_template(x, y)
+{
+  [    x, y, 64, 31, -31,  0]
+  [ x+80, y, 64, 31, -31,  0]
+  [x+160, y, 64, 16, -31,  0]
+  [x+240, y, 64, 16, -31, 15]
+  [x+320, y, 32, 31,   1,  0]
+  [x+368, y, 32, 31, -31,  0]
+  [x+416, y, 64, 39, -31, -8]
+  [x+496, y, 64, 23, -31,  0]
+  [x+576, y, 64, 23, -31,  0]
+  [x+656, y, 64, 39, -31, -8]
+}       
+
+template rail_underlay_template(x, y)
+{
+  [    x, y, 64, 31, -31,  0]
+  [ x+80, y, 64, 31, -31,  0]
+  [x+160, y, 64, 16, -31,  0]
+  [x+240, y, 64, 16, -31, 15]
+  [x+320, y, 32, 31,   1,  0]
+  [x+368, y, 32, 31, -31,  0]
+  [x+416, y, 64, 39, -31, -8]
+  [x+496, y, 64, 23, -31,  0]
+  [x+576, y, 64, 23, -31,  0]
+  [x+656, y, 64, 39, -31, -8]
+  [x+736, y, 64, 31, -31,  0]
+
+  [x+160, y+164, 64, 31, -31,  0]
+  [x+240, y+164, 64, 31, -31,  0]
+  [x+320, y+164, 64, 31, -31,  0]
+  [x+400, y+164, 64, 31, -31,  0]
+  [x+480, y+164, 64, 31, -31,  0]
+}
+
+template rail_tunnels_template(x, y)
+{
+  [    x, y, 64, 31, -31,  1]
+  [ x+80, y, 64, 31, -31,  1]
+  [x+160, y, 64, 31, -31,  1]
+  [x+240, y, 64, 31, -31,  1]
+}
+
+template rail_bridge_surfaces_template(x, y)
+{
+  [    x, y, 64, 32, -31,  0]
+  [ x+80, y, 64, 32, -31,  0]
+
+  [x+416, y, 64, 39, -31, -8]
+  [x+496, y, 64, 23, -31,  0]
+  [x+576, y, 64, 23, -31,  0]
+  [x+656, y, 64, 39, -31, -8]
+}
+
+template rail_depot_template(x, y)
+{
+  [ x+40, y+61, 24, 25, 9, -2]   
+  [    x,    y, 64, 53, -9, -37] 
+  [ x+80, y+61, 24, 25, -31, -2] 
+  [ x+80, y,    64, 53, -53, -37]
+  [x+240, y,    64, 53, -53, -37]
+  [x+160, y,    64, 53, -9, -37] 
+}
+
+template rail_depot_snow_template(x, y)
+{
+  [ x+40, y+61, 24, 25, 9, -2]   
+  [    x,    y, 64, 53, -9, -37] 
+  [ x+80, y+61, 24, 25, -31, -2] 
+  [ x+80,    y, 64, 53, -53, -37]
+  [x+240,    y, 64, 53, -53, -37]
+  [x+160,    y, 64, 53, -9, -37] 
+}
+
+template level_crossings_railway_template(x, y, filename)
+{
+  [    x, y, 64, 31, -31,  0, filename]
+  [ x+80, y, 64, 31, -31,  0, filename]
+}
+
+// A open level crossing with warning lights and signs
+
+template level_crossings_1_template(x, y, filename)
+{
+  [    x, y,  7, 13,   0,   0, filename]
+  [ x+50, y,  7, 13,  -3,  -9, filename]
+  [x+100, y,  7, 13,  -6, -10, filename]
+  [x+150, y,  7, 13,   0,   0, filename]
+  [x+200, y,  7, 13,  -1,  -9, filename]
+  [x+250, y,  7, 13,   0,   0, filename]
+  [x+300, y,  7, 13,   0,   0, filename]
+  [x+350, y,  7, 13,  -2, -11, filename]
+}
+
+// A half barrier level crossing
+
+template level_crossings_2_open_template(x, y, filename)
+{
+  [    x, y,  7, 20,   0,   0, filename]
+  [ x+48, y,  9, 20,  -9, -13, filename]
+  [x+100, y,  9, 20,  -8, -18, filename]
+  [x+150, y,  7, 20,   0,   0, filename]
+  [x+198, y,  9, 20,   1, -14, filename]
+  [x+250, y,  7, 20,   0,   0, filename]
+  [x+300, y,  7, 20,   0,   0, filename]
+  [x+350, y,  9, 20,   2, -19, filename]
+}
+
+template level_crossings_2_closed_template(x, y, filename)
+{
+  [    x, y,  7, 20,   0,   0, filename]
+  [ x+48, y, 22, 25,  -9, -13, filename]
+  [ x+87, y, 22, 25, -21, -18, filename]
+  [x+150, y,  7, 20,   0,   0, filename]
+  [x+198, y, 22, 20,   1, -14, filename]
+  [x+250, y,  7, 20,   0,   0, filename]
+  [x+300, y,  7, 20,   0,   0, filename]
+  [x+337, y, 22, 20, -11, -19, filename]
+}
+
+template pylons_template(x, y, z)
+{
+   [z*x,    z*y, 12*z, 28*z, -9*z, -25*z]
+  [z*(x+32),  z*y, 12*z, 30*z, 0, -28*z]
+  [z*(x+64),  z*y, 12*z, 30*z, -1*z, -25*z]
+  [z*(x+96),  z*y, 12*z, 30*z, -9*z, -27*z]
+  [z*(x+115), z*y,  6*z, 28*z, -2*z, -26*z]
+  [z*(x+131), z*y,  6*z, 30*z, -2*z, -27*z]
+  [z*(x+147), z*y, 14*z, 28*z, -3*z, -26*z]
+  [z*(x+179), z*y, 14*z, 28*z, -10*z, -26*z]
+}
+
+//real sprites:
+//ng600
+
+#define IMAGEFILE  "src/graphics/ng600.png"
+
+spriteset(ng600_gui, IMAGEFILE)
+{
+  rail_gui_template(2, 22)
+}
+
+spriteset(ng600_track_overlay, IMAGEFILE)
+{
+  rail_track_overlay_template(2, 131)
+}
+
+spriteset(ng600_underlay, IMAGEFILE)
+{
+  rail_underlay_template(2, 185)
+}
+
+spriteset(ng600_tunnels, IMAGEFILE)
+{
+  rail_tunnels_template(2, 291)
+}
+
+spriteset(ng600_bridge_surfaces, IMAGEFILE)
+{
+  rail_bridge_surfaces_template(2, 239)
+}
+
+#undef IMAGEFILE
+
+
+// depot
+
+#define IMAGEFILE  "src/graphics/ng60_depot.png"
+
+spriteset(ng600_depot, IMAGEFILE)
+{
+  rail_depot_template(2, 24)
+}
+
+spriteset(ng600_depot_snow, IMAGEFILE)
+{
+  rail_depot_snow_template(2, 232)
+}
+
+#undef IMAGEFILE
+
+
+#define IMAGEFILE1  "src/graphics/ng600.png"
+#define IMAGEFILE2  "src/graphics/crossing1.png"
+
+spriteset(ng600_level_crossings_open)
+{
+  level_crossings_railway_template(2, 349, IMAGEFILE1)
+  level_crossings_1_template(10, 133, IMAGEFILE2)
+}
+
+#undef IMAGEFILE1
+#undef IMAGEFILE2
+
+// fences
+
+#define IMAGEFILE  "src/graphics/fences.png"
+
+spriteset(no_fence, IMAGEFILE)
+{
+  pylons_template(5, 191, 1)
+}
+
+#undef IMAGEFILE

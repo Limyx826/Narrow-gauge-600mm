@@ -4,7 +4,7 @@
 
 # GRF name and description
 STR_GRF_NAME        :Narrow Gauge 600mm {VERSION}
-STR_GRF_DESCRIPTION :{TITLE} - Set of generic 600 mm narrow gauge trains, produced in Germany and used in many countries.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
+STR_GRF_DESCRIPTION :{TITLE} - Inspired by HEQS, set of generic 600 mm narrow gauge trains, produced in Germany and used in many countries.{} Cheap 600mm narrow gauge is included.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
 
 STR_PARAM_NAME_RESERVED 	: Reserved for future use.
 STR_PARAM_DESC_RESERVED		: Place-holder...
@@ -22,6 +22,14 @@ STR_PARAM_COST_N               	: Normal
 STR_PARAM_COST_D               	: Double
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Keep old trains in purchase menu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" in game settings.
+
+STR_NG60_NAME                 	:600 mm narrow gauge
+STR_NG60_TOOLBAR             	:600mm narrow gauge
+STR_NG60_MENU            	:Local railway, 600mm narrow gauge track
+STR_NG60_BUILD_CAPTION   	:New 600mm narrow gauge stock
+STR_NG60_AUTOREPLACE        	:600mm narrow gauge trains
+STR_NG60_NEW_ENGINE           	:600 mm narrow gauge locomotive
+
 
 STR_LIVERY_Q2CC     	:-quasi 2CC livery (default)
 STR_LIVERY_BROWN	:-brown-olive livery

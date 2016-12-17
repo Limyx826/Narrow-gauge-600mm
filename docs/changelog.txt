@@ -1,4 +1,10 @@
-Version 0.6s
+Version 0.8
+- 600mm track tweaked
+
+Version 0.7
+- 600mm track added
+
+Version 0.6
 - gondola added
 
 Version 0.5
