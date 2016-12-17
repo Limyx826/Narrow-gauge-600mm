@@ -39,19 +39,25 @@ STR_LIVERY_BLACK	:-black-red livery
 
 STR_STEAM_LOCO_SUFFIX          : - steam locomotive 
 STR_DIESEL_LOCO_SUFFIX          : - diesel locomotive 
-STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
-STR_PASSENGER_CAR_SUFFIX        : - passenger wagon 
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon 
 
-STR_MM_B			: Maffei Munchen Bn2
-STR_OAK_BT			: Orenstein & Koppel Bn2t
-STR_SM_CT			: Sachsische Maschinenfabrik Cn2t
-STR_HK_DT			: Henschel Kassel Dn2t
+STR_MM_B			: Maffei Munchen Bn2 {STRING}
+STR_OAK_BT			: Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT			: Sachsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT			: Henschel Kassel Dn2t {STRING}
+
+STR_JHF_C			: Arnold Jung Jungenthal C {STRING}
+
+STR_1_HORSE			: One horse, single harness
+STR_2_HORSE			: Two horses, multiple harness
+STR_FIRST_ONLY			: Must be attached at the begining of the train
 
 STR_PASS2			: Passenger car, 2 axle
 STR_PASS4			: Passenger car, 4 axle
 STR_PMMC_NAME			: Mail/Passenger car, 4 axle
 STR_PMMC_DESC			: Can be rebuilded to motorized car
-STR_MOTORCAR			: Motor car, {STRING}
+# STR_MOTORCAR			: Motor car, {STRING}
 
 STR_BOXCAR1			: Box car, 2 axle
 STR_BOXCAR2			: Box car, 4 axle

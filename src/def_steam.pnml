@@ -1,9 +1,9 @@
-//Diesel locomotives
+//Steam locomotives
 
 #define STEAM_LOCO(Loco_Name, STR_L_NAME, idate, odate, retire, v_life, v_reliab, v_cost, v_vmax, v_power, v_te, v_airdrag, v_mass, v_length) \
 item(FEAT_TRAINS, Loco_Name) { \
 	property { \
-	name:			   	string(STR_L_NAME, string(STR_DIESEL_LOCO_SUFFIX)); \
+	name:			   	string(STR_L_NAME, string(STR_STEAM_LOCO_SUFFIX)); \
 	climates_available:	 	PKP_CLIMATES; \
 	introduction_date:		date(idate, 1, 1);	    \
 	model_life:     param_keep_old_vehs == 0 ? (odate == 0 ? VEHICLE_NEVER_EXPIRES : odate-idate+retire+4) :  VEHICLE_NEVER_EXPIRES; \
