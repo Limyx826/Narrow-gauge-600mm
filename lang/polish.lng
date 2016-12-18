@@ -23,6 +23,8 @@ STR_PARAM_COST_D                :x2
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Zachowuj stare pociągi w menu zakupu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Zaznacz tę opcję aby wyłączyć wycofywanie starych lokomotyw i wagonów.  Opcja ta dotyczy wyłącznie pojazdów z tego setu. Aby wyłączyć wycofywanie innych pojazdów, użyj parametru "Pojazdy nigdy nie są wycofywane" w ustawieniach gry.
 
+
+
 STR_LIVERY_Q2CC         :-malowanie firmowe (default)
 STR_LIVERY_BROWN        :-malowanie brązowo-oliwkowe
 STR_LIVERY_GREEN        :-malowanie zielono-szare
@@ -31,19 +33,22 @@ STR_LIVERY_BLACK        :-malowanie czarno-czerwone
 
 STR_STEAM_LOCO_SUFFIX          :- parowóz
 STR_DIESEL_LOCO_SUFFIX          :Spalinowóz
-STR_DIESEL_RAILBUS_SUFFIX       :- szynobus
-STR_PASSENGER_CAR_SUFFIX        :-wagon osobowy
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
+STR_MOTORCAR                    :Wagon motorowy, {STRING}
 
 STR_MM_B                        : Maffei Munchen Bn2
 STR_OAK_BT                      : Orenstein & Koppel Bn2t
 STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t
 STR_HK_DT                       : Henschel Kassel Dn2t
 
+
+
 STR_PASS2                       :Wagon osobowy, 2-osiowy
 STR_PASS4                       :Wagon osobowy, 4-osiowy
 STR_PMMC_NAME                   :Wagon pocztowo/osobowy, 4-osiowy
 STR_PMMC_DESC                   :Możliwość przebudowy na wagon motorowy
-STR_MOTORCAR                    :Wagon motorowy, {STRING}
+# STR_MOTORCAR			: Motor car, {STRING}
 
 STR_BOXCAR1                     :Kryty 2-osiowy
 STR_BOXCAR2                     :Kryty 4-osiowy o konstrukcji drewnianej
