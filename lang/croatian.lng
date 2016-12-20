@@ -1,0 +1,87 @@
+##grflangid 0x38
+##plural 6
+##gender middle male female
+##case nom lok aku vok dat ins gen
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Uskotračna pruga 600mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Inspiriran HEQS-om, set generičkih 600mm uskotračnih vlakova proizvedenih u Njemačkoj i korištenih u mnogim zemljama.{} Jeftina uskotračna 600mm pruga je uključena u set.{}{COPYRIGHT}2016 andythenorth, McZapkie (grafika), McZapkie, TadeuszD (NML kodiranje){}Licenca: GPL v2
+
+STR_PARAM_NAME_RESERVED         :Rezervirano za korištenje.
+STR_PARAM_DESC_RESERVED         :Okvir...
+STR_PARAM_NAME_PURCHASE_COST    :Modifikator troškova nabave
+STR_PARAM_DESC_PURCHASE_COST    :Koristite ovu postavku da bi promijenili troškove nabave vlakova iz ovog seta.
+STR_PARAM_NAME_RUNNING_COST     :Modifikator tekućih troškova
+STR_PARAM_DESC_RUNNING_COST     :Koristite ovu postavku da bi promijenili tekuće troškove vlakova iz ovog seta.
+STR_PARAM_NAME_BUILD_COST     :Modifikator troškova izgradnje
+STR_PARAM_DESC_BUILD_COST     :Koristite ovu postavku da bi promijenili troškove izgradnje pruge.
+STR_PARAM_NAME_INFRA_COST     :Modifikator troškova infrastrukture
+STR_PARAM_DESC_INFRA_COST     :Koristite ovu postavku da bi promijenili troškove infrastrukture.
+
+STR_PARAM_COST_H                :Pola
+STR_PARAM_COST_N                :Normalno
+STR_PARAM_COST_D                :Dvostruko
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Zadrži stare vlakove u meniju za nabavu
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Koristite ovu postavku za isključivanje roka trajanja starih vlakova. Postavka se odnosi samo na vlakove iz ovog seta. Da bi isključili rok trajanja drugih setova, potrebno je koristiti postavku "Vozila nikad ne zastarijevanju" u glavnim postavkama same igre.
+
+STR_NG60_NAME                   :Uskotračna 600mm pruga
+STR_NG60_TOOLBAR                :Uskotračna 600mm pruga
+STR_NG60_MENU                   :Lokalna pruga, uskotračni 600mm kolosijek
+STR_NG60_BUILD_CAPTION          :Nova 600mm uskotračna vozila
+STR_NG60_AUTOREPLACE            :600mm uskotračna vozila
+STR_NG60_NEW_ENGINE             :Uskotračna 600mm lokomotiva
+
+
+STR_LIVERY_Q2CC         :-livreja slična 2CC livreji (početna postavka)
+STR_LIVERY_BROWN        :-smeđe-maslinastozelena livreja
+STR_LIVERY_GREEN        :-zeleno-siva livreja
+STR_LIVERY_OLIVE        :-maslinastozeleno-crvena livreja (početna postavka)
+STR_LIVERY_BLACK        :-crno-crvena livreja
+
+STR_STEAM_LOCO_SUFFIX          :- parna lokomotiva
+STR_DIESEL_LOCO_SUFFIX          :- dizel lokomotiva
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
+STR_MOTORCAR                    :Motorizirani vagon, {STRING}
+
+STR_MM_B                        :Maffei Munchen Bn2 {STRING}
+STR_OAK_BT                      :Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT                       :Henschel Kassel Dn2t {STRING}
+
+STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
+
+STR_1_HORSE                     :Jedan konj, jedna zaprega
+STR_2_HORSE                     :Dva konja, višestruka zaprega
+STR_FIRST_ONLY                  :Mora biti spojeno na početak vlaka
+
+STR_PASS2                       :Putnički vagon, 2-osovinski
+STR_PASS4                       :Putnički vagon, 4-osovinski
+STR_PMMC_NAME                   :Poštanski/putnički vagon, 4-osovinski
+STR_PMMC_DESC                   :Može se remontirati u motorizirani vagon
+# STR_MOTORCAR			: Motor car, {STRING}
+
+STR_BOXCAR1                     :Zatvoreni vagon, 2-osovinski
+STR_BOXCAR2                     :Zatvoreni vagon, 4-osovinski
+STR_BOXCAR3                     :Zatvoreni vagom, 4-osovinski, čelični
+
+STR_STOCKCAR1                   :Vagon za stoku, 2-osovinski
+STR_STOCKCAR2                   :Vagon za stoku, 4-osovinski
+STR_STOCKCAR3                   :Vagon za stoku, 4-osovinski, čelični
+
+STR_TANKCAR1                    :Cisterna, 2-osovinska
+STR_TANKCAR2                    :Cisterna, 4-osovinska
+STR_TANKCAR3                    :Cisterna, 4-osovinska, čelična
+
+STR_TANKCARSPEC1                        :Cisterna za tekućine za piće, 2-osovinska
+STR_TANKCARSPEC2                        :Cisterna za tekućine za piće, 4-osovinska
+STR_TANKCARSPEC3                        :Cisterna za tekućine za piće, 4-osovinska, čelična
+
+STR_FLATCAR1                    :Plato-vagon, 2-osovinski
+STR_FLATCAR2                    :Plato-vagon, 4-osovinski
+STR_FLATCAR3                    :Plato-vagon, 4-osovinski, čelični
+
+STR_OPENCAR1                    :Gondola, 2-osovinska
+STR_OPENCAR2                    :Gondola, 4-osovinska
+STR_OPENCAR3                    :Gondola, 4-osovinska, čelična
