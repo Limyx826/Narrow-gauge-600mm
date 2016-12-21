@@ -23,6 +23,12 @@ STR_PARAM_COST_D                :x2
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Zachowuj stare pociągi w menu zakupu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Zaznacz tę opcję aby wyłączyć wycofywanie starych lokomotyw i wagonów.  Opcja ta dotyczy wyłącznie pojazdów z tego setu. Aby wyłączyć wycofywanie innych pojazdów, użyj parametru "Pojazdy nigdy nie są wycofywane" w ustawieniach gry.
 
+STR_NG60_NAME                   :Kolej wąskotorowa 600mm
+STR_NG60_TOOLBAR                :Wąskotorówka 600mm
+STR_NG60_MENU                   :Tor wąskotorówki 600mm
+STR_NG60_BUILD_CAPTION          :Nowy tabor kolei wąskotorowej 600mm
+STR_NG60_AUTOREPLACE            :Tabor wąskotorowy 600mm
+STR_NG60_NEW_ENGINE             :Lokomotywa wąskotorowa 600mm
 
 
 STR_LIVERY_Q2CC         :-malowanie firmowe (default)
@@ -37,12 +43,16 @@ STR_DIESEL_LOCO_SUFFIX          :Spalinowóz
 # STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
 STR_MOTORCAR                    :Wagon motorowy, {STRING}
 
-STR_MM_B                        : Maffei Munchen Bn2
-STR_OAK_BT                      : Orenstein & Koppel Bn2t
-STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t
-STR_HK_DT                       : Henschel Kassel Dn2t
+STR_MM_B                        : Maffei Munchen Bn2 {STRING}
+STR_OAK_BT                      : Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT                       : Sachsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT                       : Henschel Kassel Dn2t {STRING}
 
+STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
 
+STR_1_HORSE                     :Jeden koń, pojedynczy zaprzęg
+STR_2_HORSE                     :Dwa konie, możliwość wielokrotnego zaprzęgu
+STR_FIRST_ONLY                  :Może być tylko na początku składu
 
 STR_PASS2                       :Wagon osobowy, 2-osiowy
 STR_PASS4                       :Wagon osobowy, 4-osiowy
