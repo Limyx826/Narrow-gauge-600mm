@@ -30,8 +30,9 @@
 #include "src/def_tankcarspec.pnml"
 #include "src/def_flatcar.pnml"
 #include "src/def_gondolacar.pnml"
+#include "src/def_minecart.pnml"
 
-// #include "src/horses.pnml"
+#include "src/horses.pnml"
 
 /* locomotives */
 

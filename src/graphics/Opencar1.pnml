@@ -9,9 +9,14 @@ spriteset(ss_Opencar1_bulk2, "src/graphics/industrial_tram_wagons_1.png")       
 
 spriteset(ss_Opencar1_bulk, "src/graphics/industrial_tram_wagons_1.png")                  { tmpl_sprite_train_block3mirror(180) }
 
+spriteset(ss_Opencar1_wdpr, "src/graphics/industrial_tram_wagons_1.png")                  { tmpl_sprite_train_block3mirror(200) }
 
 spritegroup sgroup_Opencar1_bulk {
     loaded:     [ss_Opencar1_empty, ss_Opencar1_bulk2, ss_Opencar1_bulk];
     loading:    [ss_Opencar1_empty, ss_Opencar1_bulk2, ss_Opencar1_bulk];
 }
 
+spritegroup sgroup_Opencar1_wdpr {
+    loaded:     [ss_Opencar1_empty, ss_Opencar1_wdpr, ss_Opencar1_wdpr];
+    loading:    [ss_Opencar1_empty, ss_Opencar1_wdpr];
+}

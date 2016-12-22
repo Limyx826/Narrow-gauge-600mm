@@ -1,3 +1,12 @@
+Version 0.9
+- costs corrected
+- minecarts added
+- single horse added
+
+Version 0.8
+- costs tweaked
+- depot repainted, snow depot added
+
 Version 0.8
 - 600mm track tweaked
 

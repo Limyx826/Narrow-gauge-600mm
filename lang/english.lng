@@ -84,3 +84,5 @@ STR_OPENCAR1			: Gondola, 2 axle
 STR_OPENCAR2			: Gondola, 4 axle
 STR_OPENCAR3			: Gondola, 4 axle, steel
 
+STR_MINECART1                    :Wooden minecart
+STR_MINECART2                    :Metal minecart

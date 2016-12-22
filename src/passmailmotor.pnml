@@ -32,7 +32,7 @@ switch (FEAT_TRAINS, SELF, switch_passmailcar_power, (cargo_subtype>2))
 switch (FEAT_TRAINS, SELF, switch_passmailcar_running_costs, (cargo_subtype>2))
 {
   0: return DIESEL_RUNNING_COST(1, 0, 10, 40)
-     return DIESEL_RUNNING_COST(1, 25, 10, 40)
+     return DIESEL_RUNNING_COST(2, 25, 10, 40)
 }  
 
 switch (FEAT_TRAINS, SELF, switch_high_diesel_smoke_effect, STORE_TEMP(create_effect(EFFECT_SPRITE_DIESEL, -3, 0, 7), 0x100) 
@@ -47,8 +47,8 @@ switch (FEAT_TRAINS, SELF, switch_PassMailMotorCar_visual_effect, (cargo_subtype
   return CB_FAILED;
 }  
 
-#define REFIT_INCOME_MOTORCAR 5
-#define REFIT_COST_MOTORCAR   10
+#define REFIT_INCOME_MOTORCAR 15
+#define REFIT_COST_MOTORCAR   30
 
 switch(FEAT_TRAINS, SELF, switch_passmailmotor_refit_cost, (var[0x10,8,0xFF]>2)) {
     0: return 0 | CB_RESULT_AUTOREFIT;
@@ -81,7 +81,7 @@ item(FEAT_TRAINS, PassMailMotorCar) {
 	retire_early:			10; 
 	reliability_decay:	    	10; 
 	loading_speed:		  	5; 
-	cost_factor:		    	19;   
+	cost_factor:		    	8;   
 	refit_cost:   			0;
 	running_cost_factor:		DIESEL_RUNNING_COST(1, 0, 10, 40) 
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 

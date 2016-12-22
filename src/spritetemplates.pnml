@@ -107,6 +107,11 @@ template tmpl_sprite_purchase3mirror(y) {
 }
 
 //horse:
+
+template template_sprite_window_sideview7(y) {
+    [160,          y,       28,        13,         -15,         -7, ANIM]
+}
+
 template template_spriteh(y) {
 [8, y, 8, 22, -3,-11, ANIM]
 [24, y, 20, 17, -11,-8, ANIM]

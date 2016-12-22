@@ -42,10 +42,10 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_PASSENGER(Wagon_Name, STR_W_NAME, p_comfort, p_capacity, idate, odate, v_life, v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/Pass2.pnml"
-CAR_PASSENGER(Pass2,      STR_PASS2,  MEDIUM_COMFORT, 20,      1825,  1926,    20,      12,     20, 
+CAR_PASSENGER(Pass2,      STR_PASS2,  MEDIUM_COMFORT, 20,      1825,  1926,    20,      38,     20, 
      6, 3)
 
 #include "graphics/Pass4.pnml"
-CAR_PASSENGER(Pass4,      STR_PASS4,  STANDARD_COMFORT, 40,      1920,  1976,    20,      18,     40, 
+CAR_PASSENGER(Pass4,      STR_PASS4,  STANDARD_COMFORT, 40,      1920,  1976,    20,      58,     40, 
      10, 5)
 

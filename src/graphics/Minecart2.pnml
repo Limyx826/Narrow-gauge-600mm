@@ -1,0 +1,14 @@
+
+
+spriteset(spriteset_Minecart2_purchase, "src/graphics/industrial_tram_wagons_2.png")         
+{ tmpl_sprite_purchase3mirror(220) }
+
+spriteset(ss_Minecart2_empty, "src/graphics/industrial_tram_wagons_2.png")                  { tmpl_sprite_train_block3mirror(220) }
+
+spriteset(ss_Minecart2_bulk, "src/graphics/industrial_tram_wagons_2.png")                  { tmpl_sprite_train_block3mirror(240) }
+
+spritegroup sgroup_Minecart2_bulk {
+    loaded:     [ss_Minecart2_empty, ss_Minecart2_bulk];
+    loading:    [ss_Minecart2_empty, ss_Minecart2_bulk];
+}
+
