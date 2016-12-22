@@ -49,6 +49,7 @@ STR_SM_CT			: Sachsische Maschinenfabrik Cn2t {STRING}
 STR_HK_DT			: Henschel Kassel Dn2t {STRING}
 
 STR_JHF_C			: Arnold Jung Jungenthal C {STRING}
+STR_JHF_C			: LKM Babelsberg B {STRING}
 
 STR_1_HORSE			: One horse, single harness
 STR_2_HORSE			: Two horses, multiple harness
