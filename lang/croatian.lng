@@ -51,6 +51,7 @@ STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t {STRING}
 STR_HK_DT                       :Henschel Kassel Dn2t {STRING}
 
 STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
+STR_LKM_B                       :LKM Babelsberg B {STRING}
 
 STR_1_HORSE                     :Jedan konj, jedna zaprega
 STR_2_HORSE                     :Dva konja, višestruka zaprega
@@ -85,3 +86,6 @@ STR_FLATCAR3                    :Plato-vagon, 4-osovinski, čelični
 STR_OPENCAR1                    :Gondola, 2-osovinska
 STR_OPENCAR2                    :Gondola, 4-osovinska
 STR_OPENCAR3                    :Gondola, 4-osovinska, čelična
+
+STR_MINECART1                    :Drveni vagon za rudnike
+STR_MINECART2                    :Metalni vagon za rudnike
