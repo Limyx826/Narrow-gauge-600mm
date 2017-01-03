@@ -49,6 +49,7 @@ STR_SM_CT                       : Sachsische Maschinenfabrik Cn2t {STRING}
 STR_HK_DT                       : Henschel Kassel Dn2t {STRING}
 
 STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
+STR_LKM_B                       : LKM Babelsberg B {STRING}
 
 STR_1_HORSE                     :Jeden koń, pojedynczy zaprzęg
 STR_2_HORSE                     :Dwa konie, możliwość wielokrotnego zaprzęgu
@@ -84,3 +85,5 @@ STR_OPENCAR1                    :Węglarka 2-osiowa
 STR_OPENCAR2                    :Węglarka 4-osiowa o konstrukcji drewnianej
 STR_OPENCAR3                    :Węglarka 4-osiowa o konstrukcji stalowej
 
+STR_MINECART1                    :Wagonetka drewniana
+STR_MINECART2                    :Wagonetka metalowa
