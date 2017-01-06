@@ -1,8 +1,12 @@
-Version 0.9
+Version 1.1
+Diesel 130 C added
+
+Version 1.0
 - costs corrected
 - minecarts added
+- single horse added
 
-Version 0.8
+Version 0.9
 - costs tweaked
 - depot repainted, snow depot added
 

@@ -17,17 +17,18 @@ item(FEAT_TRAINS, Loco_Name) { \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(); \
 	cargo_age_period:	 	STANDARD_COMFORT; \
-	power:			  	v_power kW; \
+	power:			  	v_power hp; \
 	running_cost_base:	   	RUNNING_COST_DIESEL; \
-        track_type:                     NAAN; \
+        track_type:                     NG60; \
         ai_engine_rank:                 0; \
         engine_class:                   ENGINE_CLASS_DIESEL; \
-	cargo_capacity:		 	0; \
+	cargo_capacity:		 	1; \
+	cargo_allow_refit:		[PASS]; \
+	default_cargo_type:		PASS; \
 	weight:			 	v_mass; \
 	tractive_effort_coefficient:    v_te; \
 	air_drag_coefficient:	   	v_airdrag; \
 	length:      	    		v_length; \
-        air_drag_coefficient:           0.07; \
         extra_weight_per_wagon:         0; \
         visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DEFAULT, 0, DISABLE_WAGON_POWER); \
         bitmask_vehicle_info:           0; \
@@ -36,12 +37,15 @@ item(FEAT_TRAINS, Loco_Name) { \
     graphics { \
 	default:	    	spriteset_##Loco_Name##_graphic;  \
 	purchase:	   	spriteset_##Loco_Name##_purchase;  \
+	cargo_subtype_text: 	switch_loco_livery_subtype_text;  \
+	colour_mapping:         switch_livery_subtype_loco; \
+        purchase_cargo_capacity:    return 0; \
+        cargo_capacity:             return 0; \
     }  \
 }
 
-//DIESEL_LOCO(Loco_Name, STR_L_NAME, STR_L_DESC, idate, odate, retire, v_life, \
-v_reliab, v_cost,  v_vmax, v_power, v_te, v_airdrag, v_mass, v_length)
+//DIESEL_LOCO(Loco_Name, STR_L_NAME, idate, odate, retire, v_life, v_reliab, v_cost, v_vmax, v_power, v_te, v_airdrag, v_mass, v_length) 
 
-//#include "graphics/test.pnml"
-//DIESEL_LOCO(test, STR_MM_B, 1904,    2001,   10,      30,     12,      19,       236,     371,    0.25,    0.4,      32,      7)
+#include "graphics/JungC.pnml"
+DIESEL_LOCO( JungC,       STR_JHF_C, 1940,  1971,   10,      25,     25,      59,       30,     130,    0.8,    0.5,      13,      3)
 

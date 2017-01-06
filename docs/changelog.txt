@@ -1,3 +1,6 @@
+Version 1.1
+Diesel 130 C added
+
 Version 1.0
 - costs corrected
 - minecarts added
