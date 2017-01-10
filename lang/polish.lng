@@ -47,6 +47,7 @@ STR_MM_B                        : Maffei Munchen Bn2 {STRING}
 STR_OAK_BT                      : Orenstein & Koppel Bn2t {STRING}
 STR_SM_CT                       : Sachsische Maschinenfabrik Cn2t {STRING}
 STR_HK_DT                       : Henschel Kassel Dn2t {STRING}
+STR_HK_BT                       :Fablok Chrzanów Bn2t {STRING}
 
 STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       : LKM Babelsberg B {STRING}
@@ -87,3 +88,4 @@ STR_OPENCAR3                    :Węglarka 4-osiowa o konstrukcji stalowej
 
 STR_MINECART1                    :Wagonetka drewniana
 STR_MINECART2                    :Wagonetka metalowa
+STR_LOGTRAILER                   :Wózek do dłużycy
