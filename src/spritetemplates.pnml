@@ -126,3 +126,18 @@ template template_spriteh(y) {
 spriteset(invisible, "src/gfx/empty.png") {
 	[0, 0]
 }
+
+//2horses
+template template_sprite6(y) {
+[8, y, 8, 17, -3,-9]
+[24, y, 18, 14, -11,-7]
+[50, y, 24, 13, -5, -10]
+[82, y, 18, 16, -0,-8]
+[108, y, 8, 17, -3,-9]
+[124, y, 18, 16, -17,-6]
+[150, y, 24, 13, -15,-9]
+[182, y, 18, 14, -6,-8]
+}
+template template_sprite_window_sideview6(y) {
+[150, y, 24, 13, -15,-9]
+}

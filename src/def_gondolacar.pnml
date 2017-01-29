@@ -45,9 +45,9 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/Opencar1.pnml"
-CAR_OPEN(Opencar1,      STR_OPENCAR1, 10,       1780,  1926,      6,     15,      4,      3)
+CAR_OPEN(Opencar1,      STR_OPENCAR1, 8,       1780,  1926,      6,     15,      3,      3)
 #include "graphics/Opencar2.pnml"
-CAR_OPEN(Opencar2,      STR_OPENCAR2, 15,       1886,  1946,      10,     20,      5,      4)
+CAR_OPEN(Opencar2,      STR_OPENCAR2, 12,       1886,  1946,      10,     20,     4,      4)
 #include "graphics/Opencar3.pnml"
-CAR_OPEN(Opencar3,      STR_OPENCAR3, 20,       1931,  1976,      15,    30,      7,      5)
+CAR_OPEN(Opencar3,      STR_OPENCAR3, 15,       1931,  1976,      15,    30,      5,      5)
 

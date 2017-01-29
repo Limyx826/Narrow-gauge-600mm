@@ -24,6 +24,11 @@ return animated_##hname##_switch;  \
 
 ONEHORSE_ANIMATION_SWITCHES_DEFINITION(onehorse, "src/graphics/horse4bgait_harness.png")
 
+switch (FEAT_TRAINS, SELF, switch_onehorse_start_stop, (count_veh_id(OneHorse)>1) ) {
+	0: return CB_RESULT_NO_TEXT;
+	return string(STR_SINGLE_HORSE);
+}
+
 item(FEAT_TRAINS, OneHorse) { 
 	property { 
 	name:			   	string(STR_1_HORSE); 
@@ -60,8 +65,109 @@ item(FEAT_TRAINS, OneHorse) {
 	default:	    	velocity_onehorse_switch;  
 	purchase:	   	spriteset_onehorse_purchase;  
 	sound_effect: SOUND_HORSE;
+        start_stop:             switch_onehorse_start_stop;   
     }  
 }
 
 
+spriteset(spriteset_twohorses_purchase, "src/graphics/2horse_walk.png") { template_sprite_window_sideview6(8) }
+
+spriteset(twohorse_walkstop_graphic, "src/graphics/2horse_walk.png") { template_sprite6(8) }
+spriteset(twohorse_walk0_graphic, "src/graphics/2horse_walk.png") { template_sprite6(33) }
+spriteset(twohorse_walk1_graphic, "src/graphics/2horse_walk.png") { template_sprite6(58) }
+spriteset(twohorse_walk2_graphic, "src/graphics/2horse_walk.png") { template_sprite6(83) }
+spriteset(twohorse_walk3_graphic, "src/graphics/2horse_walk.png") { template_sprite6(108) }
+
+spriteset(twohorse_rc_walkstop_graphic, "src/graphics/2horse_walk_rc.png") { template_sprite6(8) }
+spriteset(twohorse_rc_walk0_graphic, "src/graphics/2horse_walk_rc.png") { template_sprite6(33) }
+spriteset(twohorse_rc_walk1_graphic, "src/graphics/2horse_walk_rc.png") { template_sprite6(58) }
+spriteset(twohorse_rc_walk2_graphic, "src/graphics/2horse_walk_rc.png") { template_sprite6(83) }
+spriteset(twohorse_rc_walk3_graphic, "src/graphics/2horse_walk_rc.png") { template_sprite6(108) }
+
+spriteset(twohorse_rb_walkstop_graphic, "src/graphics/2horse_walk_rb.png") { template_sprite6(8) }
+spriteset(twohorse_rb_walk0_graphic, "src/graphics/2horse_walk_rb.png") { template_sprite6(33) }
+spriteset(twohorse_rb_walk1_graphic, "src/graphics/2horse_walk_rb.png") { template_sprite6(58) }
+spriteset(twohorse_rb_walk2_graphic, "src/graphics/2horse_walk_rb.png") { template_sprite6(83) }
+spriteset(twohorse_rb_walk3_graphic, "src/graphics/2horse_walk_rb.png") { template_sprite6(108) }
+
+switch(FEAT_TRAINS, SELF, animated_horsewalk_graphic_switch, motion_counter % 4) { 
+0 : return twohorse_walk0_graphic;
+1 : return twohorse_walk1_graphic;
+2 : return twohorse_walk2_graphic;
+3 : return twohorse_walk3_graphic;
+return CB_FAILED;
+}
+switch(FEAT_TRAINS, SELF, velocity_horsewalk_graphic_switch, current_speed) { 
+0..1 : return twohorse_walkstop_graphic;
+return animated_horsewalk_graphic_switch;
+}
+
+switch(FEAT_TRAINS, SELF, animated_horsewalk_rc_graphic_switch, motion_counter % 4) { 
+0 : return twohorse_rc_walk0_graphic;
+1 : return twohorse_rc_walk1_graphic;
+2 : return twohorse_rc_walk2_graphic;
+3 : return twohorse_rc_walk3_graphic;
+return CB_FAILED;
+}
+switch(FEAT_TRAINS, SELF, velocity_horsewalk_rc_graphic_switch, current_speed) { 
+0..1 : return twohorse_rc_walkstop_graphic;
+return animated_horsewalk_rc_graphic_switch;
+}
+
+switch(FEAT_TRAINS, SELF, animated_horsewalk_rb_graphic_switch, motion_counter % 4) { 
+0 : return twohorse_rb_walk0_graphic;
+1 : return twohorse_rb_walk1_graphic;
+2 : return twohorse_rb_walk2_graphic;
+3 : return twohorse_rb_walk3_graphic;
+return CB_FAILED;
+}
+switch(FEAT_TRAINS, SELF, velocity_horsewalk_rb_graphic_switch, current_speed) { 
+0..1 : return twohorse_rb_walkstop_graphic;
+return animated_horsewalk_rb_graphic_switch;
+}
+
+random_switch(FEAT_TRAINS, SELF, switch_randomize_horsepair_graphics) {
+    3: return velocity_horsewalk_rb_graphic_switch;
+    2: return velocity_horsewalk_rc_graphic_switch;
+    1: return velocity_horsewalk_graphic_switch;
+}
+
+item(FEAT_TRAINS, TwoHorses) { 
+	property { 
+	name:			   	string(STR_2_HORSE); 
+	climates_available:	 	PKP_CLIMATES; 
+	introduction_date:		date(1700, 1, 1);	    
+	model_life:     		255;
+	vehicle_life:		   	20; 
+	retire_early:			0; 
+	reliability_decay:	    	5; 
+	loading_speed:		  	5; 
+	cost_factor:		    	10;   
+	refit_cost:   			0;
+	running_cost_factor:		2 * STAFF_RUNNING_COST; 
+	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
+	speed:			  	8 km/h; 
+	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,ROADVEH_FLAG_NO_BREAKDOWN_SMOKE); 
+	cargo_age_period:	 	STANDARD_COMFORT; 
+	cargo_capacity:		 	0; 
+	power:			  	20 hp; 
+	tractive_effort_coefficient:    1; 
+	air_drag_coefficient:	   	0.9; 
+	running_cost_base:	   	RUNNING_COST_ELECTRIC; 
+        track_type:                     NG60; 
+        ai_engine_rank:                 0; 
+        engine_class:                   ENGINE_CLASS_STEAM; 
+	weight:			 	1; 
+	length:      	    		5; 
+        extra_weight_per_wagon:         0; 
+	visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); 
+        bitmask_vehicle_info:           0; 
+    } 
+
+    graphics { 
+	default:	    	velocity_horsewalk_graphic_switch;  
+	purchase:	   	spriteset_twohorses_purchase;  
+	sound_effect: SOUND_HORSE;
+    }  
+}
 

@@ -10,8 +10,8 @@ grf {
 	grfid: "MC\02\11";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 11;
-	min_compatible_version: 11;
+	version: 13;
+	min_compatible_version: 13;
     param {
         param_purchase_cost {
             type:   int;
@@ -89,8 +89,9 @@ basecost {
     PR_RUNNING_TRAIN_STEAM: param_running_cost - 2;
     PR_RUNNING_TRAIN_DIESEL: param_running_cost - 2;
     PR_RUNNING_TRAIN_ELECTRIC: param_running_cost - 2;
-    PR_BUILD_RAIL: param_build_cost - 5;
-    PR_MAINTENANCE_RAIL: param_infra_cost - 2;
+//    PR_BUILD_RAIL: param_build_cost - 5;
+//    PR_MAINTENANCE_RAIL: param_infra_cost - 2;
+//    PR_BUILD_DEPOT_TRAIN: - 4;
 }
 /*
 basecost {

@@ -25,11 +25,11 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       powered_railtype_list: ["NG60"];
       curve_speed_multiplier: 100;
       station_graphics: RAILTYPE_STATION_NORMAL;
-      construction_cost: 5;
+      construction_cost: 2;
       maintenance_cost: 1;
-      speed_limit: 0;      
+      speed_limit: 40;      
       acceleration_model: ACC_MODEL_RAIL;
-      map_colour: 52;
+      map_colour: 16;
       sort_order: 252;
       alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();

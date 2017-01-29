@@ -55,6 +55,7 @@ STR_LKM_B			: LKM Babelsberg B {STRING}
 STR_1_HORSE			: One horse, single harness
 STR_2_HORSE			: Two horses, multiple harness
 STR_FIRST_ONLY			: Must be attached at the begining of the train
+STR_SINGLE_HORSE		: Only one single harness horse can be attached to the train
 
 STR_PASS2			: Passenger car, 2 axle
 STR_PASS4			: Passenger car, 4 axle

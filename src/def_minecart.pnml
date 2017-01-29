@@ -12,6 +12,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	reliability_decay:	    	20; \
 	loading_speed:		  	10; \
 	cost_factor:		    	v_cost;      \
+        running_cost_factor:		0;  \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
@@ -45,5 +46,5 @@ item(FEAT_TRAINS, Wagon_Name) { \
 MINECART(Minecart1,  STR_MINECART1,   4,      1700,  1866,      3,     9,      1,      3)
 
 #include "graphics/Minecart2.pnml"
-MINECART(Minecart2,  STR_MINECART2,   5,      1850,  2000,       6,     15,      2,      3)
+MINECART(Minecart2,  STR_MINECART2,   6,      1850,  2000,       6,     15,      2,      3)
 

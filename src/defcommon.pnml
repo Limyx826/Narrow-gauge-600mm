@@ -18,10 +18,10 @@ railtypetable {
 #define STAFF_RUNNING_COST       10
 
 #define DIESEL_RUNNING_COST(staff, power, mass, vmax) \
-min(staff * STAFF_RUNNING_COST + (((mass) * ((power * 30) + 50 + (vmax) * (vmax)) * 10) >> 15), 255);
+min(1 + staff * STAFF_RUNNING_COST + (((mass) * ((power * 30) + 50 + (vmax) * (vmax)) * 10) >> 15), 255);
 
 #define STEAM_RUNNING_COST(staff, power, mass, vmax) \
-min(staff * STAFF_RUNNING_COST + (((mass) * ((power * 40) + 80 + (vmax) * (vmax)) * 10) >> 15), 255);
+min(1 + staff * STAFF_RUNNING_COST + (((mass) * ((power * 40) + 80 + (vmax) * (vmax)) * 10) >> 15), 255);
 
 cargotable {
     PASS, COAL, MAIL, OIL_, LVST, GOOD, GRAI, WOOD, IORE, STEL, VALU, PAPR, WHEA, FOOD, GOLD, RUBR,
