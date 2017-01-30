@@ -55,6 +55,7 @@ STR_LKM_B                       : LKM Babelsberg B {STRING}
 STR_1_HORSE                     :Jeden koń, pojedynczy zaprzęg
 STR_2_HORSE                     :Dwa konie, możliwość wielokrotnego zaprzęgu
 STR_FIRST_ONLY                  :Może być tylko na początku składu
+STR_SINGLE_HORSE                :Tylko jeden koń pojedynczego zaprzęgu może ciągnąć skład
 
 STR_PASS2                       :Wagon osobowy, 2-osiowy
 STR_PASS4                       :Wagon osobowy, 4-osiowy
