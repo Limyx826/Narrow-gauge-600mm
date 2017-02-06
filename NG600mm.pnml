@@ -29,6 +29,7 @@
 #include "src/def_tankcar.pnml"
 #include "src/def_tankcarspec.pnml"
 #include "src/def_flatcar.pnml"
+#include "src/logtrailers.pnml"
 #include "src/def_gondolacar.pnml"
 #include "src/def_minecart.pnml"
 

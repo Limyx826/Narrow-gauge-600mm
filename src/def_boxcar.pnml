@@ -1,6 +1,9 @@
 //boxcars
 
 #define CAR_BOX(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
+switch(FEAT_TRAINS, SELF, capacity_##Wagon_Name##_switch, cargo_subtype) { \
+  return min((c_capacity * 8 / cargo_unit_weight), (4 * v_mass)); \
+} \
 item(FEAT_TRAINS, Wagon_Name) { \
 	property { \
 	name:			   	string(STR_W_NAME); \
@@ -40,6 +43,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	purchase:	   	spriteset_##Wagon_Name##_purchase;  \
 	cargo_subtype_text: 	switch_car_livery_subtype_text;  \
 	colour_mapping:         switch_livery_subtype_car; \
+	cargo_capacity:		capacity_##Wagon_Name##_switch; \
     }  \
 }
 

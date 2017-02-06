@@ -1,0 +1,45 @@
+//flatcars for wood logs
+
+#include "graphics/Woodtrailers.pnml"
+
+
+item(FEAT_TRAINS, Woodtrailers) { 
+	property { 
+	name:			   	string(STR_LOGTRAILER); 
+	climates_available:	 	PKP_CLIMATES; 
+	introduction_date:		date(1855, 1, 1);	    
+	model_life:     param_keep_old_vehs == 0 ? 140 :  VEHICLE_NEVER_EXPIRES; 
+	vehicle_life:		   	20; 
+	retire_early:			0; 
+	reliability_decay:	    	20; 
+	loading_speed:		  	7; 
+	cost_factor:		    	9;      
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 14, 15) 
+	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
+	speed:			  	15 km/h; 
+	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); 
+	cargo_age_period:	 	STANDARD_COMFORT; 
+	cargo_capacity:		 	12; 
+	cargo_allow_refit:		[WOOD]; 
+	default_cargo_type:		WOOD; 
+	power:			  	0; 
+	running_cost_base:	   	RUNNING_COST_STEAM; 
+        track_type:                     NG60; 
+        ai_engine_rank:                 0; 
+        engine_class:                   ENGINE_CLASS_STEAM; 
+	weight:			 	2; 
+	length:      	    		5; 
+        extra_weight_per_wagon:         0; 
+        visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); 
+        bitmask_vehicle_info:           0; 
+    } 
+
+    graphics { 
+	default:	    	sgroup_Woodtrailers_wood;  
+	purchase:	   	spriteset_Woodtrailers_purchase;  
+	cargo_subtype_text: 	switch_car_livery_subtype_text;  
+	colour_mapping:         switch_livery_subtype_mapping_cargo; 
+    }  
+}
+
+

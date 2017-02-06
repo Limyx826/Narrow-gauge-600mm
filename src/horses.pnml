@@ -165,7 +165,7 @@ item(FEAT_TRAINS, TwoHorses) {
     } 
 
     graphics { 
-	default:	    	velocity_horsewalk_graphic_switch;  
+	default:	    	switch_randomize_horsepair_graphics;  
 	purchase:	   	spriteset_twohorses_purchase;  
 	sound_effect: SOUND_HORSE;
     }  

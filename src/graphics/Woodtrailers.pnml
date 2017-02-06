@@ -1,0 +1,19 @@
+
+
+spriteset(spriteset_Woodtrailers_purchase, "src/graphics/industrial_tram_wagons_3.png")         
+{ tmpl_sprite_purchase5mirror(380) }
+
+spriteset(ss_Woodtrailers_empty, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(380) }
+
+
+
+spriteset(ss_Woodtrailers_wood2, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(400) }
+
+spriteset(ss_Woodtrailers_wood, "src/graphics/industrial_tram_wagons_3.png")                  { tmpl_sprite_train_block5mirror(420) }
+
+
+spritegroup sgroup_Woodtrailers_wood {
+    loaded:     [ss_Woodtrailers_empty, ss_Woodtrailers_wood2, ss_Woodtrailers_wood];
+    loading:    [ss_Woodtrailers_empty, ss_Woodtrailers_wood2, ss_Woodtrailers_wood];
+}
+
