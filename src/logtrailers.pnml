@@ -27,7 +27,7 @@ item(FEAT_TRAINS, Woodtrailers) {
         track_type:                     NG60; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_STEAM; 
-	weight:			 	2; 
+	weight:			 	4; 
 	length:      	    		5; 
         extra_weight_per_wagon:         0; 
         visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); 

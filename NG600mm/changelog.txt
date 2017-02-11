@@ -1,3 +1,7 @@
+Version 1.6 version number corrected 
+
+Version 1.5 tweaked availability dates, box capacity depend on cargo 
+
 Version 1.4 log trailer added, capacity and weight corrected
 
 Version 1.3

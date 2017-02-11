@@ -2,7 +2,7 @@
 
 #define CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate, v_cost, v_vmax, v_mass, v_length) \
 switch(FEAT_TRAINS, SELF, capacity_##Wagon_Name##_switch, cargo_subtype) { \
-  return min((c_capacity * 8 / cargo_unit_weight), (5 * v_mass)); \
+  return min((c_capacity * 16 / cargo_unit_weight), (5 * v_mass)); \
 } \
 item(FEAT_TRAINS, Wagon_Name) { \
 	property { \
