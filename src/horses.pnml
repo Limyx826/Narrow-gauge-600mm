@@ -132,6 +132,11 @@ random_switch(FEAT_TRAINS, SELF, switch_randomize_horsepair_graphics) {
     1: return velocity_horsewalk_graphic_switch;
 }
 
+switch(FEAT_TRAINS, SELF, horse_sound_switch, (extra_callback_info1 & 0xFF)) { 
+SOUND_EVENT_BREAKDOWN : return SOUND_HORSE;
+return CB_RESULT_NO_SOUND;
+}
+
 item(FEAT_TRAINS, TwoHorses) { 
 	property { 
 	name:			   	string(STR_2_HORSE); 
@@ -167,7 +172,7 @@ item(FEAT_TRAINS, TwoHorses) {
     graphics { 
 	default:	    	switch_randomize_horsepair_graphics;  
 	purchase:	   	spriteset_twohorses_purchase;  
-	sound_effect: SOUND_HORSE;
+	sound_effect: horse_sound_switch;
     }  
 }
 

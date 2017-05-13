@@ -20,10 +20,14 @@
 #include "src/railsprite.pnml"
 #include "src/railtrack.pnml"
 
+/* locomotives */
+#include "src/horses.pnml"
 #include "src/def_steam.pnml"
 #include "src/def_diesel.pnml"
-#include "src/def_passenger.pnml"
 #include "src/passmailmotor.pnml"
+/* cars */
+#include "src/def_passenger.pnml"
+#include "src/passmailcar.pnml"
 #include "src/def_boxcar.pnml"
 #include "src/def_stockcar.pnml"
 #include "src/def_tankcar.pnml"
@@ -33,10 +37,10 @@
 #include "src/def_gondolacar.pnml"
 #include "src/def_minecart.pnml"
 
-#include "src/horses.pnml"
 
-/* locomotives */
 
-//#include "src/steam2.pnml"
+
+
+
 
 

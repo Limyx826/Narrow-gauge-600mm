@@ -1,4 +1,4 @@
-//passenger/mail wagon with optional motorization
+//passenger/mail motorized wagon 
 
 
 switch (FEAT_TRAINS, SELF, switch_livery_subtype_passmailcar, cargo_subtype)
@@ -6,74 +6,34 @@ switch (FEAT_TRAINS, SELF, switch_livery_subtype_passmailcar, cargo_subtype)
   0: return switch_1cc_recolour; 
   1: return switch_brown_recolour; //KHAKI1ccBROWN2cc
   2: return switch_green_recolour; //GRAY1ccGREEN2cc
-  3: return switch_1cc_recolour; 
-  4: return switch_brown_recolour;
-  5: return switch_green_recolour;
      return CB_FAILED;
 }  
 
-switch (FEAT_TRAINS, SELF, switch_passmailcar_livery_subtype_text, cargo_subtype)
+switch (FEAT_TRAINS, SELF, switch_passmailmotor_livery_subtype_text, cargo_subtype)
 {
-  0: return string(STR_LIVERY_Q2CC);
-  1: return string(STR_LIVERY_BROWN);
-  2: return string(STR_LIVERY_GREEN);
-  3: return string(STR_MOTORCAR,string(STR_LIVERY_Q2CC));
-  4: return string(STR_MOTORCAR,string(STR_LIVERY_BROWN));
-  5: return string(STR_MOTORCAR,string(STR_LIVERY_GREEN));
+  0: return string(STR_MOTORCAR,string(STR_LIVERY_Q2CC));
+  1: return string(STR_MOTORCAR,string(STR_LIVERY_BROWN));
+  2: return string(STR_MOTORCAR,string(STR_LIVERY_GREEN));
      return CB_RESULT_NO_TEXT;
 }  
 
-switch (FEAT_TRAINS, SELF, switch_passmailcar_power, (cargo_subtype>2))
-{
-  0: return 0;
-     return 25;
-}  
-
-switch (FEAT_TRAINS, SELF, switch_passmailcar_running_costs, (cargo_subtype>2))
-{
-  0: return DIESEL_RUNNING_COST(1, 0, 10, 40)
-     return DIESEL_RUNNING_COST(2, 25, 10, 40)
-}  
 
 switch (FEAT_TRAINS, SELF, switch_high_diesel_smoke_effect, STORE_TEMP(create_effect(EFFECT_SPRITE_DIESEL, -3, 0, 7), 0x100) 
 ) {
 return 1; 
 }
 
-switch (FEAT_TRAINS, SELF, switch_PassMailMotorCar_visual_effect, (cargo_subtype>2))
-{
-  0: return CB_FAILED;
-  1:  return switch_high_diesel_smoke_effect;
-  return CB_FAILED;
-}  
-
-#define REFIT_INCOME_MOTORCAR 15
-#define REFIT_COST_MOTORCAR   30
-
-switch(FEAT_TRAINS, SELF, switch_passmailmotor_refit_cost, (var[0x10,8,0xFF]>2)) {
-    0: return 0 | CB_RESULT_AUTOREFIT;
-    1: return 1*REFIT_COST_MOTORCAR;
-    return 0 | CB_RESULT_AUTOREFIT;
-}
 
 
 spriteset(spriteset_PassMailMotorCar_purchase, "src/graphics/passenger_wagons_4.png")         
-{ tmpl_sprite_purchase3(20) }
-
-spriteset(spriteset_PassMailCar_graphic, "src/graphics/passenger_wagons_4.png")                  { tmpl_sprite_train_block5(20) }
+{ tmpl_sprite_purchase3(40) }
 
 spriteset(spriteset_PassMailMotorCar_graphic, "src/graphics/passenger_wagons_4.png")                  { tmpl_sprite_train_block5(40) }
-
-switch (FEAT_TRAINS, SELF, spriteset_PassMailMotorCar_graphic_switch, cargo_subtype>2)
-{
-  0: return spriteset_PassMailCar_graphic;
-     return spriteset_PassMailMotorCar_graphic;
-} 
 
 
 item(FEAT_TRAINS, PassMailMotorCar) { 
 	property { 
-	name:			   	string(STR_PMMC_NAME); 
+	name:			   	string(STR_MOTORCAR,string(STR_PMMC_NAME)); 
 	climates_available:	 	PKP_CLIMATES; 
 	introduction_date:		date(1935, 1, 1);	    
 	model_life:     param_keep_old_vehs == 0 ? 50 :  VEHICLE_NEVER_EXPIRES; 
@@ -81,9 +41,9 @@ item(FEAT_TRAINS, PassMailMotorCar) {
 	retire_early:			10; 
 	reliability_decay:	    	10; 
 	loading_speed:		  	5; 
-	cost_factor:		    	8;   
+	cost_factor:		    	30;   
 	refit_cost:   			0;
-	running_cost_factor:		DIESEL_RUNNING_COST(1, 0, 10, 40) 
+	running_cost_factor:		DIESEL_RUNNING_COST(2, 25, 10, 40) 
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
 	speed:			  	40 km/h; 
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); 
@@ -104,15 +64,11 @@ item(FEAT_TRAINS, PassMailMotorCar) {
     } 
 
     graphics { 
-	default:	    	spriteset_PassMailMotorCar_graphic_switch;  
+	default:	    	spriteset_PassMailMotorCar_graphic;  
 	purchase:	   	spriteset_PassMailMotorCar_purchase;  
-	create_effect:		switch_PassMailMotorCar_visual_effect; 
+	create_effect:		switch_high_diesel_smoke_effect; 
 	colour_mapping:         switch_livery_subtype_passmailcar; 
-	cargo_subtype_text: 	switch_passmailcar_livery_subtype_text;
-	additional_text:        string(STR_PMMC_DESC);
-        running_cost_factor: 	switch_passmailcar_running_costs;
-	refit_cost:             switch_passmailmotor_refit_cost;
-	power:			switch_passmailcar_power;	
+	cargo_subtype_text: 	switch_passmailmotor_livery_subtype_text;	
     }  
 }
 

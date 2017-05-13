@@ -10,8 +10,8 @@ grf {
 	grfid: "MC\02\11";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 16;
-	min_compatible_version: 16;
+	version: 17;
+	min_compatible_version: 17;
     param {
         param_purchase_cost {
             type:   int;
