@@ -61,7 +61,6 @@ STR_PASS2                       :Wagon osobowy, 2-osiowy
 STR_PASS4                       :Wagon osobowy, 4-osiowy
 STR_PMMC_NAME                   :Wagon pocztowo/osobowy, 4-osiowy
 STR_PMMC_DESC                   :Możliwość przebudowy na wagon motorowy
-# STR_MOTORCAR			: Motor car, {STRING}
 
 STR_BOXCAR1                     :Kryty 2-osiowy
 STR_BOXCAR2                     :Kryty 4-osiowy o konstrukcji drewnianej

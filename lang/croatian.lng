@@ -63,7 +63,6 @@ STR_PASS2                       :Putnički vagon, 2-osovinski
 STR_PASS4                       :Putnički vagon, 4-osovinski
 STR_PMMC_NAME                   :Poštanski/putnički vagon, 4-osovinski
 STR_PMMC_DESC                   :Može se remontirati u motorizirani vagon
-# STR_MOTORCAR			: Motor car, {STRING}
 
 STR_BOXCAR1                     :Zatvoreni vagon, 2-osovinski
 STR_BOXCAR2                     :Zatvoreni vagon, 4-osovinski
