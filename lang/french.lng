@@ -1,0 +1,92 @@
+##grflangid 0x03
+##plural 2
+##gender f m m2
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Voie étroite 600mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Inspiré du HEQS, un set trains à voie étroite 600{NBSP}mm génériques, produits en Allemagne et utilisés dans de nombreux pays.{} Voie étroite 600{NBSP}mm incluse.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphismes), McZapkie, TadeuszD (programmation NML){}Licence{NBSP}: GPL v2
+
+STR_PARAM_NAME_RESERVED         :Réservé pour plus tard
+STR_PARAM_DESC_RESERVED         :Espace réservé...
+STR_PARAM_NAME_PURCHASE_COST    :Modificateur du prix d'achat
+STR_PARAM_DESC_PURCHASE_COST    :Ce paramètre change le prix d'achat des trains de ce set.
+STR_PARAM_NAME_RUNNING_COST     :Modificateur du coût d'entretien
+STR_PARAM_DESC_RUNNING_COST     :Ce paramètre change le coût d'entretien des trains de ce set.
+STR_PARAM_NAME_BUILD_COST     :Modificateur du prix de construction
+STR_PARAM_DESC_BUILD_COST     :Ce paramètre change le prix de construction des voies
+STR_PARAM_NAME_INFRA_COST     :Modificateur du coût de l'infrastrucutre
+STR_PARAM_DESC_INFRA_COST     :Ce paramètre change le coût de maintenance des infrastructures
+
+STR_PARAM_COST_H                :Moitié
+STR_PARAM_COST_N                :Normal
+STR_PARAM_COST_D                :Double
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Conserver les vieux trains dans la liste d'achat
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Ce paramètre empêche les vieux trains de ce set de disparaître de la liste d'achat. Pour empêcher tous les véhicules de disparaître, activer "Les véhicules n'expirent jamais" dans les paramètres du jeu.
+
+STR_NG60_NAME                   :Voie étroite 600{NBSP}mm
+STR_NG60_TOOLBAR                :Voie étroite 600{NBSP}mm
+STR_NG60_MENU                   :Chemin de fer local, voie étroite 600{NBSP}mm
+STR_NG60_BUILD_CAPTION          :Nouveau matériel pour voie étroite 600{NBSP}mm
+STR_NG60_AUTOREPLACE            :Trains à écartement 600{NBSP}mm
+STR_NG60_NEW_ENGINE             :Locomotive pour voie étroite 600{NBSP}mm
+
+
+STR_LIVERY_Q2CC         :- livrée quasi-2CC (par défaut)
+STR_LIVERY_BROWN        :- livrée brun-olive
+STR_LIVERY_GREEN        :- livrée vert-gris
+STR_LIVERY_OLIVE        :- livrée olive-rouge (par défaut)
+STR_LIVERY_BLACK        :- livrée noir-rouge
+
+STR_STEAM_LOCO_SUFFIX          :- locomotive à vapeur
+STR_DIESEL_LOCO_SUFFIX          :- locomotive diesel
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
+STR_MOTORCAR                    :Autorail, {STRING}
+
+STR_MM_B                        :Maffei Munchen Bn2 {STRING}
+STR_OAK_BT                      :Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT                       :Sachsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT                       :Henschel Kassel Dn2t {STRING}
+STR_HK_BT                       :Henschel Krenau Bn2t {STRING}
+
+STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
+STR_LKM_B                       :LKM Babelsberg B {STRING}
+
+STR_1_HORSE                     :Cheval harnaché
+STR_2_HORSE                     :Deux chevaux harnachés
+STR_FIRST_ONLY                  :Doit être situé au début du train
+STR_SINGLE_HORSE                :Un seul cheval harnaché peut être attaché au train
+
+STR_PASS2                       :Voiture passagers, 2 essieux
+STR_PASS4                       :Voiture passagers, 4 essieux
+STR_PMMC_NAME                   :Voiture mixte, 4 essieux
+STR_PMMC_DESC                   :Peut être réaménagé en voiture motorisée
+
+STR_BOXCAR1                     :Fourgon, 2 essieux
+STR_BOXCAR2                     :Fourgon, 4 essieux
+STR_BOXCAR3                     :Fourgon, 4 essieux, acier
+
+STR_STOCKCAR1                   :Wagon à bétail, 2 essieux
+STR_STOCKCAR2                   :Wagon à bétail, 4 essieux
+STR_STOCKCAR3                   :Wagon à bétail, 4 essieux, acier
+
+STR_TANKCAR1                    :Wagon-citerne, 4 essieux
+STR_TANKCAR2                    :Wagon-citerne, 4 essieux
+STR_TANKCAR3                    :Wagon-citerne, 4 essieux, acier
+
+STR_TANKCARSPEC1                        :Citerne alimentaire, 2 essieux
+STR_TANKCARSPEC2                        :Citerne alimentaire, 4 essieux
+STR_TANKCARSPEC3                        :Citerne alimentaire, 4 essieux,acier
+
+STR_FLATCAR1                    :Wagon plat, 2 essieux
+STR_FLATCAR2                    :Wagon plat, 4 essieux
+STR_FLATCAR3                    : Wagon plat, 4 essieux, acier
+
+STR_OPENCAR1                    :Wagon-tombereau, 2 essieux
+STR_OPENCAR2                    :Wagon-tombereau, 4 essieux
+STR_OPENCAR3                    : Wagon-tombereau, 4 essieux, acier
+
+STR_MINECART1                    :Berline de mine en bois
+STR_MINECART2                    :Berline de mine en métal
+STR_LOGTRAILER                   :Wagon grumier
