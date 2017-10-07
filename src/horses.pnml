@@ -29,6 +29,11 @@ switch (FEAT_TRAINS, SELF, switch_onehorse_start_stop, (count_veh_id(OneHorse)>1
 	return string(STR_SINGLE_HORSE);
 }
 
+switch(FEAT_TRAINS, SELF, horse_sound_switch, (extra_callback_info1 & 0xFF)) { 
+SOUND_EVENT_BREAKDOWN : return SOUND_HORSE;
+return CB_RESULT_NO_SOUND;
+}
+
 item(FEAT_TRAINS, OneHorse) { 
 	property { 
 	name:			   	string(STR_1_HORSE); 
@@ -64,7 +69,7 @@ item(FEAT_TRAINS, OneHorse) {
     graphics { 
 	default:	    	velocity_onehorse_switch;  
 	purchase:	   	spriteset_onehorse_purchase;  
-	sound_effect: SOUND_HORSE;
+	sound_effect: horse_sound_switch;
         start_stop:             switch_onehorse_start_stop;   
     }  
 }
@@ -132,10 +137,6 @@ random_switch(FEAT_TRAINS, SELF, switch_randomize_horsepair_graphics) {
     1: return velocity_horsewalk_graphic_switch;
 }
 
-switch(FEAT_TRAINS, SELF, horse_sound_switch, (extra_callback_info1 & 0xFF)) { 
-SOUND_EVENT_BREAKDOWN : return SOUND_HORSE;
-return CB_RESULT_NO_SOUND;
-}
 
 item(FEAT_TRAINS, TwoHorses) { 
 	property { 

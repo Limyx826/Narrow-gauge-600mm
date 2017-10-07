@@ -3,7 +3,7 @@
 // (c) Tadeusz Domagalski, GPL 2.0
 
 // Sprites for recolouring cargoes in open wagons/trucks
-#define NUM_CARGO_COLOURS   14
+#define NUM_CARGO_COLOURS   18
 // cargo colors:
 #define CARGO_PALETTE_0_COAL \
         0xAA: 0x01;\
@@ -123,6 +123,39 @@
         0xAE: 0x42;\
         0xAF: 0xD1;
 
+#define CARGO_PALETTE_E_MNO2 \
+        0xAA: 0x02;\
+        0xAB: 0x28;\
+        0xAC: 0x46;\
+        0xAD: 0x80;\
+        0xAE: 0x10;\
+        0xAF: 0x11;
+
+#define CARGO_PALETTE_F_COKE \
+        0xAA: 0x01;\
+        0xAB: 0x02;\
+        0xAC: 0x04;\
+        0xAD: 0x05;\
+        0xAE: 0x10;\
+        0xAF: 0x11;
+
+#define CARGO_PALETTE_10_SLAG \
+        0xAA: 0x18;\
+        0xAB: 0x01;\
+        0xAC: 0xB3;\
+        0xAD: 0x35;\
+        0xAE: 0x36;\
+        0xAF: 0x38;
+
+#define CARGO_PALETTE_11_NITR \
+        0xAA: 0x16;\
+        0xAB: 0x0B;\
+        0xAC: 0x0C;\
+        0xAD: 0x17;\
+        0xAE: 0x0D;\
+        0xAF: 0x0E;
+
+
 #define NUM_CC_COLOURS  16
 /* pseudo2cc palettes */
 #define COMPANY_PALETTE_BLUE1ccWHITE2cc  		\
@@ -210,33 +243,40 @@ replace(palette_cargo_cc){
     RECOLOUR_SPRITE_GROUP(B_SGBT)
     RECOLOUR_SPRITE_GROUP(C_SULP)
     RECOLOUR_SPRITE_GROUP(D_UNKN)
+    RECOLOUR_SPRITE_GROUP(E_MNO2)
+    RECOLOUR_SPRITE_GROUP(F_COKE)
+    RECOLOUR_SPRITE_GROUP(10_SLAG)
+    RECOLOUR_SPRITE_GROUP(11_NITR)
     }
 
 #define COMPANY_RECOLOUR(cc1) \
 switch(FEAT_TRAINS, SELF, switch_bulk_##cc1##_recolour, cargo_type_in_veh) { \
-    COAL: return palette_cargo_cc + 0*NUM_CC_COLOURS + cc1; \
-    GRAI: return palette_cargo_cc + 1*NUM_CC_COLOURS + cc1; \
-    WHEA: return palette_cargo_cc + 1*NUM_CC_COLOURS + cc1; \
-    MAIZ: return palette_cargo_cc + 1*NUM_CC_COLOURS + cc1; \
-    IORE: return palette_cargo_cc + 2*NUM_CC_COLOURS + cc1; \
-    CORE: return palette_cargo_cc + 3*NUM_CC_COLOURS + cc1; \
-    AORE: return palette_cargo_cc + 4*NUM_CC_COLOURS + cc1; \
-    CLAY: return palette_cargo_cc + 5*NUM_CC_COLOURS + cc1; \
-    FERT: return palette_cargo_cc + 5*NUM_CC_COLOURS + cc1;  \
-    GRVL: return palette_cargo_cc + 6*NUM_CC_COLOURS + cc1; \
-    LIME: return palette_cargo_cc + 7*NUM_CC_COLOURS + cc1; \
-    OLSD: return palette_cargo_cc + 8*NUM_CC_COLOURS + cc1; \
-    POTA: return palette_cargo_cc + 7*NUM_CC_COLOURS + cc1;  \
-    SAND: return palette_cargo_cc + 9*NUM_CC_COLOURS + cc1; \
-    SCMT: return palette_cargo_cc + 10*NUM_CC_COLOURS + cc1; \
-    SGBT: return palette_cargo_cc + 11*NUM_CC_COLOURS + cc1; \
-    SGCN: return palette_cargo_cc + 10*NUM_CC_COLOURS + cc1;  \
-    SULP: return palette_cargo_cc + 12*NUM_CC_COLOURS + cc1; \
-    GOOD: return palette_cargo_cc + 6*NUM_CC_COLOURS + cc1;  \
-    VEHI: return palette_cargo_cc + 9*NUM_CC_COLOURS + cc1;  \
-    ENSP: return palette_cargo_cc + 9*NUM_CC_COLOURS + cc1;  \
-    FMSP: return palette_cargo_cc + 1*NUM_CC_COLOURS + cc1;  \
-    MNSP: return palette_cargo_cc + 5*NUM_CC_COLOURS + cc1;  \
+    COAL: return palette_cargo_cc + 0*NUM_CC_COLOURS + company_colour1; \
+    GRAI: return palette_cargo_cc + 1*NUM_CC_COLOURS + company_colour1;\
+    WHEA: return palette_cargo_cc + 1*NUM_CC_COLOURS + company_colour1; \
+    MAIZ: return palette_cargo_cc + 1*NUM_CC_COLOURS + company_colour1; \
+    IORE: return palette_cargo_cc + 2*NUM_CC_COLOURS + company_colour1;\
+    CORE: return palette_cargo_cc + 3*NUM_CC_COLOURS + company_colour1;\
+    AORE: return palette_cargo_cc + 4*NUM_CC_COLOURS + company_colour1;\
+    CLAY: return palette_cargo_cc + 5*NUM_CC_COLOURS + company_colour1;\
+    FERT: return palette_cargo_cc + 5*NUM_CC_COLOURS + company_colour1; \
+    GRVL: return palette_cargo_cc + 6*NUM_CC_COLOURS + company_colour1;\
+    LIME: return palette_cargo_cc + 7*NUM_CC_COLOURS + company_colour1;\
+    OLSD: return palette_cargo_cc + 8*NUM_CC_COLOURS + company_colour1;\
+    POTA: return palette_cargo_cc + 7*NUM_CC_COLOURS + company_colour1; \
+    SAND: return palette_cargo_cc + 9*NUM_CC_COLOURS + company_colour1;\
+    SCMT: return palette_cargo_cc + 10*NUM_CC_COLOURS + company_colour1;\
+    SGBT: return palette_cargo_cc + 11*NUM_CC_COLOURS + company_colour1;\
+    SGCN: return palette_cargo_cc + 10*NUM_CC_COLOURS + company_colour1; \
+    SULP: return palette_cargo_cc + 12*NUM_CC_COLOURS + company_colour1;\
+    MNO2: return palette_cargo_cc + 14*NUM_CC_COLOURS + company_colour1;\
+    COKE: return palette_cargo_cc + 15*NUM_CC_COLOURS + company_colour1;\
+    SLAG: return palette_cargo_cc + 16*NUM_CC_COLOURS + company_colour1;\
+    NITR: return palette_cargo_cc + 17*NUM_CC_COLOURS + company_colour1;\
+    PHOS: return palette_cargo_cc + 17*NUM_CC_COLOURS + company_colour1; \
+    SASH: return palette_cargo_cc + 7*NUM_CC_COLOURS + company_colour1; \
+    CMNT: return palette_cargo_cc + 6*NUM_CC_COLOURS + company_colour1; \
+    PORE: return palette_cargo_cc + 3*NUM_CC_COLOURS + company_colour1; \
  return palette_cargo_cc + 13*NUM_CC_COLOURS + cc1; \
 }
 

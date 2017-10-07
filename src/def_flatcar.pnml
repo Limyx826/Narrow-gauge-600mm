@@ -39,6 +39,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
         WOOD:                   sgroup_##Wagon_Name##_wood; \
         WDPR:                   sgroup_##Wagon_Name##_wdpr; \
         STEL:                   sgroup_##Wagon_Name##_stel; \
+        IRON:                   sgroup_##Wagon_Name##_stel; \
 	PAPR:			sgroup_##Wagon_Name##_papr; \
 	default:	    	sgroup_##Wagon_Name##_graphic;  \
 	purchase:	   	spriteset_##Wagon_Name##_purchase;  \

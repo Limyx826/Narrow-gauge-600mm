@@ -23,7 +23,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	cargo_capacity:		 	c_capacity; \
 	refittable_cargo_classes:       bitmask(CC_PIECE_GOODS); \
 	non_refittable_cargo_classes:   bitmask(CC_REFRIGERATED,CC_PASSENGERS,CC_LIQUID,CC_OVERSIZED,CC_COVERED,CC_BULK,CC_EXPRESS); \
-	cargo_allow_refit:		[FRUT]; \
+	cargo_allow_refit:		[FRUT,PASS]; \
 	cargo_disallow_refit:		[WOOD,WDPR,PAPR,STEL]; \
 	default_cargo_type:		LVST; \
 	power:			  	0; \

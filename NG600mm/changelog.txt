@@ -1,3 +1,7 @@
+Version 1.9 Cargo recolour compatible with FIRS3
+
+Version 1.8 Riesa steam locomotive added.
+
 Version 1.7 separate railmotor and mail/passenger wagon, fixed horse sound 
 
 Version 1.5 tweaked availability dates, box capacity depend on cargo 

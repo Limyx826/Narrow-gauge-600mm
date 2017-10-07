@@ -53,13 +53,17 @@ STEAM_LOCO(MaffeiB,      STR_MM_B,  1860,  1925,   10,      30,     20,      30,
 
 #include "graphics/DorstfeldBt.pnml"
 STEAM_LOCO(DorstfeldBt, STR_OAK_BT, 1882,  1935,   20,      40,     25,      26,       
- 20,     20,     0.5,    0.8,      7,      3)
+ 20,     20,     0.5,    0.7,      7,      3)
 
 #include "graphics/ChemnitzCt.pnml"
 STEAM_LOCO(ChemnitzCt, STR_SM_CT,   1904,  1945,   20,      40,     20,      40,       
- 20,     70,     0.9,    0.8,      12,      4)
+ 20,     70,     0.9,    0.6,      12,      4)
 
 #include "graphics/KasselDt.pnml"
 STEAM_LOCO(KasselDt, STR_HK_DT,     1926,  1955,   20,      40,     15,      56,       
- 30,     110,     0.9,    0.7,      20,      5)
+ 30,     110,     0.9,    0.6,      20,      5)
+
+#include "graphics/RiesaBt.pnml"
+STEAM_LOCO(RiesaBt, STR_HK_BT,     1940,  1961,   30,      40,     12,      28,       
+ 20,     52,     0.9,    0.7,      11,      4)
 
