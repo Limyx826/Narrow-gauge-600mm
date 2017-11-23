@@ -30,6 +30,10 @@ STR_NG60_BUILD_CAPTION          :Nowy tabor kolei wąskotorowej 600mm
 STR_NG60_AUTOREPLACE            :Tabor wąskotorowy 600mm
 STR_NG60_NEW_ENGINE             :Lokomotywa wąskotorowa 600mm
 
+STR_NG6R_NAME                   :wąski i normalny tor (splot)
+STR_NG6R_TOOLBAR                :splot wąskiego i normalnego toru
+STR_NG6R_MENU                   :Splot toru (wąskiego i normalnego)
+STR_NG6R_BUILD_CAPTION          :Nowy tabor wąskotorowy lub normalnotorowy
 
 STR_LIVERY_Q2CC         :-malowanie firmowe (default)
 STR_LIVERY_BROWN        :-malowanie brązowo-oliwkowe

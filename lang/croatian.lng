@@ -32,6 +32,10 @@ STR_NG60_BUILD_CAPTION          :Nova 600mm uskotračna vozila
 STR_NG60_AUTOREPLACE            :600mm uskotračna vozila
 STR_NG60_NEW_ENGINE             :Uskotračna 600mm lokomotiva
 
+STR_NG6R_NAME                   :uska i uobičajena (dvostruka širina)
+STR_NG6R_TOOLBAR                :uska i uobičajena širina
+STR_NG6R_MENU                   :Pruga sa dvostrukom širinom (uska+uobičajena)
+STR_NG6R_BUILD_CAPTION          :Nova uskotračna ili obična vozila
 
 STR_LIVERY_Q2CC         :-livreja slična 2CC livreji (početna postavka)
 STR_LIVERY_BROWN        :-smeđe-maslinastozelena livreja
