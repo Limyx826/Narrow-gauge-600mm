@@ -21,8 +21,8 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       build_window_caption: string(STR_NG60_BUILD_CAPTION);
       autoreplace_text: string(STR_NG60_AUTOREPLACE);
       new_engine_text: string(STR_NG60_NEW_ENGINE);
-      compatible_railtype_list: [];
-      powered_railtype_list: ["NG60"];
+      compatible_railtype_list: ["NG6R"];
+      powered_railtype_list: ["NG60", "NG6R"];
       curve_speed_multiplier: 100;
       station_graphics: RAILTYPE_STATION_NORMAL;
       construction_cost: 1 + param_infra_cost;
@@ -31,7 +31,7 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       acceleration_model: ACC_MODEL_RAIL;
       map_colour: 16;
       sort_order: 252;
-      alternative_railtype_list: ["NAAN"];
+//      alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();
     }
     graphics
@@ -49,4 +49,64 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
     }
   }
 }
+
+//dual gauge 600/1435mm
+if (railtype_available("NG6R") || (loading_stage == LOADING_STAGE_RESERVE)) {
+  item (FEAT_RAILTYPES, NG600RAIL)
+  {
+    property
+    {
+      label: "NG6R";
+      introduction_date: date(1883, 1, 1);
+      name: string(STR_NG6R_NAME);
+      toolbar_caption: string(STR_NG6R_TOOLBAR);
+      menu_text: string(STR_NG6R_MENU);
+      build_window_caption: string(STR_NG6R_BUILD_CAPTION);
+      autoreplace_text: string(STR_NG60_AUTOREPLACE);
+      new_engine_text: string(STR_NG60_NEW_ENGINE);
+      compatible_railtype_list: ["NG60", "NAAN", "RAIL", "ELRL"];
+      powered_railtype_list: ["NG6R", "NG60", "NAAN", "RAIL"];
+      curve_speed_multiplier: 100;
+      station_graphics: RAILTYPE_STATION_NORMAL;
+      construction_cost: 5 + param_infra_cost;
+      maintenance_cost: 5;
+      speed_limit: 60 km/h;      
+      acceleration_model: ACC_MODEL_RAIL;
+      map_colour: 16;
+      sort_order: 253;
+//      alternative_railtype_list: ["NAAN"];
+      railtype_flags: bitmask();
+    }
+    graphics
+    {
+      gui: ng600rail_gui;
+      track_overlay: ng600rail_track_overlay;
+      underlay:ng600rail_underlay;
+      tunnels: ng600rail_tunnels;
+//      tunnel_overlay: ng600_tunnels; 
+      bridge_surfaces: ng600rail_bridge_surfaces;
+      level_crossings: ng600rail_level_crossings_open;
+//      signals: switch_signals_type;
+    }
+  }
+}
+
+item (FEAT_RAILTYPES, rt_rail) {
+	property {
+		label                    : "RAIL";
+		compatible_railtype_list : ["NG6R", "ELRL"];
+                powered_railtype_list: ["NG6R", "RAIL", "ELRL"];
+	}
+}
+
+item (FEAT_RAILTYPES, rt_elrl) {
+
+	property {
+		label                    : "ELRL";
+		compatible_railtype_list : ["NG6R", "RAIL"];
+                powered_railtype_list: ["ELRL"];
+	}
+}
+
+
 

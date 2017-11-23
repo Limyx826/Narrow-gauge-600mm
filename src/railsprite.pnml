@@ -210,13 +210,18 @@ spriteset(ng600_depot_snow, IMAGEFILE)
 
 #define IMAGEFILE1  "src/graphics/ng600.png"
 #define IMAGEFILE2  "src/graphics/crossing1.png"
-
 spriteset(ng600_level_crossings_open)
 {
   level_crossings_railway_template(2, 349, IMAGEFILE1)
   level_crossings_1_template(10, 133, IMAGEFILE2)
 }
-
+#undef IMAGEFILE1
+#define IMAGEFILE1  "src/graphics/ng600rail.png"
+spriteset(ng600rail_level_crossings_open)
+{
+  level_crossings_railway_template(2, 349, IMAGEFILE1)
+  level_crossings_1_template(10, 133, IMAGEFILE2)
+}
 #undef IMAGEFILE1
 #undef IMAGEFILE2
 
@@ -230,3 +235,34 @@ spriteset(no_fence, IMAGEFILE)
 }
 
 #undef IMAGEFILE
+
+//double gauge
+#define IMAGEFILE  "src/graphics/ng600rail.png"
+
+spriteset(ng600rail_gui, IMAGEFILE)
+{
+  rail_gui_template(2, 22)
+}
+
+spriteset(ng600rail_track_overlay, IMAGEFILE)
+{
+  rail_track_overlay_template(2, 131)
+}
+
+spriteset(ng600rail_underlay, IMAGEFILE)
+{
+  rail_underlay_template(2, 185)
+}
+
+spriteset(ng600rail_tunnels, IMAGEFILE)
+{
+  rail_tunnels_template(2, 291)
+}
+
+spriteset(ng600rail_bridge_surfaces, IMAGEFILE)
+{
+  rail_bridge_surfaces_template(2, 239)
+}
+
+#undef IMAGEFILE
+

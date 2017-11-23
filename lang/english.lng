@@ -30,6 +30,10 @@ STR_NG60_BUILD_CAPTION   	:New 600mm narrow gauge stock
 STR_NG60_AUTOREPLACE        	:600mm narrow gauge trains
 STR_NG60_NEW_ENGINE           	:600 mm narrow gauge locomotive
 
+STR_NG6R_NAME                 	:narrow and normal (dual gauge)
+STR_NG6R_TOOLBAR             	:narrow and normal gauge
+STR_NG6R_MENU            	:Dual gauge track (narrow+normal)
+STR_NG6R_BUILD_CAPTION   	:New narrow or normal gauge stock
 
 STR_LIVERY_Q2CC     	:-quasi 2CC livery (default)
 STR_LIVERY_BROWN	:-brown-olive livery
