@@ -7,8 +7,6 @@
 STR_GRF_NAME        :Voie étroite 600mm {VERSION}
 STR_GRF_DESCRIPTION :{TITLE} - Inspiré du HEQS, un set trains à voie étroite 600{NBSP}mm génériques, produits en Allemagne et utilisés dans de nombreux pays.{} Voie étroite 600{NBSP}mm incluse.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphismes), McZapkie, TadeuszD (programmation NML){}Licence{NBSP}: GPL v2
 
-STR_PARAM_NAME_RESERVED         :Réservé pour plus tard
-STR_PARAM_DESC_RESERVED         :Espace réservé...
 STR_PARAM_NAME_PURCHASE_COST    :Modificateur du prix d'achat
 STR_PARAM_DESC_PURCHASE_COST    :Ce paramètre change le prix d'achat des trains de ce set.
 STR_PARAM_NAME_RUNNING_COST     :Modificateur du coût d'entretien
@@ -31,6 +29,10 @@ STR_NG60_BUILD_CAPTION          :Nouveau matériel pour voie étroite 600{NBSP}m
 STR_NG60_AUTOREPLACE            :Trains à écartement 600{NBSP}mm
 STR_NG60_NEW_ENGINE             :Locomotive pour voie étroite 600{NBSP}mm
 
+STR_NG6R_NAME                   :étroite ou normal (double écartement)
+STR_NG6R_TOOLBAR                :écartement étroit ou normal
+STR_NG6R_MENU                   :Voie double écartement (étroit+normal)
+STR_NG6R_BUILD_CAPTION          :Nouveau matériel pour voie étroite ou normale
 
 STR_LIVERY_Q2CC         :- livrée quasi-2CC (par défaut)
 STR_LIVERY_BROWN        :- livrée brun-olive
@@ -52,6 +54,7 @@ STR_HK_BT                       :Henschel Krenau Bn2t {STRING}
 
 STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       :LKM Babelsberg B {STRING}
+
 
 STR_1_HORSE                     :Cheval harnaché
 STR_2_HORSE                     :Deux chevaux harnachés

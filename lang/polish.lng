@@ -56,7 +56,7 @@ STR_HK_BT                       :Fablok Chrzanów Bn2t {STRING}
 STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       : LKM Babelsberg B {STRING}
 
-STR_LEW_B			: LEW Hennigsdorf B - lokomotywa akumulatorowa
+STR_LEW_B                       : LEW Hennigsdorf B - lokomotywa akumulatorowa
 
 STR_1_HORSE                     :Jeden koń, pojedynczy zaprzęg
 STR_2_HORSE                     :Dwa konie, możliwość wielokrotnego zaprzęgu
