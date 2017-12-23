@@ -24,6 +24,7 @@
 #include "src/horses.pnml"
 #include "src/def_steam.pnml"
 #include "src/def_diesel.pnml"
+#include "src/batloc.pnml"
 #include "src/passmailmotor.pnml"
 /* cars */
 #include "src/def_passenger.pnml"

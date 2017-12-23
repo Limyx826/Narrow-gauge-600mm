@@ -1,4 +1,4 @@
-Version 2.0 dual gauge track
+Version 2.0 dual gauge track, LEW bsttery loc
 
 Version 1.9 Cargo recolour compatible with FIRS3
 
