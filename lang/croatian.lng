@@ -8,6 +8,8 @@
 STR_GRF_NAME        :Uskotračna pruga 600mm {VERSION}
 STR_GRF_DESCRIPTION :{TITLE} - Inspiriran HEQS-om, set generičkih 600mm uskotračnih vlakova proizvedenih u Njemačkoj i korištenih u mnogim zemljama.{} Jeftina uskotračna 600mm pruga je uključena u set.{}{COPYRIGHT}2016 andythenorth, McZapkie (grafika), McZapkie, TadeuszD (NML kodiranje){}Licenca: GPL v2
 
+STR_PARAM_NAME_FORBID_ATTACH    :Priključi samo vozila iz ovog seta
+STR_PARAM_DESC_FORBID_ATTACH    :Koristite ovu postavku za isključivanje mogućnosti priključivanja vozila standardne širine na uskotračna vozila
 STR_PARAM_NAME_PURCHASE_COST    :Modifikator troškova nabave
 STR_PARAM_DESC_PURCHASE_COST    :Koristite ovu postavku da bi promijenili troškove nabave vlakova iz ovog seta.
 STR_PARAM_NAME_RUNNING_COST     :Modifikator tekućih troškova
@@ -56,6 +58,7 @@ STR_HK_BT                       :Henschel Krenau Bn2t {STRING}
 STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       :LKM Babelsberg B {STRING}
 
+STR_LEW_B                       : LEW Hennigsdorf B lokomotiva na baterije
 
 STR_1_HORSE                     :Jedan konj, jednostruka zaprega
 STR_2_HORSE                     :Dva konja, višestruka zaprega
