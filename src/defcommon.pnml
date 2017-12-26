@@ -43,3 +43,7 @@ switch (FEAT_TRAINS, SELF, SWITCH_2UNITS_START_STOP, num_vehs_in_consist ) {
 	return string(STR_TRAIN_TOO_LONG);
 }
 
+switch(FEAT_TRAINS, SELF, switch_can_attach, ((grfid != str2number("MC\02\11")) && param_disable_attach)) {
+   1: return CB_RESULT_ATTACH_DISALLOW;
+   return CB_RESULT_ATTACH_ALLOW;
+}

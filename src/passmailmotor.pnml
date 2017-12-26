@@ -51,7 +51,7 @@ item(FEAT_TRAINS, PassMailMotorCar) {
 	cargo_capacity:		 	20; 
 	refittable_cargo_classes:      	bitmask(CC_PASSENGERS,CC_MAIL,CC_ARMOURED); 
 	power:			  	30 hp; 
-	tractive_effort_coefficient:    0.5; 
+	tractive_effort_coefficient:    1.0; 
 	running_cost_base:	   	RUNNING_COST_DIESEL; 
         track_type:                     NG60; 
         ai_engine_rank:                 0; 
@@ -68,7 +68,8 @@ item(FEAT_TRAINS, PassMailMotorCar) {
 	purchase:	   	spriteset_PassMailMotorCar_purchase;  
 	create_effect:		switch_high_diesel_smoke_effect; 
 	colour_mapping:         switch_livery_subtype_passmailcar; 
-	cargo_subtype_text: 	switch_passmailmotor_livery_subtype_text;	
+	cargo_subtype_text: 	switch_passmailmotor_livery_subtype_text;
+	can_attach_wagon:	switch_can_attach;	
     }  
 }
 

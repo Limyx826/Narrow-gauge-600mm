@@ -41,6 +41,7 @@ item(FEAT_TRAINS, Loco_Name) { \
 	colour_mapping:         switch_livery_subtype_loco; \
         purchase_cargo_capacity:    return 0; \
         cargo_capacity:             return 0; \
+	can_attach_wagon:	switch_can_attach; \
     }  \
 }
 

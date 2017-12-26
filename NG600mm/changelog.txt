@@ -1,4 +1,6 @@
-Version 2.0 dual gauge track, LEW bsttery loc
+Version 2.0 option to disable coupling with normal gauge vehicles
+
+Version 2.0 dual gauge track, LEW battery loc
 
 Version 1.9 Cargo recolour compatible with FIRS3
 

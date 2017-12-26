@@ -39,6 +39,7 @@ item(FEAT_TRAINS, BatteryLoc) {
     graphics { 
 	default:	    	spriteset_LEW_graphic;  
 	purchase:	   	spriteset_LEW_purchase;  
+	can_attach_wagon:	switch_can_attach;
     }  
 }
 
