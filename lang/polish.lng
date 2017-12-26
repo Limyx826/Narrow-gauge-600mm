@@ -8,6 +8,8 @@
 STR_GRF_NAME        :Wąskotorówki 600mm {VERSION}
 STR_GRF_DESCRIPTION :{TITLE} - Przemysłowe, leśne i lokalne kolejki wąskotorowe o rozstawie szyn 600mm, tabor inspirowany lokomotywami produkcji niemieckiej z zestawu HEQS.{}{COPYRIGHT}2016 andythenorth (HEQS graphics), McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
 
+STR_PARAM_NAME_FORBID_ATTACH    :Łączenie tylko wagonów wąskotorowych
+STR_PARAM_DESC_FORBID_ATTACH    :Włącz tę opcję, aby uniemożliwić podłączanie innych (normalnotorowych) pojazdów do lokomotyw wąskotorowych z tego setu
 STR_PARAM_NAME_PURCHASE_COST    :Cena taboru
 STR_PARAM_DESC_PURCHASE_COST    :Opcja zmiany kosztów zakupu taboru
 STR_PARAM_NAME_RUNNING_COST     :Koszty eksploatacji
