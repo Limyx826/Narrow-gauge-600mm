@@ -1,0 +1,98 @@
+##grflangid 0x02
+##plural 0
+##gender p m w n
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Schmalspur 600mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Inspiriert von HEQS, Set von generischen 600mm-Schmalspurbahnen, gefertigt in Deutschland und eingesetzt in vielen Ländern.{} Kostengünstige 600mm-Schmalspurgleise inklusive.{}{COPYRIGHT}2016 andythenorth, McZapkie (graphics), McZapkie, TadeuszD (NML code){}License: GPL v2
+
+STR_PARAM_NAME_FORBID_ATTACH    :Nur Ankoppeln von Schienenfahrzeugen aus diesem Set
+STR_PARAM_DESC_FORBID_ATTACH    :Aktiviere diese Option, um Schienenfahrzeuge der normalen Spurbreite nicht an Schmalspurlokomotiven ankoppeln zu können.
+STR_PARAM_NAME_PURCHASE_COST    :Anschaffungskosten-Modifikator
+STR_PARAM_DESC_PURCHASE_COST    :Benutze diese Option, um die Anschaffungskosten der Schienenfahrzeuge dieses Sets anzupassen.
+STR_PARAM_NAME_RUNNING_COST     :Betriebskosten-Modifikator
+STR_PARAM_DESC_RUNNING_COST     :Benutze diese Option, um die Betriebskosten der Schienenfahrzeuge dieses Sets anzupassen.
+STR_PARAM_NAME_BUILD_COST     :Baukosten-Modifikator
+STR_PARAM_DESC_BUILD_COST     :Benutze diese Option, um die Baukosten für Gleise anzupassen.
+STR_PARAM_NAME_INFRA_COST     :Unterhaltungskosten-Modifikator für Infrastruktur
+STR_PARAM_DESC_INFRA_COST     :Benutze diese Option, um die Unterhaltskosten der Infrastruktur anzupassen.
+
+STR_PARAM_COST_H                :Halb
+STR_PARAM_COST_N                : Normal
+STR_PARAM_COST_D                :Doppelt
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Schienenfahrzeuge veralten nie
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Erlaube, dass Schienenfahrzeuge nach ihrem Einführungsdatum ewig verfügbar bleiben. Diese Option bezieht sich nur auf die Fahrzeuge in diesem Set. Um Fahrzeuge anderer Sets ewig verfügbar zu machen, benutze die Option "Fahrzeuge veralten nie" in den Einstellungen.
+
+STR_NG60_NAME                   :Normalspur (600mm)
+STR_NG60_TOOLBAR                :Schmalspurgleis (600mm)
+STR_NG60_MENU                   :Schmalspurgleisbau (600mm)
+STR_NG60_BUILD_CAPTION          :Neue Schmalspur-Schienenfahrzeuge
+STR_NG60_AUTOREPLACE            :Schmalspurbahnen (600mm)
+STR_NG60_NEW_ENGINE             :Neue Schmalspurlok (600mm)
+
+STR_NG6R_NAME                   :Schmal- und Normalspur (Mehrschienengleis)
+STR_NG6R_TOOLBAR                :Schmal- und Normalspurgleis (Mehrschienengleis)
+STR_NG6R_MENU                   :Mehrschienengleisbau (Schmal- und Normalspur)
+STR_NG6R_BUILD_CAPTION          :Neue Schmalspur- oder Normalspur-Schienenfahrzeuge
+
+STR_LIVERY_Q2CC         :-quasi 2CC-Lackierung (Standard)
+STR_LIVERY_BROWN        :-braun-olivgrüne Lackierung
+STR_LIVERY_GREEN        :-graugrüne Lackierung
+STR_LIVERY_OLIVE        :-olivgrün-rote Lackierung (Standard)
+STR_LIVERY_BLACK        :-schwarz-rote Lackierung
+
+STR_STEAM_LOCO_SUFFIX          : - Dampflok
+STR_DIESEL_LOCO_SUFFIX          : - Diesellok
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
+STR_MOTORCAR                    :Triebwagen, {STRING}
+
+STR_MM_B                        : Maffei München Bn2 {STRING}
+STR_OAK_BT                      : Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT                       : Sächsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT                       : Henschel Kassel Dn2t {STRING}
+STR_HK_BT                       : Henschel Krenau Bn2t {STRING}
+
+STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
+STR_LKM_B                       : LKM Babelsberg B {STRING}
+
+STR_LEW_B                       : LEW Hennigsdorf B Akkumulatortriebwagen
+
+STR_1_HORSE                     :Pferd mit Einzelgeschirr
+STR_2_HORSE                     :Zwei Pferde mit Mehrfachgeschirr
+STR_FIRST_ONLY                  :Muss Vorne an den Zug angekoppelt werden
+STR_SINGLE_HORSE                :Es kann nur ein einzelnes Pferd mit Einzelgeschirr dem Zug vorgespannt werden.
+
+STR_PASS2                       :Personenwagen, 2-achsig
+STR_PASS4                       :Personenwagen, 4-achsig
+STR_PMMC_NAME                   :Personen-/Gepäckwagen, 4-achsig
+STR_PMMC_DESC                   :Kann zum Triebwagen umgebaut werden
+
+STR_BOXCAR1                     :gedeckter Güterwagen, 2-achsig
+STR_BOXCAR2                     :gedeckter Güterwagen, 4-achsig
+STR_BOXCAR3                     :gedeckter Güterwagen, 4-achsig, Stahl
+
+STR_STOCKCAR1                   :Viehwagen, 2-achsig
+STR_STOCKCAR2                   :Viehwagen, 4-achsig
+STR_STOCKCAR3                   :Viehwagen, 4-achsig, Stahl
+
+STR_TANKCAR1                    :Tankwagen, 2-achsig
+STR_TANKCAR2                    :Tankwagen, 4-achsig
+STR_TANKCAR3                    :Tankwagen, 4-achsig, Stahl
+
+STR_TANKCARSPEC1                        :Lebensmittel-Tankwagen, 2-achsig
+STR_TANKCARSPEC2                        :Lebensmittel-Tankwagen, 4-achsig
+STR_TANKCARSPEC3                        :Lebensmittel-Tankwagen, 4-achsig, Stahl
+
+STR_FLATCAR1                    :Flachwagen, 2-achsig
+STR_FLATCAR2                    :Flachwagen, 4-achsig
+STR_FLATCAR3                    :Flachwagen, 4-achsig, Stahl
+
+STR_OPENCAR1                    :offener Güterwagen, 2-achsig
+STR_OPENCAR2                    :offener Güterwagen, 4-achsig
+STR_OPENCAR3                    :offener Güterwagen, 4-achsig, Stahl
+
+STR_MINECART1                    :hölzener Förderwagen
+STR_MINECART2                    :metallener Förderwagen
+STR_LOGTRAILER                   :Holztransportwagen
