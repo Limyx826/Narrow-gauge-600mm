@@ -12,7 +12,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	reliability_decay:	    	20; \
 	loading_speed:		  	5; \
 	cost_factor:		    	v_cost;      \
-	running_cost_factor:		STEAM_RUNNING_COST(0, 0, (v_mass+c_capacity+1), v_vmax) \
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 0, 0) \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
@@ -25,7 +25,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	running_cost_base:	   	RUNNING_COST_STEAM; \
         track_type:                     NG60; \
         ai_engine_rank:                 0; \
-        engine_class:                   ENGINE_CLASS_STEAM; \
+        engine_class:                   ENGINE_CLASS_DIESEL; \
 	weight:			 	v_mass; \
 	length:      	    		v_length; \
         extra_weight_per_wagon:         0; \
@@ -46,7 +46,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 #include "graphics/Tankcar1.pnml"
 CAR_TANK(Tankcar1,      STR_TANKCAR1, 6,    1851,  1926,        9,     15,      4,      3)
 #include "graphics/Tankcar2.pnml"
-CAR_TANK(Tankcar2,      STR_TANKCAR2, 8,    1901,  1946,      17,     20,      6,      4)
+CAR_TANK(Tankcar2,      STR_TANKCAR2, 8,    1901,  1946,      17,     20,      5,      4)
 #include "graphics/Tankcar3.pnml"
-CAR_TANK(Tankcar3,      STR_TANKCAR3, 11,    1931,  1976,      22,     30,      8,      5)
+CAR_TANK(Tankcar3,      STR_TANKCAR3, 11,    1931,  1976,      22,     30,      6,      5)
 

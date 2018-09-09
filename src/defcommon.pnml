@@ -11,9 +11,9 @@ railtypetable {
 
 #define PKP_CLIMATES	    	bitmask(CLIMATE_TEMPERATE, CLIMATE_ARCTIC, CLIMATE_TROPICAL)
 
-#define STANDARD_COMFORT       	185  //standard compartment coach, soft seats
-#define MEDIUM_COMFORT       	105  //hard seats, toilet
-#define LOW_COMFORT       	 85  //mixed 
+#define STANDARD_COMFORT       	285  //standard compartment coach, soft seats
+#define MEDIUM_COMFORT       	205  //hard seats, toilet
+#define LOW_COMFORT       	185  //mixed 
 
 #define STAFF_RUNNING_COST       10
 

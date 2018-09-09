@@ -43,20 +43,20 @@ item(FEAT_TRAINS, PassMailMotorCar) {
 	loading_speed:		  	5; 
 	cost_factor:		    	30;   
 	refit_cost:   			0;
-	running_cost_factor:		DIESEL_RUNNING_COST(2, 25, 10, 40) 
+	running_cost_factor:		DIESEL_RUNNING_COST(1, 25, 10, 40) 
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
 	speed:			  	40 km/h; 
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); 
 	cargo_age_period:	 	STANDARD_COMFORT; 
 	cargo_capacity:		 	20; 
 	refittable_cargo_classes:      	bitmask(CC_PASSENGERS,CC_MAIL,CC_ARMOURED); 
-	power:			  	30 hp; 
+	power:			  	35 hp; 
 	tractive_effort_coefficient:    1.0; 
 	running_cost_base:	   	RUNNING_COST_DIESEL; 
         track_type:                     NG60; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_DIESEL; 
-	weight:			 	10; 
+	weight:			 	12; 
 	length:      	    		5; 
         extra_weight_per_wagon:         0; 
         effect_spawn_model_and_powered: EFFECT_SPAWN_MODEL_DIESEL;

@@ -25,12 +25,12 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       powered_railtype_list: ["NG60", "NG6R"];
       curve_speed_multiplier: 100;
       station_graphics: RAILTYPE_STATION_NORMAL;
-      construction_cost: 1 + param_infra_cost;
-      maintenance_cost: 1;
+      construction_cost: 1 + 2 * param_build_cost;
+      maintenance_cost: 1 + 2 * param_infra_cost;
       speed_limit: 40 km/h;      
       acceleration_model: ACC_MODEL_RAIL;
       map_colour: 16;
-      sort_order: 252;
+      sort_order: 253;
 //      alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();
     }
@@ -68,12 +68,12 @@ if (railtype_available("NG6R") || (loading_stage == LOADING_STAGE_RESERVE)) {
       powered_railtype_list: ["NG6R", "NG60", "NAAN", "RAIL"];
       curve_speed_multiplier: 100;
       station_graphics: RAILTYPE_STATION_NORMAL;
-      construction_cost: 5 + param_infra_cost;
-      maintenance_cost: 4;
+      construction_cost: 5 + 4 * param_build_cost;
+      maintenance_cost: 5 + 4 * param_infra_cost;
       speed_limit: 60 km/h;      
       acceleration_model: ACC_MODEL_RAIL;
-      map_colour: 16;
-      sort_order: 253;
+      map_colour: 17;
+      sort_order: 254;
 //      alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();
     }

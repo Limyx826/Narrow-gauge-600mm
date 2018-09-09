@@ -12,7 +12,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	reliability_decay:	    	20; \
 	loading_speed:		  	5; \
 	cost_factor:		    	v_cost;      \
-	running_cost_factor:		STEAM_RUNNING_COST(0, 0, (v_mass+c_capacity+2), v_vmax) \
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 0, 0) \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
@@ -43,9 +43,9 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/TankcarSpec1.pnml"
-CAR_TANKSPEC(TankcarSpec1,      STR_TANKCARSPEC1, 5,    1841,  1926,        10,     15,      4,      3)
+CAR_TANKSPEC(TankcarSpec1,      STR_TANKCARSPEC1, 5,    1841,  1926,        10,     15,      3,      3)
 #include "graphics/TankcarSpec2.pnml"
-CAR_TANKSPEC(TankcarSpec2,      STR_TANKCARSPEC2, 7,    1901,  1946,      18,     20,      5,      4)
+CAR_TANKSPEC(TankcarSpec2,      STR_TANKCARSPEC2, 7,    1901,  1946,      18,     20,      4,      4)
 #include "graphics/TankcarSpec3.pnml"
-CAR_TANKSPEC(TankcarSpec3,      STR_TANKCARSPEC3, 9,    1931,  1976,      24,     30,      6,      5)
+CAR_TANKSPEC(TankcarSpec3,      STR_TANKCARSPEC3, 9,    1931,  1976,      24,     30,      5,      5)
 

@@ -8,15 +8,15 @@ item(FEAT_TRAINS, Woodtrailers) {
 	name:			   	string(STR_LOGTRAILER); 
 	climates_available:	 	PKP_CLIMATES; 
 	introduction_date:		date(1855, 1, 1);	    
-	model_life:     param_keep_old_vehs == 0 ? 190 :  VEHICLE_NEVER_EXPIRES; 
+	model_life:     param_keep_old_vehs == 0 ? 220 :  VEHICLE_NEVER_EXPIRES; 
 	vehicle_life:		   	20; 
 	retire_early:			0; 
 	reliability_decay:	    	20; 
-	loading_speed:		  	7; 
-	cost_factor:		    	9;      
-	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 14, 15) 
+	loading_speed:		  	10; 
+	cost_factor:		    	8;      
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 0, 0) 
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
-	speed:			  	15 km/h; 
+	speed:			  	16 km/h; 
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); 
 	cargo_age_period:	 	STANDARD_COMFORT; 
 	cargo_capacity:		 	12; 
@@ -27,8 +27,8 @@ item(FEAT_TRAINS, Woodtrailers) {
         track_type:                     NG60; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_STEAM; 
-	weight:			 	2; 
-	length:      	    		5; 
+	weight:			 	1; 
+	length:      	    		6; 
         extra_weight_per_wagon:         0; 
         visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DISABLE, 0, DISABLE_WAGON_POWER); 
         bitmask_vehicle_info:           0; 

@@ -12,7 +12,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 	reliability_decay:	    	20; \
 	loading_speed:		  	5; \
 	cost_factor:		    	v_cost;      \
-	running_cost_factor:		STEAM_RUNNING_COST(0, 0, (v_mass+c_capacity), v_vmax) \
+	running_cost_factor:		STEAM_RUNNING_COST(0, 0, 0, 0) \
 	sprite_id:		      	SPRITE_ID_NEW_TRAIN; \
 	speed:			  	v_vmax km/h; \
 	misc_flags:		   	bitmask(TRAIN_FLAG_2CC,TRAIN_FLAG_AUTOREFIT); \
@@ -45,9 +45,9 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/Opencar1.pnml"
-CAR_OPEN(Opencar1,      STR_OPENCAR1, 6,       1780,  1926,      6,     15,      3,      3)
+CAR_OPEN(Opencar1,      STR_OPENCAR1, 6,       1780,  1926,      6,     15,      2,      3)
 #include "graphics/Opencar2.pnml"
-CAR_OPEN(Opencar2,      STR_OPENCAR2, 9,       1886,  1946,      10,     20,     4,      4)
+CAR_OPEN(Opencar2,      STR_OPENCAR2, 9,       1886,  1946,      10,     20,     3,      4)
 #include "graphics/Opencar3.pnml"
-CAR_OPEN(Opencar3,      STR_OPENCAR3, 12,       1931,  1976,      15,    30,      5,      5)
+CAR_OPEN(Opencar3,      STR_OPENCAR3, 12,       1931,  1976,      15,    30,      4,      5)
 
