@@ -1,5 +1,3 @@
-Version 2.3 carriages running costs nullified, weight tweaked
-
 Version 2.2 sprite fixtures, track cost fixed
 
 Version 2.1 option to disable coupling with normal gauge vehicles
