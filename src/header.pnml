@@ -10,8 +10,8 @@ grf {
 	grfid: "MC\02\11";
 	name: string(STR_GRF_NAME);
 	desc: string(STR_GRF_DESCRIPTION);
-	version: 23;
-	min_compatible_version: 22;
+	version: 24;
+	min_compatible_version: 24;
     param {
         param_purchase_cost {
             type:   int;
@@ -84,6 +84,14 @@ grf {
             type: bool;
             name: string(STR_PARAM_NAME_FORBID_ATTACH);
             desc: string(STR_PARAM_DESC_FORBID_ATTACH);
+        }
+    }
+    param {
+        param_enable_electric {
+            type: bool;
+            name: string(STR_PARAM_NAME_ENABLE_ELECTRIC);
+            desc: string(STR_PARAM_DESC_ENABLE_ELECTRIC);
+	    def_value: 1;
         }
     }
 }

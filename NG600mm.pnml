@@ -26,6 +26,7 @@
 #include "src/def_diesel.pnml"
 #include "src/batloc.pnml"
 #include "src/passmailmotor.pnml"
+#include "src/EL3.pnml"
 /* cars */
 #include "src/def_passenger.pnml"
 #include "src/passmailcar.pnml"

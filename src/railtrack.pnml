@@ -21,8 +21,8 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       build_window_caption: string(STR_NG60_BUILD_CAPTION);
       autoreplace_text: string(STR_NG60_AUTOREPLACE);
       new_engine_text: string(STR_NG60_NEW_ENGINE);
-      compatible_railtype_list: ["NG6R"];
-      powered_railtype_list: ["NG60", "NG6R"];
+      compatible_railtype_list: ["NG6R", "NG6E"];
+      powered_railtype_list: ["NG60", "NG6R", "NG6E"];
       curve_speed_multiplier: 100;
       station_graphics: RAILTYPE_STATION_NORMAL;
       construction_cost: 1 + 2 * param_build_cost;
@@ -30,7 +30,7 @@ if (railtype_available("NG60") || (loading_stage == LOADING_STAGE_RESERVE)) {
       speed_limit: 40 km/h;      
       acceleration_model: ACC_MODEL_RAIL;
       map_colour: 16;
-      sort_order: 253;
+      sort_order: 252;
 //      alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();
     }
@@ -73,7 +73,7 @@ if (railtype_available("NG6R") || (loading_stage == LOADING_STAGE_RESERVE)) {
       speed_limit: 60 km/h;      
       acceleration_model: ACC_MODEL_RAIL;
       map_colour: 17;
-      sort_order: 254;
+      sort_order: 253;
 //      alternative_railtype_list: ["NAAN"];
       railtype_flags: bitmask();
     }
@@ -89,6 +89,48 @@ if (railtype_available("NG6R") || (loading_stage == LOADING_STAGE_RESERVE)) {
 //      signals: switch_signals_type;
     }
   }
+}
+
+if (param_enable_electric) {
+if (railtype_available("NG6E") || (loading_stage == LOADING_STAGE_RESERVE)) {
+  item (FEAT_RAILTYPES, NG600E)
+  {
+    property
+    {
+      label: "NG6E";
+      introduction_date: date(1951, 1, 1);
+      name: string(STR_NG6E_NAME);
+      toolbar_caption: string(STR_NG6E_TOOLBAR);
+      menu_text: string(STR_NG6E_MENU);
+      build_window_caption: string(STR_NG6E_BUILD_CAPTION);
+      autoreplace_text: string(STR_NG6E_AUTOREPLACE);
+      new_engine_text: string(STR_NG6E_NEW_ENGINE);
+      compatible_railtype_list: ["NG60", "NAAN", "NAAE"];
+      powered_railtype_list: ["NG6E", "NAAE"];
+      curve_speed_multiplier: 100;
+      station_graphics: RAILTYPE_STATION_NORMAL;
+      construction_cost: 7 + 4 * param_build_cost;
+      maintenance_cost: 8 + 4 * param_infra_cost;
+      speed_limit: 60 km/h;      
+      acceleration_model: ACC_MODEL_RAIL;
+      map_colour: 19;
+      sort_order: 254;
+//      alternative_railtype_list: ["NAAE"];
+      railtype_flags:	bitmask(RAILTYPE_FLAG_CATENARY);
+    }
+    graphics
+    {
+      gui: ng600e_gui;
+      track_overlay: ng600_track_overlay;
+      underlay:ng600_underlay;
+      tunnels: ng600_tunnels;
+//      tunnel_overlay: ng600_tunnels; 
+      bridge_surfaces: ng600_bridge_surfaces;
+      level_crossings: ng600_level_crossings_open;
+//      signals: switch_signals_type;
+    }
+  }
+}
 }
 
 item (FEAT_RAILTYPES, rt_rail) {

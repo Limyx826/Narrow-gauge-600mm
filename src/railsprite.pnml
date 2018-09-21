@@ -266,3 +266,11 @@ spriteset(ng600rail_bridge_surfaces, IMAGEFILE)
 
 #undef IMAGEFILE
 
+#define IMAGEFILE  "src/graphics/ng600e.png"
+
+spriteset(ng600e_gui, IMAGEFILE)
+{
+  rail_gui_template(2, 22)
+}
+
+#undef IMAGEFILE

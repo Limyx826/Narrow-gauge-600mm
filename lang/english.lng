@@ -20,8 +20,11 @@ STR_PARAM_DESC_INFRA_COST     :Use this option to change infrastructure maintena
 STR_PARAM_COST_H               	: Half
 STR_PARAM_COST_N               	: Normal
 STR_PARAM_COST_D               	: Double
+STR_PARAM_NAME_ENABLE_ELECTRIC    :Enable electric traction
+STR_PARAM_DESC_ENABLE_ELECTRIC    :Select this option to enable electric locomotives and narrow gauge type with overhead catenary.
+
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Keep old trains in purchase menu
-STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" in game settings.
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" 
 
 STR_NG60_NAME                 	:600 mm narrow gauge
 STR_NG60_TOOLBAR             	:600mm narrow gauge
@@ -34,6 +37,13 @@ STR_NG6R_NAME                 	:narrow and normal (dual gauge)
 STR_NG6R_TOOLBAR             	:narrow and normal gauge
 STR_NG6R_MENU            	:Dual gauge track (narrow+normal)
 STR_NG6R_BUILD_CAPTION   	:New narrow or normal gauge stock
+
+STR_NG6E_NAME                 	:600 mm electrified narrow gauge
+STR_NG6E_TOOLBAR             	:600mm electrified narrow gauge
+STR_NG6E_MENU            	:Local railway, 600mm electrified narrow gauge track
+STR_NG6E_BUILD_CAPTION   	:New 600mm electrified narrow gauge stock
+STR_NG6E_AUTOREPLACE        	:600mm electrified narrow gauge trains
+STR_NG6E_NEW_ENGINE           	:600 mm electrified narrow gauge locomotive
 
 STR_LIVERY_Q2CC     	:-quasi 2CC livery (default)
 STR_LIVERY_BROWN	:-brown-olive livery
@@ -57,6 +67,8 @@ STR_JHF_C			: Arnold Jung Jungenthal C {STRING}
 STR_LKM_B			: LKM Babelsberg B {STRING}
 
 STR_LEW_B			: LEW Hennigsdorf B battery locomotive
+
+STR_EL3			: LEW Hennigsdorf EL3 electric locomotive
 
 STR_1_HORSE			: One horse, single harness
 STR_2_HORSE			: Two horses, multiple harness

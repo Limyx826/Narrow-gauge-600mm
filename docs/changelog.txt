@@ -1,3 +1,7 @@
+Version 2.4 Electric traction and Henningsdorf locomotive added
+
+Version 2.3 costs and power fixed
+
 Version 2.2 sprite fixtures, track cost fixed
 
 Version 2.1 option to disable coupling with normal gauge vehicles
