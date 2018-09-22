@@ -21,6 +21,7 @@ STR_PARAM_DESC_INFRA_COST     :Ce paramètre change le coût de maintenance des 
 STR_PARAM_COST_H                :Moitié
 STR_PARAM_COST_N                :Normal
 STR_PARAM_COST_D                :Double
+
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Conserver les vieux trains dans la liste d'achat
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Ce paramètre empêche les vieux trains de ce set de disparaître de la liste d'achat. Pour empêcher tous les véhicules de disparaître, activer "Les véhicules n'expirent jamais" dans les paramètres du jeu.
 
@@ -35,6 +36,7 @@ STR_NG6R_NAME                   :étroite ou normal (double écartement)
 STR_NG6R_TOOLBAR                :écartement étroit ou normal
 STR_NG6R_MENU                   :Voie double écartement (étroit+normal)
 STR_NG6R_BUILD_CAPTION          :Nouveau matériel pour voie étroite ou normale
+
 
 STR_LIVERY_Q2CC         :- livrée quasi-2CC (par défaut)
 STR_LIVERY_BROWN        :- livrée brun-olive
@@ -58,6 +60,7 @@ STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       :LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B locomotive à batterie
+
 
 STR_1_HORSE                     :Cheval harnaché
 STR_2_HORSE                     :Deux chevaux harnachés

@@ -21,6 +21,7 @@ STR_PARAM_DESC_INFRA_COST     :Benutze diese Option, um die Unterhaltskosten der
 STR_PARAM_COST_H                :Halb
 STR_PARAM_COST_N                : Normal
 STR_PARAM_COST_D                :Doppelt
+
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Schienenfahrzeuge veralten nie
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Erlaube, dass Schienenfahrzeuge nach ihrem Einführungsdatum ewig verfügbar bleiben. Diese Option bezieht sich nur auf die Fahrzeuge in diesem Set. Um Fahrzeuge anderer Sets ewig verfügbar zu machen, benutze die Option "Fahrzeuge veralten nie" in den Einstellungen.
 
@@ -35,6 +36,7 @@ STR_NG6R_NAME                   :Schmal- und Normalspur (Mehrschienengleis)
 STR_NG6R_TOOLBAR                :Schmal- und Normalspurgleis (Mehrschienengleis)
 STR_NG6R_MENU                   :Mehrschienengleisbau (Schmal- und Normalspur)
 STR_NG6R_BUILD_CAPTION          :Neue Schmalspur- oder Normalspur-Schienenfahrzeuge
+
 
 STR_LIVERY_Q2CC         :-quasi 2CC-Lackierung (Standard)
 STR_LIVERY_BROWN        :-braun-olivgrüne Lackierung
@@ -58,6 +60,7 @@ STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       : LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B Akkumulatortriebwagen
+
 
 STR_1_HORSE                     :Pferd mit Einzelgeschirr
 STR_2_HORSE                     :Zwei Pferde mit Mehrfachgeschirr

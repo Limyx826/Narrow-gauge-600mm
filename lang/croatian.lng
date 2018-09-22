@@ -22,6 +22,7 @@ STR_PARAM_DESC_INFRA_COST     :Koristite ovu postavku da bi promijenili troškov
 STR_PARAM_COST_H                :Pola
 STR_PARAM_COST_N                :Normalno
 STR_PARAM_COST_D                :Dvostruko
+
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Zadrži stare vlakove u meniju za nabavu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Koristite ovu postavku za isključivanje roka trajanja starih vlakova. Postavka se odnosi samo na vlakove iz ovog seta. Da bi isključili rok trajanja drugih setova, potrebno je koristiti postavku "Vozila nikad ne zastarijevanju" u glavnim postavkama same igre.
 
@@ -36,6 +37,7 @@ STR_NG6R_NAME                   :uska i uobičajena (dvostruka širina)
 STR_NG6R_TOOLBAR                :uska i uobičajena širina
 STR_NG6R_MENU                   :Pruga sa dvostrukom širinom (uska+uobičajena)
 STR_NG6R_BUILD_CAPTION          :Nova uskotračna ili obična vozila
+
 
 STR_LIVERY_Q2CC         :-livreja slična 2CC livreji (početna postavka)
 STR_LIVERY_BROWN        :-smeđe-maslinastozelena livreja
@@ -59,6 +61,7 @@ STR_JHF_C                       :Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       :LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B lokomotiva na baterije
+
 
 STR_1_HORSE                     :Jedan konj, jednostruka zaprega
 STR_2_HORSE                     :Dva konja, višestruka zaprega

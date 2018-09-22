@@ -22,6 +22,9 @@ STR_PARAM_DESC_INFRA_COST     :Opcja zmiany kosztów utrzymania torów
 STR_PARAM_COST_H                :x1/2
 STR_PARAM_COST_N                :x1
 STR_PARAM_COST_D                :x2
+STR_PARAM_NAME_ENABLE_ELECTRIC    :Włącz trakcję elektryczną
+STR_PARAM_DESC_ENABLE_ELECTRIC    :Włączenie tej opcji pozwala na używanie wąskotorowej trakcji elektrycznej
+
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Zachowuj stare pociągi w menu zakupu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Zaznacz tę opcję aby wyłączyć wycofywanie starych lokomotyw i wagonów.  Opcja ta dotyczy wyłącznie pojazdów z tego setu. Aby wyłączyć wycofywanie innych pojazdów, użyj parametru "Pojazdy nigdy nie są wycofywane" w ustawieniach gry.
 
@@ -36,6 +39,13 @@ STR_NG6R_NAME                   :wąski i normalny tor (splot)
 STR_NG6R_TOOLBAR                :splot wąskiego i normalnego toru
 STR_NG6R_MENU                   :Splot toru (wąskiego i normalnego)
 STR_NG6R_BUILD_CAPTION          :Nowy tabor wąskotorowy lub normalnotorowy
+
+STR_NG6E_NAME                   :Zelektryfikowany wąski tor 600 mm
+STR_NG6E_TOOLBAR                :Zelektryfikowana wąskotorówka 600mm
+STR_NG6E_MENU                   :Zelektryfikowany tor wąskotorówki 600mm
+STR_NG6E_BUILD_CAPTION          :Nowy elektryczny tabor kolei wąskotorowej 600mm
+STR_NG6E_AUTOREPLACE            :Elektryczny tabor wąskotorowy 600mm
+STR_NG6E_NEW_ENGINE             :Elektrowóz wąskotorowy 600mm
 
 STR_LIVERY_Q2CC         :-malowanie firmowe (default)
 STR_LIVERY_BROWN        :-malowanie brązowo-oliwkowe
@@ -59,6 +69,8 @@ STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
 STR_LKM_B                       : LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B - lokomotywa akumulatorowa
+
+STR_EL3                 :Elektrowóz LEW Hennigsdorf EL3
 
 STR_1_HORSE                     :Jeden koń, pojedynczy zaprzęg
 STR_2_HORSE                     :Dwa konie, możliwość wielokrotnego zaprzęgu
