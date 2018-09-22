@@ -48,5 +48,5 @@ CAR_TANK(Tankcar1,      STR_TANKCAR1, 6,    1851,  1926,        9,     15,      
 #include "graphics/Tankcar2.pnml"
 CAR_TANK(Tankcar2,      STR_TANKCAR2, 8,    1901,  1946,      17,     20,      3,      4)
 #include "graphics/Tankcar3.pnml"
-CAR_TANK(Tankcar3,      STR_TANKCAR3, 11,    1931,  1976,      22,     30,      4,      5)
+CAR_TANK(Tankcar3,      STR_TANKCAR3, 11,    1931,  1986,      22,     30,      4,      5)
 

@@ -49,5 +49,5 @@ CAR_OPEN(Opencar1,      STR_OPENCAR1, 5,       1780,  1926,      6,     15,     
 #include "graphics/Opencar2.pnml"
 CAR_OPEN(Opencar2,      STR_OPENCAR2, 7,       1886,  1946,      10,     20,     2,      4)
 #include "graphics/Opencar3.pnml"
-CAR_OPEN(Opencar3,      STR_OPENCAR3, 10,       1931,  1976,      15,    30,      3,      5)
+CAR_OPEN(Opencar3,      STR_OPENCAR3, 10,       1931,  0,      15,    30,      3,      5)
 

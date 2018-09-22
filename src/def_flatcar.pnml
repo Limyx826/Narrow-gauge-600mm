@@ -55,5 +55,5 @@ CAR_FLAT(Flatcar1,      STR_FLATCAR1, 4,    1790,  1926,      5,     15,      1,
 #include "graphics/Flatcar2.pnml"
 CAR_FLAT(Flatcar2,      STR_FLATCAR2, 6,    1891,  1946,      8,     20,      2,      4)
 #include "graphics/Flatcar3.pnml"
-CAR_FLAT(Flatcar3,      STR_FLATCAR3, 8,    1931,  1976,      14,     30,      3,      5)
+CAR_FLAT(Flatcar3,      STR_FLATCAR3, 8,    1931,  0,      14,     30,      3,      5)
 

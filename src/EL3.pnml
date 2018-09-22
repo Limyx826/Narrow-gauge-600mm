@@ -1,0 +1,46 @@
+//Diesel locomotives
+
+#define EL3_power 620
+#define EL3_mass 75
+#define EL3_vmax 40
+
+#include "graphics/LEW_EL3.pnml"
+
+item(FEAT_TRAINS, LEW_EL3) { 
+	property { 
+	name:			   	string(STR_EL3); 
+	climates_available:	 	PKP_CLIMATES; 
+	introduction_date:		date(1951, 1, 1);	    
+	model_life:       		VEHICLE_NEVER_EXPIRES; 
+	vehicle_life:		   	20; 
+	reliability_decay:	    	20; 
+	loading_speed:		  	5; 
+	cost_factor:		    	55;      
+	running_cost_factor:		DIESEL_RUNNING_COST(1, EL3_power, EL3_mass, EL3_vmax) 
+	sprite_id:		      	SPRITE_ID_NEW_TRAIN; 
+	speed:			  	EL3_vmax km/h; 
+	misc_flags:		   	bitmask(); 
+	cargo_age_period:	 	STANDARD_COMFORT; 
+	power:			  	EL3_power kW; 
+	running_cost_base:	   	RUNNING_COST_ELECTRIC; 
+        track_type:                     NG6E; 
+        ai_engine_rank:                 0; 
+        engine_class:                   ENGINE_CLASS_ELECTRIC; 
+	cargo_capacity:		 	0; 
+	weight:			 	EL3_mass; 
+	tractive_effort_coefficient:    1; 
+	air_drag_coefficient:	   	0.3; 
+	length:      	    		6; 
+        extra_weight_per_wagon:         0; 
+        visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DEFAULT, 3, DISABLE_WAGON_POWER); 
+        bitmask_vehicle_info:           0; 
+    } 
+
+    graphics { 
+	default:	    	spriteset_EL3_graphic;  
+	purchase:	   	spriteset_EL3_purchase;  
+	can_attach_wagon:	switch_can_attach;
+    }  
+}
+
+

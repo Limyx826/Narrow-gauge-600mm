@@ -111,7 +111,7 @@ if (railtype_available("NG6E") || (loading_stage == LOADING_STAGE_RESERVE)) {
       station_graphics: RAILTYPE_STATION_NORMAL;
       construction_cost: 7 + 4 * param_build_cost;
       maintenance_cost: 8 + 4 * param_infra_cost;
-      speed_limit: 60 km/h;      
+      speed_limit: 40 km/h;      
       acceleration_model: ACC_MODEL_RAIL;
       map_colour: 19;
       sort_order: 254;

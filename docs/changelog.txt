@@ -1,4 +1,4 @@
-Version 2.4 Electric traction and Henningsdorf locomotive added
+Version 2.4 Electric traction and Henningsdorf locomotive added. Flatcar and gondolas doesn't expire.
 
 Version 2.3 costs and power fixed
 
