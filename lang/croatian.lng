@@ -22,9 +22,11 @@ STR_PARAM_DESC_INFRA_COST     :Koristite ovu postavku da bi promijenili troškov
 STR_PARAM_COST_H                :Pola
 STR_PARAM_COST_N                :Normalno
 STR_PARAM_COST_D                :Dvostruko
+STR_PARAM_NAME_ENABLE_ELECTRIC    :Uključi električnu vuču
+STR_PARAM_DESC_ENABLE_ELECTRIC    :Odaberite ovu postavku za uključivanje električnih lokomotiva i uskotračne pruge sa žicama za napajanje.
 
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Zadrži stare vlakove u meniju za nabavu
-STR_PARAM_DESC_KEEP_OLD_VEHS    :Koristite ovu postavku za isključivanje roka trajanja starih vlakova. Postavka se odnosi samo na vlakove iz ovog seta. Da bi isključili rok trajanja drugih setova, potrebno je koristiti postavku "Vozila nikad ne zastarijevanju" u glavnim postavkama same igre.
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Koristite ovu postavku za isključivanje roka trajanja starih vlakova. Postavka se odnosi samo na vlakove iz ovog seta. Da bi isključili rok trajanja drugih setova, potrebno je koristiti postavku "Vozila nikad ne zastarijevanju".
 
 STR_NG60_NAME                   :Uskotračna 600mm pruga
 STR_NG60_TOOLBAR                :Uskotračna 600mm pruga
@@ -38,6 +40,12 @@ STR_NG6R_TOOLBAR                :uska i uobičajena širina
 STR_NG6R_MENU                   :Pruga sa dvostrukom širinom (uska+uobičajena)
 STR_NG6R_BUILD_CAPTION          :Nova uskotračna ili obična vozila
 
+STR_NG6E_NAME                   :600mm elektrificirana uskotračna pruga
+STR_NG6E_TOOLBAR                :600mm elektrificirana uskotračna pruga
+STR_NG6E_MENU                   :Lokalna pruga, uskotračni elektrificirani 600mm kolosijek
+STR_NG6E_BUILD_CAPTION          :Nova 600mm elektrificirana uskotračna vozila
+STR_NG6E_AUTOREPLACE            :600mm elektrificirana uskotračna vozila
+STR_NG6E_NEW_ENGINE             :600mm elektrificirana uskotračna lokomotiva
 
 STR_LIVERY_Q2CC         :-livreja slična 2CC livreji (početna postavka)
 STR_LIVERY_BROWN        :-smeđe-maslinastozelena livreja
@@ -62,6 +70,7 @@ STR_LKM_B                       :LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B lokomotiva na baterije
 
+STR_EL3                 : LEW Hennigsdorf EL3 električna lokomotiva
 
 STR_1_HORSE                     :Jedan konj, jednostruka zaprega
 STR_2_HORSE                     :Dva konja, višestruka zaprega
