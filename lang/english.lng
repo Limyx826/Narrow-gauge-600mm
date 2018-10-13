@@ -83,6 +83,7 @@ STR_PMMC_DESC			: Can be rebuilded to motorized car
 STR_BOXCAR1			: Box car, 2 axle
 STR_BOXCAR2			: Box car, 4 axle
 STR_BOXCAR3			: Box car, 4 axle, steel
+STR_BOXCAR4			: Box car with hand brake
 
 STR_STOCKCAR1			: Stock car, 2 axle
 STR_STOCKCAR2			: Stock car, 4 axle
@@ -103,6 +104,7 @@ STR_FLATCAR3			: Flat car, 4 axle, steel
 STR_OPENCAR1			: Gondola, 2 axle
 STR_OPENCAR2			: Gondola, 4 axle
 STR_OPENCAR3			: Gondola, 4 axle, steel
+STR_OPENCAR4			: Gondola, self unloading
 
 STR_MINECART1                    :Wooden minecart
 STR_MINECART2                    :Metal minecart

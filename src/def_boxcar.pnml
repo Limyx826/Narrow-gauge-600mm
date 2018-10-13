@@ -55,4 +55,6 @@ CAR_BOX(Boxcar1,      STR_BOXCAR1, 4,    1811,  1926,      8,     15,      1,   
 CAR_BOX(Boxcar2,      STR_BOXCAR2, 6,    1881,  1946,      16,     20,      2,      4)
 #include "graphics/Boxcar3.pnml"
 CAR_BOX(Boxcar3,      STR_BOXCAR3, 8,    1931,  1976,      20,     30,      3,      5)
+#include "graphics/Boxcar4.pnml"
+CAR_BOX(Boxcar4,      STR_BOXCAR4, 10,   1950,  0,      26,     40,      5,      6)
 
