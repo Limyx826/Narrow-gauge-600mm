@@ -85,6 +85,7 @@ STR_PMMC_DESC                   :Możliwość przebudowy na wagon motorowy
 STR_BOXCAR1                     :Kryty 2-osiowy
 STR_BOXCAR2                     :Kryty 4-osiowy o konstrukcji drewnianej
 STR_BOXCAR3                     :Kryty 4-osiowy o konstrukcji stalowej
+STR_BOXCAR4                     :Kryty z budką hamulcową
 
 STR_STOCKCAR1                   :Brankard 2-osiowy
 STR_STOCKCAR2                   :Brankard 4-osiowy o konstrukcji drewnianej
@@ -105,6 +106,7 @@ STR_FLATCAR3                    :Platforma 4-osiowa o konstrukcji stalowej
 STR_OPENCAR1                    :Węglarka 2-osiowa
 STR_OPENCAR2                    :Węglarka 4-osiowa o konstrukcji drewnianej
 STR_OPENCAR3                    :Węglarka 4-osiowa o konstrukcji stalowej
+STR_OPENCAR4                    :Węglarka samowyładowcza
 
 STR_MINECART1                    :Wagonetka drewniana
 STR_MINECART2                    :Wagonetka metalowa
