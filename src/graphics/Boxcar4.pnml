@@ -3,6 +3,11 @@
 spriteset(spriteset_Boxcar4_purchase, "src/graphics/industrial_tram_wagons_4.png")         
 { tmpl_sprite_purchase5(0) }
 
-spriteset(spriteset_Boxcar4_graphic, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5(0) }
+spriteset(spriteset_Boxcar4_graphic1, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5(0) }
 
+spriteset(spriteset_Boxcar4_graphic2, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5(20) }
 
+random_switch(FEAT_TRAINS, SELF, spriteset_Boxcar4_graphic) {
+    2: return spriteset_Boxcar4_graphic2;
+    1: return spriteset_Boxcar4_graphic1;
+}

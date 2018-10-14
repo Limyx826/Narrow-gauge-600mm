@@ -1,0 +1,20 @@
+
+
+spriteset(spriteset_Opencar4_purchase, "src/graphics/industrial_tram_wagons_4.png")         
+{ tmpl_sprite_purchase5mirror(140) }
+
+spriteset(ss_Opencar4_empty, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5mirror(140) }
+
+spriteset(ss_Opencar4_bulk, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5mirror(160) }
+
+spriteset(ss_Opencar4_wdpr, "src/graphics/industrial_tram_wagons_4.png")                  { tmpl_sprite_train_block5mirror(180) }
+
+spritegroup sgroup_Opencar4_bulk {
+    loaded:     [ss_Opencar4_empty, ss_Opencar4_bulk, ss_Opencar4_bulk];
+    loading:    [ss_Opencar4_empty, ss_Opencar4_bulk];
+}
+
+spritegroup sgroup_Opencar4_wdpr {
+    loaded:     [ss_Opencar4_empty, ss_Opencar4_wdpr, ss_Opencar4_wdpr];
+    loading:    [ss_Opencar4_empty, ss_Opencar4_wdpr];
+}

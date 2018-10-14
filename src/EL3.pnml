@@ -26,10 +26,12 @@ item(FEAT_TRAINS, LEW_EL3) {
         track_type:                     NG6E; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_ELECTRIC; 
-	cargo_capacity:		 	0; 
+	cargo_capacity:		 	1; 
+	cargo_allow_refit:		[PASS]; 
+	default_cargo_type:		PASS; 
 	weight:			 	EL3_mass; 
 	tractive_effort_coefficient:    1; 
-	air_drag_coefficient:	   	0.3; 
+	air_drag_coefficient:	   	0.8; 
 	length:      	    		6; 
         extra_weight_per_wagon:         0; 
         visual_effect_and_powered:      visual_effect_and_powered(VISUAL_EFFECT_DEFAULT, 3, DISABLE_WAGON_POWER); 
@@ -40,6 +42,10 @@ item(FEAT_TRAINS, LEW_EL3) {
 	default:	    	spriteset_EL3_graphic;  
 	purchase:	   	spriteset_EL3_purchase;  
 	can_attach_wagon:	switch_can_attach;
+	cargo_subtype_text: 	switch_loco_livery_subtype_text;  
+	colour_mapping:         switch_livery_subtype_loco; 
+        purchase_cargo_capacity:    return 0; 
+        cargo_capacity:             return 0; 
     }  
 }
 
