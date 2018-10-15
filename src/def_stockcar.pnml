@@ -54,5 +54,5 @@ CAR_STOCK(Stockcar1,      STR_STOCKCAR1, 6,    1841,  1926,      8,     15,     
 #include "graphics/Stockcar2.pnml"
 CAR_STOCK(Stockcar2,      STR_STOCKCAR2, 8,    1891,  1946,      16,     20,      2,      4)
 #include "graphics/Stockcar3.pnml"
-CAR_STOCK(Stockcar3,      STR_STOCKCAR3, 12,    1931,  1976,      20,     30,      3,      5)
+CAR_STOCK(Stockcar3,      STR_STOCKCAR3, 12,    1931,  0,      20,     30,      3,      5)
 
