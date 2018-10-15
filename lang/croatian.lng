@@ -85,6 +85,7 @@ STR_PMMC_DESC                   :Može se remontirati u motorizirani vagon
 STR_BOXCAR1                     :Zatvoreni vagon, 2-osovinski
 STR_BOXCAR2                     :Zatvoreni vagon, 4-osovinski
 STR_BOXCAR3                     :Zatvoreni vagom, 4-osovinski, čelični
+STR_BOXCAR4                     :Zatvoreni vagon sa ručnom kočnicom
 
 STR_STOCKCAR1                   :Vagon za stoku, 2-osovinski
 STR_STOCKCAR2                   :Vagon za stoku, 4-osovinski
@@ -105,6 +106,7 @@ STR_FLATCAR3                    :Plato-vagon, 4-osovinski, čelični
 STR_OPENCAR1                    :Gondola, 2-osovinska
 STR_OPENCAR2                    :Gondola, 4-osovinska
 STR_OPENCAR3                    :Gondola, 4-osovinska, čelična
+STR_OPENCAR4                    :Gondola, samoiskrcavajuća
 
 STR_MINECART1                    :Drveni vagon za rudnike
 STR_MINECART2                    :Metalni vagon za rudnike
