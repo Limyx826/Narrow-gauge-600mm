@@ -21,9 +21,11 @@ STR_PARAM_DESC_INFRA_COST     :Ce paramètre change le coût de maintenance des 
 STR_PARAM_COST_H                :Moitié
 STR_PARAM_COST_N                :Normal
 STR_PARAM_COST_D                :Double
+STR_PARAM_NAME_ENABLE_ELECTRIC    :Activer la traction électrique
+STR_PARAM_DESC_ENABLE_ELECTRIC    :Ce paramètre active les locomotives électriques et les voies étroites à caténaire.
 
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Conserver les vieux trains dans la liste d'achat
-STR_PARAM_DESC_KEEP_OLD_VEHS    :Ce paramètre empêche les vieux trains de ce set de disparaître de la liste d'achat. Pour empêcher tous les véhicules de disparaître, activer "Les véhicules n'expirent jamais" dans les paramètres du jeu.
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Ce paramètre empêche les vieux trains de ce set de disparaître de la liste d'achat. Pour empêcher tous les véhicules de disparaître, utiliser l'option "Les véhicules n'expirent jamais"
 
 STR_NG60_NAME                   :Voie étroite 600{NBSP}mm
 STR_NG60_TOOLBAR                :Voie étroite 600{NBSP}mm
@@ -37,6 +39,12 @@ STR_NG6R_TOOLBAR                :écartement étroit ou normal
 STR_NG6R_MENU                   :Voie double écartement (étroit+normal)
 STR_NG6R_BUILD_CAPTION          :Nouveau matériel pour voie étroite ou normale
 
+STR_NG6E_NAME                   :voie étroite 600{NBSP}mm électrifiée
+STR_NG6E_TOOLBAR                :Voie étroite 600{NBSP}mm éléctrifiée
+STR_NG6E_MENU                   :Chemin de fer local, voie étroite 600{NBSP}mm électrifiée
+STR_NG6E_BUILD_CAPTION          :Nouveau matériel pour voie étroite 600{NBSP}mm électrifiée
+STR_NG6E_AUTOREPLACE            :Trains électriques à écartement 600{NBSP}mm
+STR_NG6E_NEW_ENGINE             :Locomotive électrique pour voie étroite 600{NBSP}mm
 
 STR_LIVERY_Q2CC         :- livrée quasi-2CC (par défaut)
 STR_LIVERY_BROWN        :- livrée brun-olive
@@ -61,6 +69,7 @@ STR_LKM_B                       :LKM Babelsberg B {STRING}
 
 STR_LEW_B                       : LEW Hennigsdorf B locomotive à batterie
 
+STR_EL3                 : LEW Hennigsdorf EL3 locomotive électrique
 
 STR_1_HORSE                     :Cheval harnaché
 STR_2_HORSE                     :Deux chevaux harnachés
@@ -75,6 +84,7 @@ STR_PMMC_DESC                   :Peut être réaménagé en voiture motorisée
 STR_BOXCAR1                     :Fourgon, 2 essieux
 STR_BOXCAR2                     :Fourgon, 4 essieux
 STR_BOXCAR3                     :Fourgon, 4 essieux, acier
+STR_BOXCAR4                     :Fourgon avec frein à main
 
 STR_STOCKCAR1                   :Wagon à bétail, 2 essieux
 STR_STOCKCAR2                   :Wagon à bétail, 4 essieux
@@ -95,6 +105,7 @@ STR_FLATCAR3                    : Wagon plat, 4 essieux, acier
 STR_OPENCAR1                    :Wagon-tombereau, 2 essieux
 STR_OPENCAR2                    :Wagon-tombereau, 4 essieux
 STR_OPENCAR3                    : Wagon-tombereau, 4 essieux, acier
+STR_OPENCAR4                    :Wagon-tombereau, autodéchargeant
 
 STR_MINECART1                    :Berline de mine en bois
 STR_MINECART2                    :Berline de mine en métal
