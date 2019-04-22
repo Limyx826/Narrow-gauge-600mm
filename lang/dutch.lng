@@ -1,0 +1,111 @@
+##grflangid 0x1f
+##plural 0
+# This is the English language file
+
+# GRF name and description
+STR_GRF_NAME        :Smalspoor 600 mm {VERSION}
+STR_GRF_DESCRIPTION :{TITLE} - Geïnspireerd door HEQS: een set generieke 600 mm-smalspoortreinen uit Duitsland die in veel landen zijn gebruikt.{} Goedkoop 600 mm-smalspoor inbegrepen.{}{COPYRIGHT}2016 andythenorth, McZapkie (grafisch), McZapkie, TadeuszD (NML-code){}Licentie: GPL v2
+
+STR_PARAM_NAME_FORBID_ATTACH    :Hang alleen voertuigen uit deze set aan
+STR_PARAM_DESC_FORBID_ATTACH    :Gebruik deze optie om het aanhangen van normaalspoorwagens aan smalspoorlocomotieven uit te schakelen.
+STR_PARAM_NAME_PURCHASE_COST    :Aanschafkosten-aanpassing
+STR_PARAM_DESC_PURCHASE_COST    :Gebruik deze optie om de aanschafkosten van treinen uit deze set aan te passen.
+STR_PARAM_NAME_RUNNING_COST     :Onderhoudskosten-aanpassing
+STR_PARAM_DESC_RUNNING_COST     :Gebruik deze opties op de onderhoudskosten van treinen uit deze set aan te passen.
+STR_PARAM_NAME_BUILD_COST     :Constructiekosten-aanpassing
+STR_PARAM_DESC_BUILD_COST     :Gebruik deze optie om de constructiekosten van spoorwegen aan te passen.
+STR_PARAM_NAME_INFRA_COST     :Infrastructuurkosten-aanpassing
+STR_PARAM_DESC_INFRA_COST     :Gebruik deze optie om de onderhoudskosten van de infrastructuur aan te passen.
+
+STR_PARAM_COST_H                : Half
+STR_PARAM_COST_N                :Normaal
+STR_PARAM_COST_D                :Dubbel
+STR_PARAM_NAME_ENABLE_ELECTRIC    :Elektrische tractie inschakelen
+STR_PARAM_DESC_ENABLE_ELECTRIC    :Selecteer deze optie om elektrische locomotieven en smalspoor met bovenleiding in te schakelen.
+
+STR_PARAM_NAME_KEEP_OLD_VEHS    :Oude treinen in aankoopmenu behouden
+STR_PARAM_DESC_KEEP_OLD_VEHS    :Selecteer deze optie om verlopen van oude treinen uit te schakelen. Deze optie geldt alleen voor deze treinset. Wil je verlopen van andere sets inschakelen, gebruik dan de optie 'Voertuigen verlopen niet'.
+
+STR_NG60_NAME                   :600 mm-smalspoor
+STR_NG60_TOOLBAR                :600 mm-smalspoor
+STR_NG60_MENU                   :Lokale spoorweg, 600 mm-smalspoor
+STR_NG60_BUILD_CAPTION          :Nieuw 600 mm-smalspoormaterieel
+STR_NG60_AUTOREPLACE            :600 mm-smalspoortreinen
+STR_NG60_NEW_ENGINE             :600 mm-smalspoorlocomotief
+
+STR_NG6R_NAME                   :smal en normaal (dubbelspoor)
+STR_NG6R_TOOLBAR                :smalspoor en normaalspoor
+STR_NG6R_MENU                   :Dubbelspoor (smal + smal)
+STR_NG6R_BUILD_CAPTION          :Nieuw smal- of normaalspoormaterieel
+
+STR_NG6E_NAME                   :600 mm-smalspoor, elektrisch
+STR_NG6E_TOOLBAR                :600 mm elektrisch smalspoor
+STR_NG6E_MENU                   :Lokale spoorweg, 600 mm elektrisch smalspoor
+STR_NG6E_BUILD_CAPTION          :Nieuw 600 mm elektrisch smalspoormaterieel
+STR_NG6E_AUTOREPLACE            :600 mm elektrische smalspoortreinen
+STR_NG6E_NEW_ENGINE             :600 mm elektrische smalspoorlocomotief
+
+STR_LIVERY_Q2CC         :- quasi 2CC-kleurenschame (standaard)
+STR_LIVERY_BROWN        :- bruin-olijfgroen kleurenschema
+STR_LIVERY_GREEN        :- groen-grijs kleurenschema
+STR_LIVERY_OLIVE        :- olijfgroen-rood kleurenschema (standaard)
+STR_LIVERY_BLACK        :- zwart-rood kleurenschema
+
+STR_STEAM_LOCO_SUFFIX          :- stoomlocomotief
+STR_DIESEL_LOCO_SUFFIX          : - diesellocomotief
+# STR_DIESEL_RAILBUS_SUFFIX       : - diesel railbus
+# STR_PASSENGER_CAR_SUFFIX        : - passenger wagon
+STR_MOTORCAR                    :Motorwagen, {STRING}
+
+STR_MM_B                        : Maffei München Bn2 {STRING}
+STR_OAK_BT                      : Orenstein & Koppel Bn2t {STRING}
+STR_SM_CT                       : Sachsische Maschinenfabrik Cn2t {STRING}
+STR_HK_DT                       : Henschel Kassel Dn2t {STRING}
+STR_HK_BT                       : Henschel Krenau Bn2t {STRING}
+
+STR_JHF_C                       : Arnold Jung Jungenthal C {STRING}
+STR_LKM_B                       : LKM Babelsberg B {STRING}
+
+STR_LEW_B                       : LEW Hennigsdorf B acculocomotief
+
+STR_EL3                 : LEW Hennigsdorf EL3 elektrische locomotief
+
+STR_1_HORSE                     :Eén paard, enkel tuig
+STR_2_HORSE                     :Twee paarden, meervoudig tuig
+STR_FIRST_ONLY                  :Moet worden aangehangen aan begin van trein
+STR_SINGLE_HORSE                :Je kunt maar één paard met enkel tuig bevestigen aan de trein
+
+STR_PASS2                       :Passagiersrijtuig, 2 assen
+STR_PASS4                       :Passagiersrijtuig, 4 assen
+STR_PMMC_NAME                   :Post-/passagiersrijtuig, 4 assen
+STR_PMMC_DESC                   :Kan worden omgebouwd tot aangedreven wagen
+
+STR_BOXCAR1                     :Gesloten wagen, 2 assen
+STR_BOXCAR2                     :Gesloten wagen, 4 assen
+STR_BOXCAR3                     :Gesloten wagen, 4 assen, staal
+STR_BOXCAR4                     :Gesloten wagen met handrem
+
+STR_STOCKCAR1                   :Veewagen, 2 assen
+STR_STOCKCAR2                   :Veewagen, 4 assen
+STR_STOCKCAR3                   :Veewagen, 4 assen, staal
+
+STR_TANKCAR1                    :Tankwagen, 2 assen
+STR_TANKCAR2                    :Tankwagen, 4 assen
+STR_TANKCAR3                    :Tankwagen, 4 assen, staal
+
+STR_TANKCARSPEC1                        :Dranktankwagen, 2 assen
+STR_TANKCARSPEC2                        :Dranktankwagen, 4 assen
+STR_TANKCARSPEC3                        :Dranktankwagen, 4 assen, staal
+
+STR_FLATCAR1                    :Platte wagen, 2 assen
+STR_FLATCAR2                    :Platte wagen, 4 assen
+STR_FLATCAR3                    :Platte wagen, 4 assen, staal
+
+STR_OPENCAR1                    :Open goederenwagen, 2 assen
+STR_OPENCAR2                    :Open goederenwagen, 4 assen
+STR_OPENCAR3                    :Open goederenwagen, 4 assen, staal
+STR_OPENCAR4                    :Open goederenwagen, zelflossend
+
+STR_MINECART1                    :Houten mijnwagen
+STR_MINECART2                    :Metalen mijnwagen
+STR_LOGTRAILER                   :Houtaanhanger
