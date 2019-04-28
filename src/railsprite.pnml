@@ -273,4 +273,14 @@ spriteset(ng600e_gui, IMAGEFILE)
   rail_gui_template(2, 22)
 }
 
+spriteset(ng600e_track_overlay, IMAGEFILE)
+{
+  rail_track_overlay_template(2, 131)
+}
+
+spriteset(ng600e_underlay, IMAGEFILE)
+{
+  rail_underlay_template(2, 185)
+}
+
 #undef IMAGEFILE

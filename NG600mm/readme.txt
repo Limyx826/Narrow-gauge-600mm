@@ -1,6 +1,6 @@
 industrial/local railway (narrow gauge 600mm) train set
 -------------------
-This version: NG600mm v-10957M (000000000000)
+This version: NG600mm v7051M (98912427a291)
 
 Contents:
 
@@ -20,8 +20,8 @@ Contents:
 NG600mm newgrf allow to use industrial tram vehicles known from HEQS set as narrow gauge trains.
 Narrow gauge tracks (for example provided by nutrack or termite) are mandatory to use with this set.
 
-Name of this Repo:  NG600mm v-10957M (000000000000)
-Repository version: -10957
+Name of this Repo:  NG600mm v7051M (98912427a291)
+Repository version: 7051
 GRF_ID: 
 MD5 sum:            {{GRF_MD5}}
 

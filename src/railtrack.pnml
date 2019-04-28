@@ -121,8 +121,8 @@ if (railtype_available("NG6E") || (loading_stage == LOADING_STAGE_RESERVE)) {
     graphics
     {
       gui: ng600e_gui;
-      track_overlay: ng600_track_overlay;
-      underlay:ng600_underlay;
+      track_overlay: ng600e_track_overlay;
+      underlay:ng600e_underlay;
       tunnels: ng600_tunnels;
 //      tunnel_overlay: ng600_tunnels; 
       bridge_surfaces: ng600_bridge_surfaces;
