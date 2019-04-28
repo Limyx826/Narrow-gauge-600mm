@@ -1,3 +1,5 @@
+Version 2.6 Improved rail graphics
+
 Version 2.5 Modern freight wagons (open, box) for 40 km/h, which doesn't expire.
 
 Version 2.4 Electric traction and Henningsdorf locomotive added. Flatcar doesn't expire.
