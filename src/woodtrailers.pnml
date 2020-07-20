@@ -50,7 +50,7 @@ item(FEAT_TRAINS, Wagon_Name) { \
 //CAR_STOCK(Wagon_Name, STR_W_NAME, c_capacity, idate, odate,  v_cost, v_vmax, v_mass, v_length)
 
 #include "graphics/Flatcar1.pnml"
-CAR_FLAT(Flatcar1,      STR_FLATCAR1, 5,    1790,  1926,      5,     15,      2,      3)
+CAR_FLAT(Flatcar1,      STR_FLATCAR1, 5,    1700,  1926,      5,     15,      2,      3)
 #include "graphics/Flatcar2.pnml"
 CAR_FLAT(Flatcar2,      STR_FLATCAR2, 7,    1891,  1946,      8,     20,      3,      4)
 #include "graphics/Flatcar3.pnml"
