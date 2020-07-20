@@ -22,9 +22,7 @@ item(FEAT_TRAINS, Loco_Name) { \
         track_type:                     NG60; \
         ai_engine_rank:                 0; \
         engine_class:                   ENGINE_CLASS_DIESEL; \
-	cargo_capacity:		 	1; \
-	cargo_allow_refit:		[PASS]; \
-	default_cargo_type:		PASS; \
+	cargo_capacity:		 	0; \
 	weight:			 	v_mass; \
 	tractive_effort_coefficient:    v_te; \
 	air_drag_coefficient:	   	v_airdrag; \

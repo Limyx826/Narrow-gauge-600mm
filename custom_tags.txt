@@ -1,0 +1,6 @@
+"VERSION        :" 
+"VERSION_STRING :" 
+"TITLE          :NG600mm " 
+"FILENAME       :NG600mm.grf" 
+"REPO_HASH      :" 
+"NEWGRF_VERSION :" 

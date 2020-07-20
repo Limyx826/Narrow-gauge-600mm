@@ -1,4 +1,4 @@
-//Diesel locomotives
+//Electric locomotives
 
 #define EL3_power 620
 #define EL3_mass 75
