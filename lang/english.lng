@@ -26,6 +26,13 @@ STR_PARAM_DESC_ENABLE_ELECTRIC    :Select this option to enable electric locomot
 STR_PARAM_NAME_KEEP_OLD_VEHS    :Keep old trains in purchase menu
 STR_PARAM_DESC_KEEP_OLD_VEHS    :Select this option to disable expiration of old trains. This option applies only to this trains set. To disable expiration of other sets use option "Vehicles never expire" 
 
+STR_EQUINE_NAME                 	:Horse-drawn
+STR_EQUINE_TOOLBAR             	:Horse-drawn
+STR_EQUINE_MENU            	:(THIS SHOULD BE HIDDEN!)
+STR_EQUINE_BUILD_CAPTION   	:Horses
+STR_EQUINE_AUTOREPLACE        	:horses
+STR_EQUINE_NEW_ENGINE           	:horses
+
 STR_NG60_NAME                 	:600 mm narrow gauge
 STR_NG60_TOOLBAR             	:600mm narrow gauge
 STR_NG60_MENU            	:Local railway, 600mm narrow gauge track
