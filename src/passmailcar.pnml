@@ -39,7 +39,7 @@ item(FEAT_TRAINS, PassMailCar) {
 	power:			  	0; 
 	tractive_effort_coefficient:    0.5; 
 	running_cost_base:	   	RUNNING_COST_DIESEL; 
-        track_type:                     NG60; 
+        track_type:                     6AAN; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_DIESEL; 
 	weight:			 	4; 
