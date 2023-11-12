@@ -7,6 +7,54 @@ switch (FEAT_RAILTYPES, SELF, get_ng600_depots,
   ng600_depot;
 }
 
+if (railtype_available("Equi") || (loading_stage == LOADING_STAGE_RESERVE)) {
+  item (FEAT_RAILTYPES, horsedrawn)
+  {
+    property
+    {
+      label: "Equi";
+      introduction_date: date(0, 1, 1);
+      name: string(STR_EQUINE_NAME);
+      toolbar_caption: string(STR_EQUINE_TOOLBAR);
+      menu_text: string(STR_EQUINE_MENU);
+      build_window_caption: string(STR_EQUINE_BUILD_CAPTION);
+      autoreplace_text: string(STR_EQUINE_AUTOREPLACE);
+      new_engine_text: string(STR_EQUINE_NEW_ENGINE);
+      compatible_railtype_list: ["NG6R", "NG6E",
+				"VOLO", "VOLE"];
+      powered_railtype_list: [
+				"6AAN", "6AAd", "6AAE",
+				"NG60", "NG6R", "NG6E",
+				"NG60", "NG6R", "NG6E",
+				"VOLO", "VOLE"
+			     ];
+      alternative_railtype_list: ["WWAY", "WGWY", "LTRL", "LIHT"]; // Add this label to the alternative_railtype_list of railtypes that horse-drawn locomotives should be available on!
+      curve_speed_multiplier: 100;
+      //station_graphics: RAILTYPE_STATION_NORMAL;
+      //construction_cost: 1 + 2 * param_build_cost;
+      //maintenance_cost: 1 + 2 * param_infra_cost;
+      speed_limit: 16 km/h;      
+      acceleration_model: ACC_MODEL_RAIL;
+      map_colour: 16;
+      sort_order: 252;
+//      alternative_railtype_list: ["NAAN"];
+      railtype_flags: bitmask(RAILTYPE_FLAG_HIDDEN);
+    }
+    graphics
+    {
+      gui: ng600_gui;
+      track_overlay: ng600_track_overlay;
+      underlay:ng600_underlay;
+      tunnels: ng600_tunnels;
+//      tunnel_overlay: ng600_tunnels;
+      fences: no_fence; 
+      bridge_surfaces: ng600_bridge_surfaces;
+      level_crossings: ng600_level_crossings_open;
+      depots: get_ng600_depots;
+//      signals: switch_signals_type;
+    }
+  }
+}
 
 if (railtype_available("6AAN") || (loading_stage == LOADING_STAGE_RESERVE)) {
   item (FEAT_RAILTYPES, NG600)
