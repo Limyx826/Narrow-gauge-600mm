@@ -38,7 +38,7 @@ item(FEAT_TRAINS, OneHorse) {
 	property { 
 	name:			   	string(STR_1_HORSE); 
 	climates_available:	 	PKP_CLIMATES; 
-	introduction_date:		date(1700, 1, 1);	    
+	introduction_date:		date(0, 1, 1);	    
 	model_life:     		VEHICLE_NEVER_EXPIRES; 
 	vehicle_life:		   	25; 
 	retire_early:			0; 
@@ -56,7 +56,7 @@ item(FEAT_TRAINS, OneHorse) {
 	tractive_effort_coefficient:    1; 
 	air_drag_coefficient:	   	0.9; 
 	running_cost_base:	   	RUNNING_COST_ELECTRIC; 
-        track_type:                     NG60; 
+        track_type:                     Equi; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_STEAM; 
 	weight:			 	1; 
@@ -160,7 +160,7 @@ item(FEAT_TRAINS, TwoHorses) {
 	tractive_effort_coefficient:    1; 
 	air_drag_coefficient:	   	0.9; 
 	running_cost_base:	   	RUNNING_COST_ELECTRIC; 
-        track_type:                     NG60; 
+        track_type:                     Equi; 
         ai_engine_rank:                 0; 
         engine_class:                   ENGINE_CLASS_STEAM; 
 	weight:			 	1; 

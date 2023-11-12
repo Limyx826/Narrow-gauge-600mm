@@ -19,7 +19,7 @@ item(FEAT_TRAINS, Loco_Name) { \
 	cargo_age_period:	 	STANDARD_COMFORT; \
 	power:			  	v_power hp; \
 	running_cost_base:	   	RUNNING_COST_DIESEL; \
-        track_type:                     NG60; \
+        track_type:                     6AAN; \
         ai_engine_rank:                 0; \
         engine_class:                   ENGINE_CLASS_DIESEL; \
 	cargo_capacity:		 	0; \
